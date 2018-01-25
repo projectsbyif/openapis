@@ -1,3 +1,4 @@
+
 When people live together they often take on shared responsibility for paying and managing the bills. In many households, people come and go periodically, creating a paper trail that can be awkward to decipher.
 
 "[quote about managing our paperwork through Facebook messenger]"
@@ -11,13 +12,44 @@ What if it was simple to deal with companies as a group? How might decision maki
 
 ## Bills Box helps you share the running of the house
 
-[TODO]
+Bills Box helps you split the bills with others in your house while allowing everyone to see all the accounts in one place.
 
 ![Bills box app launch screen showing 'add an account' and 'join house' buttons](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bills-box-v3-draft-1.png)
+
+
+## Connect your utilities in one step
+
+To get started, just point Bills Box at the standard barcode on the bottom of your utility bill.
+
 ![A mobile phone scanning a QR code on a physical utility bill](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bills-box-v3-draft-2.png)
-![Two phone screens, one showing a single broadband bill and the other showing broadbad, electricity, water and council tax on one screen](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bills-box-v3-draft-3.png)
+
+As soon as you've connected an account, Bills Box uses the Open Utility APIs to download your billing and usage information, so you'll always know how much using and what you're paying.
+
+You can add any utility account that adheres to the Open Utility Standards. Now you can see all your household spending in one place.
+
+![Two phone screens, one showing a single broadband bill and the other showing broadband, electricity, water and council tax on one screen](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bills-box-v3-draft-3.png)
+
+
+## Adding a housemate is simple
+
+Bills Box helps you put new housemates on the bills - something that used to be time consuming and difficult. That way, there's no awkward surprise when the person who pays the gas moves out, forgetting to tell the others.
+
 ![The left phone generates a QR code to add a housemate, and the right phone scans it to join the house](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bills-box-v3-draft-4.png)
+
+Before joining, the new housemate can see what they're signing up for. Once they go ahead, they're automatically added to all the accounts.
+
 ![The left screen shows a confirmation to join a house and the right screen shows a number of welcome emails](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bills-box-v3-draft-5.png)
+
+
+## Moving house together
+
+Some decisions involve the whole house, and Bills Box makes it easy for you to make decisions as a group. Take moving out, for example.
+
 ![The left screen shows the names of the housemates and the right screen shows a confirmation of moving out](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bills-box-v3-draft-6.png)
+
+One housemate can start off the process, then once everyone agrees, Bills Box can tell your provider that you've all agreed to move out.
+
+If you're all moving together, Bills Box can even take your accounts with you to the new address.
+
 ![The left screen shows one of three housemates having agreed to the move, the right screen shows a confirmation to move out](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bills-box-v3-draft-7.png)
 
