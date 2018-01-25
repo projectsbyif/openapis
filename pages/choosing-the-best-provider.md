@@ -7,22 +7,26 @@ What if a comparison service had access to richer information about you? What if
 
 ## AutoSwap helps you choose the best provider for you
 
-_AutoSwap recommends the perfect phone contract by learning and understanding your behaviour._
+AutoSwap recommends the perfect phone contract by learning and understanding your behaviour.
 
-_With your permission, it uses the new Open Telecoms APIs to understand the types of calls you make, your internet usage and the areas where you really need good signal. If your behaviour changes, AutoSwap will immediately recalculate its recommendation._
+![AutoSwap blank screen with start button](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-1.png)
 
-_AutoSwap can even switch provider for you, handling all the paperwork and payments._
+With your permission, it uses the new Open Utility APIs to understand the types of calls you make, your internet usage and the areas where you really need good signal.
 
-![](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-1.png)
+![AutoSwap requesting to access location, data, tariff, billing, then a confirmation SMS](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-2.png)
 
-![](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-2.png)
+By using your location data, AutoSwap can work out your commute and find the provider with the best signal strength for you.
 
-![](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-3.png)
+![Fetching various data about you, then showing a map of your recent locations](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-3.png)
 
-![](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-4.png)
+For many people, it's not just about price. AutoSwap lets you prioritise what matters to you, and takes that into account when searching for providers.
 
-![](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-5.png)
+![Prioritising most important feature of a phone company, and comparing two providers](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-4.png)
 
-![](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-6.png)
+Once you've chosen a new provider, we'll send you a flexible SIM card which supports all UK telecoms companies. Next time you won't need to fiddle around swapping SIM cards, and it'll be even easier to switch again.
 
-![](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-7.png)
+![A flexible SIM card being inserted into a phone](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-5.png)
+
+If your behaviour changes or a company launches a new deal, AutoSwap will immediately recalculate its recommendation. It can even switch provider automatically for you, handling all the paperwork and payments.
+
+![A notification of automatic switching and a history of previous phone companies](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-6.png)

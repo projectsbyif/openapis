@@ -36,4 +36,4 @@ The following patterns felt particularly interesting:
 
 As we imagined new services built on top of telecoms data, we started to understand what sort of APIs would have to exist to make it possible.
 
-[Explore the potential new Open Telecoms APIs](/potential-new-apis)
+[Explore the potential new Open Utility APIs](/potential-new-apis)
