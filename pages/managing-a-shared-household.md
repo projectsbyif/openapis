@@ -1,7 +1,7 @@
 
 When people live together they often take on shared responsibility for paying and managing the bills. In many households, people come and go periodically, creating a paper trail that can be awkward to decipher.
 
-"[quote about managing our paperwork through Facebook messenger]"
+“We use Facebook Messenger to manage our bills and it’s a disaster”
 
 Many companies default to a single, individual account holder.
 
