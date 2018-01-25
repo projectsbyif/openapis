@@ -10,3 +10,9 @@ Saxford City Council is taking measures to tackle air quality in the city centre
 In order to plan a potential road closure, the Council wants a better understanding of footfall in different parts of the city. This will help prioritise the streets in which the highest number of people are affected by poor air quality. The council also wants to better understand what routes drivers take in and out of the city to minimise the impact of road closures.
 
 The Council is confident that cellular location and WiFi hotspot data would help them understand both footfall and vehicle behaviour. They have applied to the <span style="text-decoration:underline;">Data Protection Office</span> for permission to request bulk data from two telecommunications companies: Morlyn Mobile and Cabler Telecom.
+
+![](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/data-for-research-campaigns-1.png)
+
+![](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/data-for-research-campaigns-2.png)
+
+![](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/data-for-research-campaigns-3.png)
