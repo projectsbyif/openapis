@@ -53,3 +53,10 @@ If you're all moving together, Bills Box can even take your accounts with you to
 
 ![The left screen shows one of three housemates having agreed to the move, the right screen shows a confirmation to move out](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bills-box-v3-7.png)
 
+## Helping out the next tenants
+
+As well as tying up loose ends, Bills Box makes it simple for the next tenants. That helps ensure there's a clean switch, and no chasing bills months after you've moved out.
+
+And perhaps Bills Box will make your life simpler, next time you move into a new home.
+
+![A letter to the new tenants in a house offering to take over the bills](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/new-tenants-letter-1.png)
