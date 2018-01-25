@@ -14,7 +14,7 @@ app.use(helmet());
 // CONFIG
 var settings = yaml.load('settings.yaml');
 var mdConverter = new showdown.Converter({
-  noHeaderId: true
+  noHeaderId: false
 });
 
 app.set('port', process.env.PORT || 3000);
