@@ -17,17 +17,6 @@ var mdConverter = new showdown.Converter({
   noHeaderId: true
 });
 
-// HTTP authentication
-if (settings.require_password) {
-  var auth = require('http-auth');
-  var basic = auth.basic({
-    realm: "secure",
-    file: path.join(__dirname, 'htpasswd')
-  });
-
-  app.use(auth.connect(basic));
-}
-
 app.set('port', process.env.PORT || 3000);
 app.set('view engine', 'pug');
 app.use('/public', express.static(path.join(__dirname, 'public')));
