@@ -25,9 +25,14 @@ To get started, just point Bills Box at the standard barcode on the bottom of yo
 
 ![A mobile phone scanning a QR code on a physical utility bill](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bills-box-v3-2.png)
 
+<p class="narrator">This is similar to the tariff comparison barcodes present on gas and electricity bills. The barcode would contain some sort of authentication token.</p>
+
+
 As soon as you've connected an account, Bills Box uses the Open Utility APIs to download your billing and usage information, so you'll always know how much using and what you're paying.
 
 You can add any utility account that adheres to the Open Utility Standards. Now you can see all your household spending in one place.
+
+<p class="narrator">We believe it's valuable to make summary bill information easy to access. This is counter to the trend of some companies to bury bills inside online portals.</p>
 
 ![Two phone screens, one showing a single broadband bill and the other showing broadband, electricity, water and council tax on one screen](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bills-box-v3-3.png)
 
