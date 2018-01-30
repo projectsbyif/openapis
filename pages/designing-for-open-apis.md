@@ -7,11 +7,11 @@ We worked with the [Open Data Institute](https://theodi.org) to investigate how 
 
 To illustrate the potential of access to telecoms data, we developed prototypes of fictional new services that would be unlocked by new Open APIs.
 
-[Choosing the best provider](/choosing-the-best-provider)
+[Choosing the best provider](/case-choosing-the-best-provider)
 
-[Managing a shared household](/managing-a-shared-household)
+[Managing a shared household](/case-managing-a-shared-household)
 
-[Improving a city's air quality](/improving-a-citys-air-quality)
+[Improving a city's air quality](/case-improving-a-citys-air-quality)
 
 
 ## Design patterns

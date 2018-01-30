@@ -6,13 +6,13 @@ collaborator_name: CHANGEME
 
 # Pages, and what order they're in
 pages:
-  - Designing for Open APIs
-  - Design patterns for Open APIs
-  - Choosing the best provider
-  - Managing a shared household
-  - Improving a city's air quality
-  - Potential new APIs
-  - Notes for Regulators
+  - "Designing for Open APIs"
+  - "Design patterns for Open APIs"
+  - "Case: Choosing the best provider"
+  - "Case: Managing a shared household"
+  - "Case: Improving a city's air quality"
+  - "Potential new APIs"
+  - "Notes for Regulators"
 
 # Design
 show_collaborator_logo: false
