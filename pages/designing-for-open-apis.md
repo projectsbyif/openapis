@@ -1,5 +1,15 @@
 Digital infrastructure has the potential to radically empower people. As we're starting to see with the [The Open Banking Standard](https://www.openbanking.org.uk), services are emerging that meet people's needs in a new way, powered by data people have more control over.
 
+## Open APIs give users more access and control
+
+An Application Programming Interface (API) is a channel for interacting with an organisation as an alternative to websites, apps, letters and phone calls.
+
+APIs are designed to be accessed by software rather than directly by humans. This allows developers to build applications and services to interact with the company, acting on their users' behalf.
+
+For example, airlines allow users to search for flights on their website. Many also offer the same search through an API, allowing useful services like SkyScanner to search hundreds of airlines simultaneously.
+
+APIs power many of the things we've become used to like paying for things online, comparing prices, and switching bank accounts.
+
 We worked with the [Open Data Institute](https://theodi.org) to investigate how APIs from telecommunications and utility companies could follow the model set by Open Banking.
 
 
