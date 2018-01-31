@@ -10,7 +10,11 @@ For example, airlines allow users to search for flights on their website. Many a
 
 APIs power many of the things we've become used to like paying for things online, comparing prices, and switching bank accounts.
 
-We worked with the [Open Data Institute](https://theodi.org) to investigate how APIs from telecommunications and utility companies could follow the model set by Open Banking.
+## Open APIs will help implement new digital rights
+
+In addition, companies will need to new rights enabled by GDPR (specifically access, portability and deletion). To avoid a repeat of disempowering cookie-banners, these should be implemented in a consistent and people-centred way. Specifically, they should be provided as standardized open APIs.
+
+We worked with the [Open Data Institute](https://theodi.org) to investigate how APIs from telecommunications and utility companies could give people new powers and better control over their data.
 
 
 ## Open API prototypes
