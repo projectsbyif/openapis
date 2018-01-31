@@ -38,28 +38,28 @@ There are some considerations for implementing this API:
 - How to manage the process of companies deciding whether to accept a new account holder?
 - Who gets to authorize removing an account holder? The person leaving, the group, or something else?
 
+## Get service-specific usage data
 
-## Get billing and usage data
+Through using telecoms companies, we generate a lot of data which is typically locked inside the company. The company is able to mine that data for its own benefit while the user that generated the data has little access.
 
+- **Calls, texts and data usage** are the basic data needed for users to understand their usage and compare deals across different companies.
 
-## Get detailed network data
+- **Call detail records** contain more granular information about who we call, for how long, at what times of day.
 
-For example  performance, signal, latency, volumes
+- **Detailed network data** like signal strength history, download latency and data volumes can be used to find the best network for a particular individual, and hold companies to their claims about performance.
 
+- **Location records** are recorded from phones communicating with cell towers. These can tell where we are, 24 hours of the day.
 
-## Get location records
+- **Social graph** information can be derived the records of who we call, text and who we're typically nearby according to our location records.
 
+- **Internet connection records** detail every website we visit and every connection made by our apps. These are required to be held by the Investigatory Powers Act 2016, though the [public are largely unaware]. People should know what information is held about them and making this visible through APIs would be good for transparency.
 
-## Get call detail records
+## Get company policies
 
+Company policies like terms and conditions are often locked away inside PDFs and are inpenetrable to ordinary people. This disempowers users and does nothing for trust.
 
-## Get internet connection records
+Rather than pages of legalese, policies should be available as data and published through standardised APIs. This would allow more meaningful scrutiny and comparison of policies, giving users actual power to choose based on behaviour, not just price.
 
-
-## Get terms and conditions
-
-
-## Get data protection and privacy policy
-
-
-## Get site blocking policy
+* Terms and conditions which are supposed to outline the agreement between the company and the user.
+* Data protection and privacy policies are for users to understand how their data is treated, including whether it's sold to third parties and so on.
+* Site blocking policy describes what filtering - or censorship - is carried out by the network, the default blocking policy, who provides the technology, what categories are blocked and how to dispute a blocked site.
