@@ -39,7 +39,6 @@ There are some considerations for implementing this API:
 
 Through using telecoms companies, we generate a lot of data which is typically locked inside the company. The company is able to mine that data for its own benefit while the person that generated the data has little access.
 
-[AutoSwap](#) demonstrated the power of combining a person's location history with signal data.
 
 - **Calls, texts and data usage** are the basic data needed for people to understand their usage and compare deals across different companies.
 
@@ -51,13 +50,22 @@ Through using telecoms companies, we generate a lot of data which is typically l
 
 - **Social graph** information can be derived the records of who we call, text and who we're typically nearby according to our location records.
 
-- **Internet connection records** detail every website we visit and every connection made by our apps. These are required to be held by the Investigatory Powers Act 2016, though the [public are largely unaware]. People should know what information is held about them and making this visible through APIs would be good for transparency.
+- **Internet connection records** detail every website we visit and every connection made by our apps. These are required to be held by the Investigatory Powers Act 2016, though the [public are largely unaware](#).
+
+[AutoSwap](#) demonstrated the power of combining a person's location history with signal data.
+
+- Should people be able to access insights learned about them by the company from the data they provided?
+- Is there a risk that showing people what's held about them might legitimise excessive collection of data?
+- People should know what information is held about them and making this visible through APIs would be good for transparency.
 
 ## API: Delete usage data
 
 People have the right to delete data held about them (except where it's legally required to be retained), but the process for exercising this right can be cumbersome.
 
 [Bills Box](#) hinted at how API access could make it easier for people to delete information they don't want to be stored about them.
+
+- Instead of deleting data, why can't people ask for it not to be stored in the first place?
+- For data which must be retained legally, can it be modified so it's not personally identifiable?
 
 ## API: Get company policies
 
@@ -77,6 +85,8 @@ When policies are updated they should be version controlled and each version sho
 
 Enabling people to subscribe to updates to policies through an API could give a better user experience than the familiar "our terms and conditions have been updated" letters in use today.
 
+* How do we begin encoding policies as data?
+
 ## API: Get anonymised bulk data
 
 The [air quality prototype](#) demonstrated that bulk data held by companies can provide public benefit, if used carefully.
@@ -87,6 +97,8 @@ By removing personally identifiable information before the data is handed over, 
 
 We imagined bulk data APIs would have similarities to planning applications, with public notices, public scrutiny and the power for citizens the object.
 
+* How do we ensure data applications are simple enough that anyone can understand and scrutinise them?
+
 ## API: Opt-out of bulk data collection
 
-Bulk data collection should be private-by-design, but should also allow people a convenient method to opt out. In the prototypes we imagined building on existing infrastructure like the [SMS alerting system](#) and [shortcode opt-out mechanism](#).
+Bulk data collection should be private by design, but should also allow people a convenient method to opt out. In the prototypes we imagined building on existing infrastructure like the [SMS alerting system](#) and [shortcode opt-out mechanism](#).
