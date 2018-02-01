@@ -2,6 +2,7 @@ Telecommunication providers generate a huge amount of data from running their se
 
 What if the data locked inside telcos could be used for public good?
 
+[start_highlight]
 
 ## Saxford City Council is requesting bulk location data
 
@@ -41,6 +42,8 @@ The council will use variable display devices at strategic locations in the city
 During the trial itself, the privately operated WiFi hotspot screens will be switched from advertising mode to a notification screen. This will display the number of users and allow users to opt out.
 
 ![](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/data-for-research-campaigns-4.png)
+
+[end_highlight]
 
 ## What this shows
 

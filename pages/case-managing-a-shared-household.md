@@ -11,6 +11,7 @@ When things go wrong, companies will only speak to the account holder, and addin
 
 What if it was simple to deal with companies as a group? How might decision making work? What if utilities could be 'handed over' to the next occupier, just like keys?
 
+[start_highlight]
 
 ## Bills Box helps you share the running of the house
 
@@ -72,6 +73,8 @@ As well as tying up loose ends, Bills Box makes it simple for the next tenants. 
 And perhaps Bills Box will make your life simpler, next time you move into a new home.
 
 ![A letter to the new tenants in a house offering to take over the bills](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/new-tenants-letter-1.png)
+
+[end_highlight]
 
 ## What this shows
 
