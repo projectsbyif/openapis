@@ -43,18 +43,18 @@ To illustrate the possibilities of new Open APIs, we designed three useful new s
 [Case: Improving a city's air quality](/case-improving-a-citys-air-quality)
 
 
-## Potential design patterns
+## Open API design patterns
 
-While developing the prototypes we encountered cases where existing design patterns are helpful, and uncovered several new design patterns.
+By designing and testing the case studies, we saw the need for potential new [design patterns](https://vimeo.com/231723090). As well as applying existing patterns to the context of sharing telecoms data. 
 
-The following patterns felt particularly interesting:
+The following potential patterns felt particularly interesting:
 
-*   Combining open data, shared data and private data
-*   Selecting what to share from one party to another
-*   Virtual SIM cards for automated switching
-*   Authorising digital access from a physical letter
+*   Combining open, shared and private data
+*   Select what data a service can request
+*   Consent by SIM card
+*   Authorising using a letter
 *   Public space notices
-*   Human-friendly data collection requests
+*   Human-understandable data request
 
 [Explore all the design patterns](/design-patterns-for-open-apis)
 
