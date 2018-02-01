@@ -1,6 +1,6 @@
 Digital infrastructure has the potential to radically empower people.
 
-By using digital services we all generate a huge amount of data. Often, the value of that data is locked away in the company and inaccessible to the person who created it.
+By using digital services we all create a huge amount of data. Often, the value of that data is locked away in the company and inaccessible to the person who created it.
 
 Upcoming new digital rights grant us more access and control over that data.
 
@@ -14,7 +14,7 @@ Any interaction with an organisation such as viewing a bill, adding a standing o
 
 APIs are designed to be accessed by software rather than directly by humans. This allows developers to build on top of those APIs, interacting with an organisation on a person's behalf.
 
-## Open APIs enable new things to exist
+## Open APIs enable new services to exist
 
 As an example, airlines allow people to search for flights on their website. Many also offer the same search through an API, allowing useful services like SkyScanner to search hundreds of airlines simultaneously.
 
