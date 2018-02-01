@@ -24,13 +24,11 @@ To illustrate the potential of access to telecoms data, we developed prototypes 
 [Improving a city's air quality](/case-improving-a-citys-air-quality)
 
 
-## Design patterns
+## Potential design patterns
 
 While developing the prototypes we encountered cases where existing design patterns are helpful, and uncovered several new design patterns.
 
 The following patterns felt particularly interesting:
-
-
 
 *   Combining open data, shared data and private data
 *   Selecting what to share from one party to another
