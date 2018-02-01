@@ -32,7 +32,7 @@ html(lang="en")
       if pageCurrent != 0
         a(id="site_title" href="/") #{settings.title}
       a(id="link_contents" href="#contents") Contents
-    div(id="content")
+    div(class="content")
       h1 #{title}
       != content
       if pageCurrent == 0

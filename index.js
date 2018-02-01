@@ -52,6 +52,9 @@ function generatePages() {
   }
 }
 
+const HIGHLIGHT_START = "<p>[start_highlight]</p>";
+const HIGHLIGHT_END = "<p>[end_highlight]</p>";
+
 function generatePage(id, title, slug, file) {
   fs.readFile('pages/' + file + '.md', 'utf8', function(err, data) {
     // Throw an error for page files that can't be found
@@ -82,6 +85,14 @@ function generatePage(id, title, slug, file) {
         var pos = content.indexOf(CAPTION_TAG);
         content = content.replace(CAPTION_TAG, '');
         content = [content.slice(0, pos - 1), ' class="caption">', content.slice(pos)].join('');
+      }
+
+      while (content.indexOf(HIGHLIGHT_START) !== -1) {
+        content = content.replace(HIGHLIGHT_START, '</div><div class="highlight-section" data-markdown="1"><div data-markdown="1">');
+      }
+
+      while (content.indexOf(HIGHLIGHT_END) !== -1) {
+        content = content.replace(HIGHLIGHT_END, '</div></div><div class="content">');
       }
     }
 

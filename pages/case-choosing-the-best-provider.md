@@ -4,6 +4,7 @@ Today's comparison sites are typically geared towards price, showing you the che
 
 What if a comparison service had access to richer information about you? What if it knew about the places you struggle with signal strength? Or your preference for strong ethics and privacy protections? Or your _real_ data usage, not just a single monthly number.
 
+[start_highlight]
 
 ## AutoSwap helps you choose the best provider for you
 
@@ -30,6 +31,8 @@ Once you've chosen a new provider, we'll send you a flexible SIM card which supp
 If your behaviour changes or a company launches a new deal, AutoSwap will immediately recalculate its recommendation. It can even switch provider automatically for you, handling all the paperwork and payments.
 
 ![A notification of automatic switching and a history of previous phone companies](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-6.png)
+
+[end_highlight]
 
 ## What this shows
 

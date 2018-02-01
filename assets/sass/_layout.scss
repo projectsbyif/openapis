@@ -65,9 +65,12 @@ header {
   }
 }
 
-#content {
+.content {
   padding: $default-spacing-small;
-  margin-bottom: $default-spacing-big;
+  
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 
   img {
     margin-top: calc(#{$default-spacing-big} - #{$default-spacing-small});
@@ -128,6 +131,17 @@ nav {
   }
 }
 
+.highlight-section {
+  background: #EEE;
+  padding: 20px;
+
+  div {
+    img {
+      width: 100%;
+    }
+  }
+}
+
 @media screen and (min-width: 720px) {
   header {
     height: 96px;
@@ -156,12 +170,21 @@ nav {
     }
   }
 
-  #content {
+  .content {
     padding: 0;
     width: $desktop-column-width;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: calc(2 * #{$default-spacing-big});
+  }
+
+  .highlight-section {
+    margin-bottom: calc(2 * 28px);
+
+    div {
+      width: $desktop-column-width;
+      margin: 0 auto;
+    }
   }
 
   #contents {
