@@ -1,26 +1,26 @@
 In research we saw need for several [design pattern](https://vimeo.com/231723090) for sharing telecoms data. Patterns for solving different problems from authentication to giving consent to controlling access and transparency. 
 
-- Select what data a service can request
-- Authorising using a letter
-- Authorising using another factor
-- Combining open, shared and private data
-- Consent by SIM card
-- Automated switching
-- Future switch notice
-- Account history across providers
-- Displaying multiple utilities
-- Share, join a bill
-- Collecting group consent
-- Handing over accounts to new people
-- Public space notices
-- Human-understandable data request
-- Machine-readable data request
-- Data collection minimisation
-- Plenty of time to opt-out
-- Opting out by text
-- Opting out by WiFi proximity 
+* [Select what data a service can share](#selectwhatdataaservicecanshare)
+* [Authorising using a letter](#authorisingusingaletter)
+* [Authorising using another factor](#authorisingusinganotherfactor)
+* [Combining open, shared and private data](#combiningopensharedandprivatedata)
+* [Consent by SIM card](#consentbysimcard)
+* [Automated switching](#automatedswitching)
+* [Future switch notice](#futureswitchnotice)
+* [Account history across providers](#accounthistoryacrossproviders)
+* [Displaying multiple utilities](#displayingmultipleutilities)
+* [Share, join a bill](#sharejoinabill)
+* [Getting group consent](#gettinggroupconsent)
+* [Handing over accounts to new people](#handingoveraccountstonewpeople)
+* [Public space notices](#publicspacenotices)
+* [Human-understandable data request](#humanunderstandabledatarequest)
+* [Machine-readable data request](#machinereadabledatarequest)
+* [Data collection minimisation](#datacollectionminimisation)
+* [Plenty of time to opt-out](#plentyoftimetooptout)
+* [Opting out by text](#optingoutbytext)
+* [Opting out by WiFi proximity](#optingoutbywifiproximity) 
 
-## Select what data a service can request
+## Select what data a service can share
 
 Deciding what types of data one service is allowed request from another using an Open API. This empowers people to control what data about them a services acesses. 
 
@@ -63,7 +63,7 @@ Multiple utilities visible and manageable from one service.
 Codes generated to share the rights and responsibilities for a bill and other shared data. 
 
 
-## Collecting group consent
+## Getting group consent
 
 Recording group decisions for data about more than one person. For example, people living in a shared home. 
 
@@ -81,7 +81,7 @@ Communicating that certain data about you is collected when entering a space. In
 
 Explaining potential data collection in plain, accessible language. 
 
-## Machine-readable data collection request
+## Machine-readable data request
 
 Formatting a data request in format a computer can easily access and analyse.  
 

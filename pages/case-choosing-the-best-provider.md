@@ -30,3 +30,13 @@ Once you've chosen a new provider, we'll send you a flexible SIM card which supp
 If your behaviour changes or a company launches a new deal, AutoSwap will immediately recalculate its recommendation. It can even switch provider automatically for you, handling all the paperwork and payments.
 
 ![A notification of automatic switching and a history of previous phone companies](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-6.png)
+
+## What this shows
+
+* [Select what data a service can share](#selectwhatdataaservicecanshare)
+* [Authorising using another factor](#authorisingusinganotherfactor)
+* [Combining open, shared and private data](#combiningopensharedandprivatedata)
+* [Consent by SIM card](#consentbysimcard)
+* [Automated switching](#automatedswitching)
+* [Future switch notice](#futureswitchnotice)
+* [Account history across providers](#accounthistoryacrossproviders)

@@ -72,3 +72,11 @@ As well as tying up loose ends, Bills Box makes it simple for the next tenants. 
 And perhaps Bills Box will make your life simpler, next time you move into a new home.
 
 ![A letter to the new tenants in a house offering to take over the bills](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/new-tenants-letter-1.png)
+
+## What this shows
+
+* [Authorising using a letter](#authorisingusingaletter)
+* [Displaying multiple utilities](#displayingmultipleutilities)
+* [Share, join a bill](#sharejoinabill)
+* [Getting group consent](#gettinggroupconsent)
+* [Handing over accounts to new people](#handingoveraccountstonewpeople)

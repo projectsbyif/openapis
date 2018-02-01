@@ -41,3 +41,13 @@ The council will use variable display devices at strategic locations in the city
 During the trial itself, the privately operated WiFi hotspot screens will be switched from advertising mode to a notification screen. This will display the number of users and allow users to opt out.
 
 ![](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/data-for-research-campaigns-4.png)
+
+## What this shows
+
+* [Public space notices](#publicspacenotices)
+* [Human-understandable data request](#humanunderstandabledatarequest)
+* [Machine-readable data request](#machinereadabledatarequest)
+* [Data collection minimisation](#datacollectionminimisation)
+* [Plenty of time to opt-out](#plentyoftimetooptout)
+* [Opting out by text](#optingoutbytext)
+* [Opting out by WiFi proximity](#optingoutbywifiproximity)
