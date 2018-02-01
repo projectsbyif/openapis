@@ -1,31 +1,46 @@
-Digital infrastructure has the potential to radically empower people. As we're starting to see with the [The Open Banking Standard](https://www.openbanking.org.uk), services are emerging that meet people's needs in a new way, powered by data people have more control over.
+Digital infrastructure has the potential to radically empower people.
 
-## Open APIs give users more access and control
+By using digital services we all generate a huge amount of data. Often, the value of that data is locked away in the company and inaccessible to the person who created it.
+
+Upcoming new digital rights grant us more access and control over that data.
+
+By embracing Open APIs, powerful new services can exist that empower people in ways we can't yet imagine.
+
+## Open APIs are an alternative to online portals and phone calls
 
 An Application Programming Interface (API) is a channel for interacting with an organisation as an alternative to websites, apps, letters and phone calls.
 
-APIs are designed to be accessed by software rather than directly by humans. This allows developers to build applications and services to interact with the company, acting on their users' behalf.
+Any interaction with an organisation such as viewing a bill, adding a standing order or raising a support request could be implemented as an API.
 
-For example, airlines allow users to search for flights on their website. Many also offer the same search through an API, allowing useful services like SkyScanner to search hundreds of airlines simultaneously.
+APIs are designed to be accessed by software rather than directly by humans. This allows developers to build on top of those APIs, interacting with an organisation on a person's behalf.
+
+## Open APIs enable new things to exist
+
+As an example, airlines allow people to search for flights on their website. Many also offer the same search through an API, allowing useful services like SkyScanner to search hundreds of airlines simultaneously.
 
 APIs power many of the things we've become used to like paying for things online, comparing prices, and switching bank accounts.
 
-## Open APIs will help implement new digital rights
+A transformation is underway with [the Open Banking Standard](https://www.openbanking.org.uk) with new services giving people new access and control over their data.
 
-In addition, companies will need to new rights enabled by GDPR (specifically access, portability and deletion). To avoid a repeat of disempowering cookie-banners, these should be implemented in a consistent and people-centred way. Specifically, they should be provided as standardized open APIs.
+## Open APIs will help people exercise their digital rights
 
-We worked with the [Open Data Institute](https://theodi.org) to investigate how APIs from telecommunications and utility companies could give people new powers and better control over their data.
+The upcoming [GDPR legislation](#) grants new rights, particularly better access, portability and deletion of data.
 
+Companies will need to implement new systems to allow people to exercise these rights. To avoid a repeat of disempowering cookie-banners, these should be implemented in a consistent and people-centred way.
 
-## Open API prototypes
+Specifically, they should create these systems as standardized Open APIs, rather than an ad-hoc assortment of new online portals.
 
-To illustrate the potential of access to telecoms data, we developed prototypes of fictional new services that would be unlocked by new Open APIs.
+We worked with the [Open Data Institute](https://theodi.org) to investigate how Open APIs into telecommunications and utility companies could give people new powers and better control over their data.
 
-[Choosing the best provider](/case-choosing-the-best-provider)
+## Open API case studies
 
-[Managing a shared household](/case-managing-a-shared-household)
+To illustrate the possibilities of new Open APIs, we designed three useful new services that use data in new ways while respecting people's rights.
 
-[Improving a city's air quality](/case-improving-a-citys-air-quality)
+[Case: Choosing the best provider](/case-choosing-the-best-provider)
+
+[Case: Managing a shared household](/case-managing-a-shared-household)
+
+[Case: Improving a city's air quality](/case-improving-a-citys-air-quality)
 
 
 ## Potential design patterns
