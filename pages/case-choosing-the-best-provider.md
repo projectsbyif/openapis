@@ -28,7 +28,7 @@ Once you've chosen a new provider, we'll send you a flexible SIM card which supp
 
 ![A flexible SIM card being inserted into a phone](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-5.png)
 
-If your behaviour changes or a company launches a new deal, AutoSwap will immediately recalculate its recommendation. It can even switch provider automatically for you, handling all the paperwork and payments.
+If your usage changes or a company launches a new deal, AutoSwap will immediately recalculate its recommendation. It can even switch provider automatically for you, handling all the paperwork and payments.
 
 ![A notification of automatic switching and a history of previous phone companies](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-6.png)
 
