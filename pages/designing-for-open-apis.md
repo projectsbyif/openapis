@@ -1,24 +1,22 @@
 Digital infrastructure has the potential to radically empower people.
 
-By using digital services we all create a huge amount of data. Often, the value of that data is locked away in the company and inaccessible to the person who created it.
+By using digital services we all generate a huge amount of data. Often, the value of that data is locked away in the company and inaccessible to the person who created it.
 
 Upcoming new digital rights grant us more access and control over that data.
 
 By embracing Open APIs, powerful new services can exist that empower people in ways we can't yet imagine.
 
-## Open APIs are an alternative to online portals and phone calls
+## APIs are everywhere
 
-An Application Programming Interface (API) is a channel for interacting with an organisation as an alternative to websites, apps, letters and phone calls.
+An Application Programming Interface (API) allows data to be sent between different types of computer systems. Are designed to be used by software rather than directly by humans. 
 
-Any interaction with an organisation such as viewing a bill, adding a standing order or raising a support request could be implemented as an API.
-
-APIs are designed to be accessed by software rather than directly by humans. This allows developers to build on top of those APIs, interacting with an organisation on a person's behalf.
+APIs power many of the things we've become used to, like paying for things online, comparing prices, and switching bank accounts. Allowing people to use data at scale and speed previously not possible.   
 
 ## Open APIs enable new services to exist
 
-As an example, airlines allow people to search for flights on their website. Many also offer the same search through an API, allowing useful services like SkyScanner to search hundreds of airlines simultaneously.
+When made open and available to build with, APIs allow whole new services and markets to exist.
 
-APIs power many of the things we've become used to like paying for things online, comparing prices, and switching bank accounts.
+As an example, airlines allow people to search for flights on their website. Many also offer the same search through an API, allowing useful services like SkyScanner to search hundreds of airlines simultaneously.
 
 A transformation is underway with [the Open Banking Standard](https://www.openbanking.org.uk) with new services giving people new access and control over their data.
 
