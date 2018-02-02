@@ -32,15 +32,15 @@ Specifically, they should create these systems as standardized Open APIs, rather
 
 We worked with the [Open Data Institute](https://theodi.org) to investigate how Open APIs into telecommunications and utility companies could give people new powers and better control over their data.
 
-## Open API case studies
+## We developed three case studies
 
 To illustrate the possibilities of new Open APIs, we designed three useful new services that use data in new ways while respecting people's rights.
 
-[Case: Choosing the best provider](/case-study-1-choosing-the-best-provider)
+[Case study 1: Choosing the best provider](/case-study-1-choosing-the-best-provider)
 
-[Case: Managing a shared household](/case-study-2-managing-a-shared-household)
+[Case study 2: Managing a shared household](/case-study-2-managing-a-shared-household)
 
-[Case: Improving a city's air quality](/case-study-3-improving-a-citys-air-quality)
+[Case study 3: Improving a city's air quality](/case-study-3-improving-a-citys-air-quality)
 
 
 ## Open API design patterns
