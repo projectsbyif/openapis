@@ -45,7 +45,7 @@ During the trial itself, the privately operated WiFi hotspot screens will be swi
 
 [end_highlight]
 
-## What this shows
+## Design patterns shown in this case study
 
 * [Public space notices](#publicspacenotices)
 * [Human-understandable data request](#humanunderstandabledatarequest)

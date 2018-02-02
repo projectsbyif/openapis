@@ -76,7 +76,7 @@ And perhaps Bills Box will make your life simpler, next time you move into a new
 
 [end_highlight]
 
-## What this shows
+## Design patterns shown in this case study
 
 * [Authorising using a letter](#authorisingusingaletter)
 * [Displaying multiple utilities](#displayingmultipleutilities)

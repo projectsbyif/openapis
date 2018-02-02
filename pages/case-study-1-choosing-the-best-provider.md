@@ -34,7 +34,7 @@ If your usage changes or a company launches a new deal, AutoSwap will immediatel
 
 [end_highlight]
 
-## What this shows
+## Design patterns shown in this case study
 
 * [Select what data a service can share](#selectwhatdataaservicecanshare)
 * [Authorising using another factor](#authorisingusinganotherfactor)
