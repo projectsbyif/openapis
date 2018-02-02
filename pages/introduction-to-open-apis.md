@@ -36,11 +36,11 @@ We worked with the [Open Data Institute](https://theodi.org) to investigate how 
 
 To illustrate the possibilities of new Open APIs, we designed three useful new services that use data in new ways while respecting people's rights.
 
-[Case: Choosing the best provider](/case-choosing-the-best-provider)
+[Case: Choosing the best provider](/case-study-1-choosing-the-best-provider)
 
-[Case: Managing a shared household](/case-managing-a-shared-household)
+[Case: Managing a shared household](/case-study-2-managing-a-shared-household)
 
-[Case: Improving a city's air quality](/case-improving-a-citys-air-quality)
+[Case: Improving a city's air quality](/case-study-3-improving-a-citys-air-quality)
 
 
 ## Open API design patterns
@@ -56,11 +56,11 @@ The following potential patterns felt particularly interesting:
 *   Public space notices
 *   Human-understandable data request
 
-[Explore all the design patterns](/design-patterns-for-open-apis)
+[Explore all the design patterns](/appendix-design-patterns-in-these-case-studies)
 
 
 ## Potential new APIs
 
 As we imagined new services built on top of telecoms data, we started to understand what sort of APIs would have to exist to make it possible.
 
-[Explore the potential new Open Utility APIs](/potential-new-apis)
+[Explore the potential new Open Utility APIs](/appendix-potential-apis-for-the-telecoms-sector)

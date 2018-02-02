@@ -1,18 +1,19 @@
 # About
-title: Designing for Open APIs
+title: Open APIs for telecoms enabling new digital rights
 description: CHANGEME
 url: CHANGEME
 collaborator_name: CHANGEME
 
 # Pages, and what order they're in
 pages:
-  - "Designing for Open APIs"
-  - "Design patterns for Open APIs"
-  - "Case: Choosing the best provider"
-  - "Case: Managing a shared household"
-  - "Case: Improving a city's air quality"
-  - "Testing with people"
-  - "Potential new APIs"
+  - "Open APIs for telecoms enabling new digital rights"
+  - "Introduction to Open APIs"
+  - "Case study 1: Choosing the best provider"
+  - "Case study 2: Managing a shared household"
+  - "Case study 3: Improving a city's air quality"
+  - "Appendix: About this research"
+  - "Appendix: Design patterns in these case studies"
+  - "Appendix: Potential APIs for the telecoms sector"
   - "Summary: building the future"
 
 # Design
