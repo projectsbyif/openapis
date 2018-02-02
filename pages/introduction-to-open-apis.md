@@ -1,4 +1,4 @@
-Digital infrastructure has the potential to radically empower people.
+Digital and data infrastructure has the potential to radically empower people.
 
 By using digital services we all create a huge amount of data. Often, the value of that data is locked away in the company and inaccessible to the person who created it.
 
@@ -8,9 +8,9 @@ By embracing Open APIs, powerful new services can exist that empower people in w
 
 ## Open APIs are an alternative to online portals and phone calls
 
-An Application Programming Interface (API) is a channel for interacting with an organisation as an alternative to websites, apps, letters and phone calls.
+An Application Programming Interface (API) is a channel for interacting with an organisation as an alternative to websites, apps, letters and phone calls.  An open API will behave in a way described in an open standard.  Open standards are created collaboratively, use open processes and are published under terms that allow them to be freely used for any purpose.
 
-Any interaction with an organisation such as viewing a bill, adding a standing order or raising a support request could be implemented as an API.
+Any interaction with an organisation such as viewing a bill, adding a standing order or raising a support request could be implemented as an open API.
 
 APIs are designed to be accessed by software rather than directly by humans. This allows developers to build on top of those APIs, interacting with an organisation on a person's behalf.
 
@@ -20,7 +20,7 @@ As an example, airlines allow people to search for flights on their website. Man
 
 APIs power many of the things we've become used to like paying for things online, comparing prices, and switching bank accounts.
 
-A transformation is underway with [the Open Banking Standard](https://www.openbanking.org.uk) with new services giving people new access and control over their data.
+A transformation is underway with [the Open Banking Standard](https://www.openbanking.org.uk) with new services giving people new access and control over data about them.
 
 ## Open APIs will help people exercise their digital rights
 
@@ -45,7 +45,7 @@ To illustrate the possibilities of new Open APIs, we designed three useful new s
 
 ## Open API design patterns
 
-By designing and testing the case studies, we saw the need for potential new [design patterns](https://vimeo.com/231723090). As well as applying existing patterns to the context of sharing telecoms data. 
+By designing and testing the case studies, we saw the need for potential new [design patterns](https://vimeo.com/231723090). As well as applying existing patterns to the context of sharing telecoms data.
 
 The following potential patterns felt particularly interesting:
 
