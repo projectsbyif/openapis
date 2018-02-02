@@ -78,8 +78,8 @@ And perhaps Bills Box will make your life simpler, next time you move into a new
 
 ## Design patterns shown in this case study
 
-* [Authorising using a letter](#authorisingusingaletter)
-* [Displaying multiple utilities](#displayingmultipleutilities)
-* [Share, join a bill](#sharejoinabill)
-* [Getting group consent](#gettinggroupconsent)
-* [Handing over accounts to new people](#handingoveraccountstonewpeople)
+* [Authorising using a letter](/appendix-design-patterns-in-these-case-studies#authorisingusingaletter)
+* [Displaying multiple utilities](/appendix-design-patterns-in-these-case-studies#displayingmultipleutilities)
+* [Share, join a bill](/appendix-design-patterns-in-these-case-studies#sharejoinabill)
+* [Getting group consent](/appendix-design-patterns-in-these-case-studies#gettinggroupconsent)
+* [Handing over accounts to new people](/appendix-design-patterns-in-these-case-studies#handingoveraccountstonewpeople)

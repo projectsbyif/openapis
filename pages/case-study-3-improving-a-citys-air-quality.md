@@ -47,10 +47,10 @@ During the trial itself, the privately operated WiFi hotspot screens will be swi
 
 ## Design patterns shown in this case study
 
-* [Public space notices](#publicspacenotices)
-* [Human-understandable data request](#humanunderstandabledatarequest)
-* [Machine-readable data request](#machinereadabledatarequest)
-* [Data collection minimisation](#datacollectionminimisation)
-* [Plenty of time to opt-out](#plentyoftimetooptout)
-* [Opting out by text](#optingoutbytext)
-* [Opting out by WiFi proximity](#optingoutbywifiproximity)
+* [Public space notices](/appendix-design-patterns-in-these-case-studies#publicspacenotices)
+* [Human-understandable data request](/appendix-design-patterns-in-these-case-studies#humanunderstandabledatarequest)
+* [Machine-readable data request](/appendix-design-patterns-in-these-case-studies#machinereadabledatarequest)
+* [Data collection minimisation](/appendix-design-patterns-in-these-case-studies#datacollectionminimisation)
+* [Plenty of time to opt-out](/appendix-design-patterns-in-these-case-studies#plentyoftimetooptout)
+* [Opting out by text](/appendix-design-patterns-in-these-case-studies#optingoutbytext)
+* [Opting out by WiFi proximity](/appendix-design-patterns-in-these-case-studies#optingoutbywifiproximity)

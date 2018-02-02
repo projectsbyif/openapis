@@ -36,10 +36,10 @@ If your usage changes or a company launches a new deal, AutoSwap will immediatel
 
 ## Design patterns shown in this case study
 
-* [Select what data a service can share](#selectwhatdataaservicecanshare)
-* [Authorising using another factor](#authorisingusinganotherfactor)
-* [Combining open, shared and private data](#combiningopensharedandprivatedata)
-* [Consent by SIM card](#consentbysimcard)
-* [Automated switching](#automatedswitching)
-* [Future switch notice](#futureswitchnotice)
-* [Account history across providers](#accounthistoryacrossproviders)
+* [Select what data a service can share](/appendix-design-patterns-in-these-case-studies#selectwhatdataaservicecanshare)
+* [Authorising using another factor](/appendix-design-patterns-in-these-case-studies#authorisingusinganotherfactor)
+* [Combining open, shared and private data](/appendix-design-patterns-in-these-case-studies#combiningopensharedandprivatedata)
+* [Consent by SIM card](/appendix-design-patterns-in-these-case-studies#consentbysimcard)
+* [Automated switching](/appendix-design-patterns-in-these-case-studies#automatedswitching)
+* [Future switch notice](/appendix-design-patterns-in-these-case-studies#futureswitchnotice)
+* [Account history across providers](/appendix-design-patterns-in-these-case-studies#accounthistoryacrossproviders)
