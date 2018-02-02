@@ -1,4 +1,4 @@
-Digital and data infrastructure has the potential to radically empower people.
+Digital and [data](https://theodi.org/what-is-data-infrastructure) infrastructure has the potential to radically empower people.
 
 By using digital services we all create a huge amount of data. Often, the value of that data is locked away in the company and inaccessible to the person who created it.
 
