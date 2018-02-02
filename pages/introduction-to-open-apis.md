@@ -8,7 +8,7 @@ By embracing Open APIs, powerful new services can exist that empower people in w
 
 ## Open APIs are an alternative to online portals and phone calls
 
-An Application Programming Interface (API) is a channel for interacting with an organisation as an alternative to websites, apps, letters and phone calls.  An open API will behave in a way described in an open standard.  Open standards are created collaboratively, use open processes and are published under terms that allow them to be freely used for any purpose.
+An Application Programming Interface (API) is a channel for interacting with an organisation as an alternative to websites, apps, letters and phone calls.  An open API will behave in a way described in an [open standard](https://theodi.org/blog/documenting-the-development-of-open-standards-for-data).  Open standards are created collaboratively, use open processes and are published under terms that allow them to be freely used for any purpose.
 
 Any interaction with an organisation such as viewing a bill, adding a standing order or raising a support request could be implemented as an open API.
 
