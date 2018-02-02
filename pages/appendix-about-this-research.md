@@ -1,16 +1,10 @@
-We carried out two rounds of interviews where we presented the prototypes to people and listened to their reactions.
-
-The first round of interviews were quick and rough, with five students from the Royal College of Arts.
-
-For the secound round we professionally recruited five individuals with varied backgrounds and digital skills. We interviewed participants from France, Germany, Austria, China Israel and the the UK.
-
-## Research questions
+Starting the work, we had a number of questions we wanted to understand:
 
 There were a number of questions we wanted to understand:
 
 - What could people do that they cannot do now, if open telecom APIs existed?
 
-- Can we demonstrate new fictional services that people are actually interested in?
+- Can we demonstrate new services that people are actually interested in?
 
 - What data do people understand phone & broadband providers hold about them?
 
@@ -18,8 +12,22 @@ There were a number of questions we wanted to understand:
 
 - What touchpoints do people interact with the data held about them?
 
+To answer these questions, we tested prototypes over two rounds of research. Showing the work and getting reactions from diverse range of people from the UK, France and further a field. With each person having different attitudes to privacy and confidence in using technology.
+
+Here's are the main findings from that research:
 
 ## Privacy attitudes
+
+Some people are suprised by what data telecomns companies hold abou them
+Some people are aware phones 
+Some people don't want to all data about to be accessible
+Some people don't want location data recorded or made available
+Some people are more will for services to access data usage and tariffs
+Some people are nervous how data about can be potentially accessed so easily 
+Some people feel privacy policy has equal important as price and network strength when choosing a phone company
+Some people believe UK has lesser privacy laws and protections
+People generally want more co
+
 
 <blockquote>“I’m aware that I don’t have much privacy … the UK has lax privacy laws”</blockquote>
 <blockquote>Sometimes you’re like, how do they know that?</blockquote>
@@ -41,6 +49,11 @@ There were a number of questions we wanted to understand:
 
 ## Consent
 
+Some people want options to not share date about them
+Some people felt transparency about data access is not enough. They always want a choice. 
+Some people felt that sharing data about them should always be a choice to opt in
+Some people want group consent for for data about both them and others
+
 <blockquote>“Good if my housemate has to ask me to access my data”</blockquote>
 <blockquote>“Good to ask because it’s my data”</blockquote>
 <blockquote>The whole cookies thing, it’s ridiculous, I want to say ‘don’t track’, not ‘I know you’re doing it’.</blockquote>
@@ -50,10 +63,16 @@ There were a number of questions we wanted to understand:
 
 ## Transparency
 
+Some people want more knowledge about what data about them telecoms companies hold
+
+
 <blockquote>I’d like to know what’s being collected…</blockquote>
 <blockquote>If people had more knowledge about what was out there, maybe they’d be easier about accepting or declining access to that information.</blockquote>
 
 ## Concept: all the bills in one place
+
+Some people said they could manage their bills more easily, were they accessible from one device
+Some people were worried about all their utility information being accessible from one device
 
 <blockquote>I can see why it’d be a good idea, having all your things in one place, accessible.</blockquote>
 <blockquote>This is a sure fire way to keep on top of the every day rubbish that hits me every 1st of the month.</blockquote>
@@ -61,12 +80,19 @@ There were a number of questions we wanted to understand:
 
 ## Concept: Shared billing
 
+Some people currenyly work arounds like Facebook Messenger to manage bills in shared houses
+Most people were enthusiast about better ways to share rights and responsibility for bills and other share data
+
 <blockquote>“We use Facebook Messenger to manage our bills and it’s a disaster”</blockquote>
 <blockquote>Ah, I see, they’re all having to agree. What happens to them if they haven’t agreed? Who’s responsible for the new bills?</blockquote>
 <blockquote>It’s good, it works, for a houseshare, for sure.</blockquote>
 <blockquote>Can it tell who’s been using the gigabytes, who should be paying more of it?</blockquote>
 
 ## Concept: Moving house
+
+Most people spend a lot of effort setting and update bills when moving
+Most people would like to accurately add and change who is responsible for bills in a house
+Most people want to be able to leave bills and setup bills quickly when moving house
 
 <blockquote>I think it saves you a lot of bother setting it all up again.</blockquote>
 <blockquote>‘Move bills to new house’ - yes - I mean, that’s a brilliant job</blockquote>
@@ -76,6 +102,9 @@ There were a number of questions we wanted to understand:
 
 ## Concept: Location history signal strength
 
+Some people found it useful to use location history to find a phone company with better signal strength for them
+Some people travelling less often, found using location history less useful and more invasive
+
 <blockquote>“I go that route a lot, it’s valuable to have good service”</blockquote>
 
 <blockquote>“... would have better signal for my usual commute. I see my signal strength was a problem before”</blockquote>
@@ -84,12 +113,17 @@ There were a number of questions we wanted to understand:
 
 ## Concept: Automatic swapping
 
+Some people wouldn't trust swapping to happen automatically
+Some people would want to know the reasons they phone company was swapped automatically
+Some people would want to know what money was spent and saved as a result of swapping
+
 <blockquote>You have to be very trusting to do something like that, you’ve got no information.</blockquote>
 <blockquote>You’d never know how much you’re going to pay, if that’s what it’s doing.</blockquote>
 
 ## Using data to improve air quality
 
-<blockquote>If it means having things like this pollution thing, that’s good, really good.</blockquote>
+Some people are happy to have data about them used, when it helps make positive changes for them and their community
+Most people want clear reasons what, when and why data is shared for research
 
 
 ## Website filtering
@@ -102,6 +136,15 @@ There were a number of questions we wanted to understand:
 
 ## Public notices
 
+Most people want clear reasons what, when and why data is shared for research
+Most people want the ability find out more about when data is collected
+Most people want to know what data gets collected
+Most people want a good reason the data is getting collected
+Most people want time and warning before data gets collected
+Most people don't understand what ‘anonymised’ means
+Some people didn't understand how they could be texted by the council, without having their details
+
+
 <blockquote>I can click on the link. I’ve got an option to read every single part. What’s being collected, you can opt out.</blockquote>
 <blockquote>It looks like it’s thorough, it looks like it’s telling me all the questions I might possibly ask.</blockquote>
 <blockquote>I don’t even know what ‘anonymised’ means.</blockquote>
@@ -111,6 +154,8 @@ There were a number of questions we wanted to understand:
 
 
 ## Opt-out mechanisms
+
+
 
 <blockquote>I think if I saw that [the display sign] I wouldn’t bother texting stop. It’s different when it comes to your phone.</blockquote>
 
