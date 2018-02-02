@@ -41,26 +41,3 @@ To illustrate the possibilities of new Open APIs, we designed three useful new s
 [Case study 2: Managing a shared household](/case-study-2-managing-a-shared-household)
 
 [Case study 3: Improving a city's air quality](/case-study-3-improving-a-citys-air-quality)
-
-
-## Open API design patterns
-
-By designing and testing the case studies, we saw the need for potential new [design patterns](https://vimeo.com/231723090). As well as applying existing patterns to the context of sharing telecoms data.
-
-The following potential patterns felt particularly interesting:
-
-*   Combining open, shared and private data
-*   Select what data a service can request
-*   Consent by SIM card
-*   Authorising using a letter
-*   Public space notices
-*   Human-understandable data request
-
-[Explore all the design patterns](/appendix-design-patterns-in-these-case-studies)
-
-
-## Potential new APIs
-
-As we imagined new services built on top of telecoms data, we started to understand what sort of APIs would have to exist to make it possible.
-
-[Explore the potential new Open Utility APIs](/appendix-potential-apis-for-the-telecoms-sector)
