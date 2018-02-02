@@ -2,7 +2,6 @@
 title: Open APIs for telecoms
 description: CHANGEME
 url: CHANGEME
-collaborator_name: CHANGEME
 
 # Pages, and what order they're in
 pages:
@@ -17,9 +16,10 @@ pages:
   - "Summary: building the future"
 
 # Design
-show_collaborator_logo: false
-collaborator_logo_url: ""
-collaborator_url: ""
+show_collaborator_logo: true
+collaborator_name: Open Data Institute
+collaborator_logo_url: "https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/open-data-institute.png"
+collaborator_url: "https://theodi.org"
 
 # Images
 favicon: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/favicon.png
