@@ -4,8 +4,7 @@ Much of the data and technology already exists to build the world shown in the c
 
 Rapid innovation and new empowering services are appearing in the finance sector. It's possible to repeat this success elsewhere.
 
-
-Meanwhile, [new rights](#) will require that companies open up access to much of the data we've explored.
+Meanwhile, new rights will require that companies open up access to much of the data we've explored.
 
 ## Companies may take the path of least resistance
 

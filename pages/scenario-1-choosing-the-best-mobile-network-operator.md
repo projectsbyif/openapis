@@ -47,7 +47,7 @@ If your usage changes or a company launches a new deal, AutoSwap will immediatel
 
 * [Select what data a service can share](/potential-design-patterns-for-open-apis-in-the-utilities-sector#selectwhatdataaservicecanshare)
 * [Authorising using another factor](/potential-design-patterns-for-open-apis-in-the-utilities-sector#authorisingusinganotherfactor)
-* [Combining open, shared and private data](/potential-design-patterns-for-open-apis-in-the-utilities-sector#combiningopensharedandprivatedata)
+* [Combining open, shared and closed data](/potential-design-patterns-for-open-apis-in-the-utilities-sector#combiningopensharedandcloseddata)
 * [Consent by SIM card](/potential-design-patterns-for-open-apis-in-the-utilities-sector#consentbysimcard)
 * [Automated switching](/potential-design-patterns-for-open-apis-in-the-utilities-sector#automatedswitching)
 * [Future switch notice](/potential-design-patterns-for-open-apis-in-the-utilities-sector#futureswitchnotice)

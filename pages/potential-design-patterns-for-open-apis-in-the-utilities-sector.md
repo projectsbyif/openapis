@@ -1,9 +1,9 @@
-In research we saw need for several [design pattern](https://vimeo.com/231723090) for sharing telecoms data. Patterns for solving different problems from authentication to giving consent to controlling access and transparency. 
+The prototyping for this report uncovered several potentual [design patterns](https://catalogue.projectsbyif.com) for solving different problems, from authentication to giving consent to controlling access and transparency. We believe many of these may be useful for desinging services for open APIs in the wider utilities sector.
 
 * [Select what data a service can share](#selectwhatdataaservicecanshare)
 * [Authorising using a letter](#authorisingusingaletter)
 * [Authorising using another factor](#authorisingusinganotherfactor)
-* [Combining open, shared and private data](#combiningopensharedandprivatedata)
+* [Combining open, shared and closed data](#combiningopensharedandcloseddata)
 * [Consent by SIM card](#consentbysimcard)
 * [Automated switching](#automatedswitching)
 * [Future switch notice](#futureswitchnotice)
@@ -32,7 +32,7 @@ Letters, like utility bills, with printed codes to share data between utility co
 
 Text messages are used as extra authentication when data is requested from Open APIs. This limits access to having a device controlled by a particular person. 
 
-## Combining open, shared and private data
+## Combining open, shared and closed data
 
 Making more informed decisions by combining data about networks and people
 
