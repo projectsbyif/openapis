@@ -1,4 +1,4 @@
-[IF](https://projectsbyif.com) in collaboration with the [Open Data Institute](https://theodi.org) prototyped 3 scenarios that would be possible if open [API&rsquo;s](https://en.wikipedia.org/wiki/Application_programming_interface) existed for the telecoms sector.
+[IF](https://projectsbyif.com) in collaboration with the [Open Data Institute](https://theodi.org) prototyped 3 scenarios that would be possible if open [APIs](https://en.wikipedia.org/wiki/Application_programming_interface) existed for the telecoms sector.
 
 These prototypes were then tested with UK and international participants during 2 user research sessions. 
 

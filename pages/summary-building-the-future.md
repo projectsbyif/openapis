@@ -7,9 +7,9 @@ Meanwhile, [new rights](#) will require that companies open up access to much of
 
 ## Companies may take the path of least resistance
 
-Excellent new services won't happen automatically. People won't be able to exercise their new rights if services are poorly implemented.
+Excellent new services won&rsquo;t happen automatically. People won't be able to exercise their new rights if services are poorly implemented.
 
-The well-meaning EU 'cookie law' showed that without positive, practical guidance, companies may **comply** with, rather than **embrace** new rights.
+The well-meaning EU &lsquo;cookie law&rsquo; showed that without positive, practical guidance, companies may **comply** with, rather than **embrace** new rights.
 
 How do we encourage new services that empower people while respecting their rights?
 

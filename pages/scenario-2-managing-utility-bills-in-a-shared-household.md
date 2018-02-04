@@ -33,7 +33,7 @@ As soon as you&rsquo;ve connected an account, Bills Box uses the Open Utility AP
 
 You can add any utility account that adheres to the Open Utility Standards. Now you can see all your household spending in one place.
 
-<blockquote>"It’s good it’ll give you a monthly figure which sometimes you’re not sure about"</blockquote>
+<blockquote>It’s good it’ll give you a monthly figure which sometimes you’re not sure about</blockquote>
 
 ![Two phone screens, one showing a single broadband bill and the other showing broadband, electricity, water and council tax on one screen](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bills-box-v3-3.png)
 

@@ -1,6 +1,6 @@
-There's no shortage of websites that'll help you find a new mobile phone contract or broadband provider.
+There&rsquo;s no shortage of websites that&rsquo;ll help you find a new mobile phone contract or broadband provider.
 
-Today's comparison sites are typically geared towards price, showing you the cheapest deal. These sites usually get paid when a customer switches, so it's in their interest to waste no time, and ask as few questions as possible. Your profile is reduced to just a few numbers:  how many minutes, texts and gigabytes.
+Today&rsquo;s comparison sites are typically geared towards price, showing you the cheapest deal. These sites usually get paid when a customer switches, so it&rsquo;s in their interest to waste no time, and ask as few questions as possible. Your profile is reduced to just a few numbers:  how many minutes, texts and gigabytes.
 
 What if a comparison service had access to richer information about you? What if it knew about the places you struggle with signal strength? Or your preference for strong ethics and privacy protections? Or your _real_ data usage, not just a single monthly number.
 
@@ -20,11 +20,11 @@ By using your location data, AutoSwap can work out your commute and find the pro
 
 ![Fetching various data about you, then showing a map of your recent locations](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-3.png)
 
-For many people, it's not just about price. AutoSwap lets you prioritise what matters to you, and takes that into account when searching for providers.
+For many people, it&rsquo;s not just about price. AutoSwap lets you prioritise what matters to you, and takes that into account when searching for providers.
 
 ![Prioritising most important feature of a phone company, and comparing two providers](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-4.png)
 
-Once you've chosen a new provider, we'll send you a flexible SIM card which supports all UK telecoms companies. Next time you won't need to fiddle around swapping SIM cards, and it'll be even easier to switch again.
+Once you&rsquo;ve chosen a new provider, we&rsquo;ll send you a flexible SIM card which supports all UK telecoms companies. Next time you won&rsquo;t need to fiddle around swapping SIM cards, and it&rsquo;ll be even easier to switch again.
 
 ![A flexible SIM card being inserted into a phone](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/autoswap-5.png)
 
