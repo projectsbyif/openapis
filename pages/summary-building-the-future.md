@@ -1,3 +1,5 @@
+
+
 Much of the data and technology already exists to build the world shown in the case studies.
 
 Rapid innovation and new empowering services are appearing in the finance sector. It's possible to repeat this success elsewhere.
@@ -24,3 +26,5 @@ APIs for joining and leaving companies would make it easier to switch, giving pe
 APIs for machine-readable terms and conditions could demystify the jargon and shift the power back to the people.
 
 APIs for bulk data, with built-in safety mechanisms, would enable public institutions to improve our towns and cities in a cost effective way.
+
+## High-level research findings

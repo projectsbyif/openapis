@@ -29,15 +29,3 @@ The upcoming [GDPR legislation](#) grants new rights, particularly better access
 Companies will need to implement new systems to allow people to exercise these rights. To avoid a repeat of disempowering cookie-banners, these should be implemented in a consistent and people-centred way.
 
 Specifically, they should create these systems as standardized Open APIs, rather than an ad-hoc assortment of new online portals.
-
-We worked with the [Open Data Institute](https://theodi.org) to investigate how Open APIs into telecommunications and utility companies could give people new powers and better control over their data.
-
-## We developed three case studies
-
-To illustrate the possibilities of new Open APIs, we designed three useful new services that use data in new ways while respecting people&rsquo;s rights.
-
-[Case study 1: Choosing the best provider](/case-study-1-choosing-the-best-provider)
-
-[Case study 2: Managing a shared household](/case-study-2-managing-a-shared-household)
-
-[Case study 3: Improving a city&rsquo;s air quality](/case-study-3-improving-a-citys-air-quality)
