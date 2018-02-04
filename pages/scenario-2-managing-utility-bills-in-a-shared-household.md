@@ -1,19 +1,17 @@
+When people live together in shared houses they may take on shared responsibility for paying and managing the bills. In many households, people come and go periodically, creating a paper trail that can be awkward to decipher.
 
-When people live together they often take on shared responsibility for paying and managing the bills. In many households, people come and go periodically, creating a paper trail that can be awkward to decipher.
-
-<blockquote>
-"We use Facebook Messenger to manage our bills and it’s a disaster"
-</blockquote>
-
-Many companies default to a single, individual account holder.
+Most utility companies do not optmise for this complexity - instead defaulting to a single, individual account holder.
 
 When things go wrong, companies will only speak to the account holder, and adding people involves jumping through hoops. When people leave a house it can put the other housemates in a tricky situation.
 
-What if it was simple to deal with companies as a group? How might decision making work? What if utilities could be &rsquo;handed over&rsquo; to the next occupier, just like keys?
+What if it was simple to deal with companies as a group, while also allowing individuals to retain control over the data held about them? How might decision making work? What if utilities could be &rsquo;handed over&rsquo; to the next occupier, just like keys?
+
+To explore this, we prototyped a service called &lsquo;BillsBox&rsquo; aimed at members of a shared household to manage their utility bills.
 
 [start_highlight]
 
-## Bills Box helps you share the running of the house
+## Prototype
+### Bills Box helps you share the running of the house
 
 Bills Box helps you split the bills with others in your house while allowing everyone to see all the accounts in one place.
 
@@ -33,7 +31,6 @@ As soon as you&rsquo;ve connected an account, Bills Box uses the Open Utility AP
 
 You can add any utility account that adheres to the Open Utility Standards. Now you can see all your household spending in one place.
 
-<blockquote>It’s good it’ll give you a monthly figure which sometimes you’re not sure about</blockquote>
 
 ![Two phone screens, one showing a single broadband bill and the other showing broadband, electricity, water and council tax on one screen](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bills-box-v3-3.png)
 
@@ -42,8 +39,6 @@ You can add any utility account that adheres to the Open Utility Standards. Now 
 
 Bills Box helps you put new housemates on the bills - something that used to be time consuming and difficult. That way, there&rsquo;s no awkward surprise when the person who pays the gas moves out, forgetting to tell the others.
 
-<blockquote>"only one person on the bill, you can’t even call them because you’re not the authorized person"
-</blockquote>
 
 ![The left phone generates a QR code to add a housemate, and the right phone scans it to join the house](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bills-box-v3-4.png)
 
@@ -52,7 +47,6 @@ Before joining, the new housemate can see what they&rsquo;re signing up for. Onc
 ![The left screen shows a confirmation to join a house and the right screen shows a number of welcome emails](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bills-box-v3-5.png)
 
 
-<blockquote>"If George went, you could have Paul moving in the next day and taking on the bills, that would be great"</blockquote>
 ## Moving house together
 
 Some decisions involve the whole house, and Bills Box makes it easy for you to make decisions as a group. Take moving out, for example.
@@ -65,7 +59,6 @@ If you&rsquo;re all moving together, Bills Box can even take your accounts with 
 
 ![The left screen shows one of three housemates having agreed to the move, the right screen shows a confirmation to move out](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bills-box-v3-7.png)
 
-<blockquote>"That’s brilliant, if you could go ‘I’m moving house, go tell everyone I need to tell’"</blockquote>
 ## Helping out the next tenants
 
 As well as tying up loose ends, Bills Box makes it simple for the next tenants. That helps ensure there&rsquo;s a clean switch, and no chasing bills months after you&rsquo;ve moved out.
@@ -76,10 +69,17 @@ And perhaps Bills Box will make your life simpler, next time you move into a new
 
 [end_highlight]
 
-## Design patterns shown in this case study
+## Summary of findings
 
-* [Authorising using a letter](/appendix-design-patterns-in-these-case-studies#authorisingusingaletter)
-* [Displaying multiple utilities](/appendix-design-patterns-in-these-case-studies#displayingmultipleutilities)
-* [Share, join a bill](/appendix-design-patterns-in-these-case-studies#sharejoinabill)
-* [Getting group consent](/appendix-design-patterns-in-these-case-studies#gettinggroupconsent)
-* [Handing over accounts to new people](/appendix-design-patterns-in-these-case-studies#handingoveraccountstonewpeople)
+We learned that although people in shared houses use digital tools to help manage their bills - for example though the use of messenger apps - the experience is sub-optimal.
+
+## Potential design patterns from this prototype
+
+* [Authorising using a letter](/potential-design-patterns-for-open-apis-in-the-utilities-sector#authorisingusingaletter)
+* [Displaying multiple utilities](/potential-design-patterns-for-open-apis-in-the-utilities-sector#displayingmultipleutilities)
+* [Share, join a bill](/potential-design-patterns-for-open-apis-in-the-utilities-sector#sharejoinabill)
+* [Getting group consent](/potential-design-patterns-for-open-apis-in-the-utilities-sector#gettinggroupconsent)
+* [Handing over accounts to new people](/potential-design-patterns-for-open-apis-in-the-utilities-sector#handingoveraccountstonewpeople)
+
+
+## Potential APIs from this prototype

@@ -9,7 +9,7 @@ a {
   color: #000;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-header;
 }
 
@@ -20,6 +20,14 @@ h1 {
 
 h2 {
   font-size: 1.2em;
+  margin-bottom: $default-spacing-small;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+h4, h5, h6 {
   margin-bottom: $default-spacing-small;
 }
 
@@ -105,6 +113,28 @@ blockquote {
     text-transform: uppercase;
     font-family: $font-family-header;
     margin-bottom: $default-spacing-small;
+  }
+}
+
+.highlight-section {
+  h2 {
+    text-transform: uppercase;
+    font-size: 0.8em;
+  }
+  h3 {
+    margin-bottom: $default-spacing-small;    
+    font-size: 1.4em;
+  }
+  ul {
+    list-style-type: disc;
+    margin-bottom: $default-spacing-small;
+
+    li {
+      margin-left: 20px;
+    }
+  }
+  a {
+    border-bottom: #212121 1px solid;
   }
 }
 
