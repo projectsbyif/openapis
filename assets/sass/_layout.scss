@@ -117,8 +117,10 @@ nav {
   }
 }
 
-#in_collaboration_with {
+footer {
   border-top: #{$color-accent} 1px solid;
+}
+#in_collaboration_with {
   padding: $default-spacing-small;
 
   a {
@@ -129,6 +131,10 @@ nav {
       height: 50px;
     }
   }
+}
+
+.licence {
+  padding: 0 0 $default-spacing-small 0;
 }
 
 .highlight-section {

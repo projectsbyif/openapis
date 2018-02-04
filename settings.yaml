@@ -21,6 +21,11 @@ collaborator_name: Open Data Institute
 collaborator_logo_url: "https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/open-data-institute.png"
 collaborator_url: "https://theodi.org"
 
+#Licence
+show_licence: true
+licence_text: "This report is licenced under Creative Commons Attribution 4.0 International"
+licence_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+
 # Images
 favicon: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/favicon.png
 apple_touch_icon: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/apple_touch_icon.png

@@ -62,8 +62,13 @@ html(lang="en")
             a(href=pageNext) #[span Home] &gt;
           else
             a(href=pageNext) #[span Next page] &gt;
-    if settings.show_collaborator_logo
-      div(id="in_collaboration_with")
-        p In collaboration with
-        a(href=settings.collaborator_url)
-          img(src=settings.collaborator_logo_url alt=settings.collaborator_name + " logo")
+    if settings.show_collaborator_logo || settings.show_licence
+      footer
+        if settings.show_collaborator_logo
+          div(id="in_collaboration_with")
+            p In collaboration with
+            a(href=settings.collaborator_url)
+              img(src=settings.collaborator_logo_url alt=settings.collaborator_name + " logo")
+        if settings.show_licence
+          p(class="licence")
+            a(href=settings.licence_url, rel="license") #{settings.licence_text}
