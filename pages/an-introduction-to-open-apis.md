@@ -4,7 +4,7 @@ By using digital services we all create a huge amount of data. Often, the value 
 
 Upcoming new digital rights grant us more access and control over that data.
 
-By embracing Open APIs, powerful new services can exist that empower people in ways we can't yet imagine.
+By embracing Open APIs, powerful new services can exist that empower people in ways we can&rsquo;t yet imagine.
 
 ## Open APIs are an alternative to online portals and phone calls
 
@@ -12,13 +12,13 @@ An Application Programming Interface (API) is a channel for interacting with an 
 
 Any interaction with an organisation such as viewing a bill, adding a standing order or raising a support request could be implemented as an open API.
 
-APIs are designed to be accessed by software rather than directly by humans. This allows developers to build on top of those APIs, interacting with an organisation on a person's behalf.
+APIs are designed to be accessed by software rather than directly by humans. This allows developers to build on top of those APIs, interacting with an organisation on a person&rsquo;s behalf.
 
 ## Open APIs enable new services to exist
 
 As an example, airlines allow people to search for flights on their website. Many also offer the same search through an API, allowing useful services like SkyScanner to search hundreds of airlines simultaneously.
 
-APIs power many of the things we've become used to like paying for things online, comparing prices, and switching bank accounts.
+APIs power many of the things we&rsquo;ve become used to like paying for things online, comparing prices, and switching bank accounts.
 
 A transformation is underway with [the Open Banking Standard](https://www.openbanking.org.uk) with new services giving people new access and control over data about them.
 
@@ -34,10 +34,10 @@ We worked with the [Open Data Institute](https://theodi.org) to investigate how 
 
 ## We developed three case studies
 
-To illustrate the possibilities of new Open APIs, we designed three useful new services that use data in new ways while respecting people's rights.
+To illustrate the possibilities of new Open APIs, we designed three useful new services that use data in new ways while respecting people&rsquo;s rights.
 
 [Case study 1: Choosing the best provider](/case-study-1-choosing-the-best-provider)
 
 [Case study 2: Managing a shared household](/case-study-2-managing-a-shared-household)
 
-[Case study 3: Improving a city's air quality](/case-study-3-improving-a-citys-air-quality)
+[Case study 3: Improving a city&rsquo;s air quality](/case-study-3-improving-a-citys-air-quality)

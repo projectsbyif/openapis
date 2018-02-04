@@ -1,4 +1,4 @@
-Telecommunication providers generate a huge amount of data from running their services. Through operating cell towers, mobile phone companies know the approximate location of all their subscribers at all times. Laws such as the Investigatory Powers Act require ISPs to retain Internet Connection Records for their users' network usage.
+Telecommunication providers generate a huge amount of data from running their services. Through operating cell towers, mobile phone companies know the approximate location of all their subscribers at all times. Laws such as the Investigatory Powers Act require ISPs to retain Internet Connection Records for their users&rsquo; network usage.
 
 What if the data locked inside telcos could be used for public good?
 

@@ -7,14 +7,14 @@ url: CHANGEME
 # Pages, and what order they're in
 pages:
   - "Open APIs for telecoms"
-  - "Introduction to Open APIs"
-  - "Case study 1: Choosing the best provider"
-  - "Case study 2: Managing a shared household"
-  - "Case study 3: Improving a city's air quality"
-  - "Appendix: About this research"
-  - "Appendix: Design patterns in these case studies"
-  - "Appendix: Potential APIs for the telecoms sector"
+  - "An introduction to Open APIs"
+  - "Scenario 1: Choosing the best mobile network operator"
+  - "Scenario 2: Managing utility bills in a shared household"
+  - "Scenario 3: Improving a city's air quality using bulk location data from mobile phones"
+  - "Potential design patterns for open API's in the utilities sector"
+  - "Potential open APIs for the telecoms sector"
   - "Summary: building the future"
+  - "Appendix: About this research"
 
 # Design
 show_collaborator_logo: true
