@@ -32,12 +32,34 @@ html(lang="en")
       if pageCurrent != 0
         a(id="site_title" href="/") #{settings.title}
       a(id="link_contents" href="#contents") Contents
-    div(class="content")
-      h1 #{title}
-      != content
-      if pageCurrent == 0
-        p
-          a(href=pageNext) Next
+    //- Cover page
+    if pageCurrent == 0
+      div(class="content")
+        h1 #{settings.title}
+        if settings.sub_title
+          h2 #{settings.sub_title}
+        p(class="description") #{settings.description}
+        != content
+        if settings.show_table_of_contents
+          //- TOC
+          div(class="toc")
+            h3 Table of contents
+            ul
+              for page, index in settings.contents
+                if index > 0
+                  li
+                    if title == page.title
+                      a(href=page.slug class="bold") #{page.title}
+                    else
+                      a(href=page.slug) #{page.title}
+        else
+          p
+            a(href=pageNext) Read the report
+    //- Content pages          
+    else
+      div(class="content")
+        h1 #{title}
+        != content
     div(id="contents")
       div
         h2 Contents

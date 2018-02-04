@@ -31,12 +31,25 @@ p {
   }
 }
 
+.description{
+  font-style:italic;
+}
+
 blockquote {
   margin-bottom: $default-spacing-small;
   margin-left: $default-spacing-small;
   padding-left: $default-spacing-small;
   padding-top: 4px;
   border-left: #{$color-blue-gray} 2px solid;
+}
+
+.toc {
+  h3 {
+      letter-spacing: 1px;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-family: $font-family-header;
+  }
 }
 
 .content {

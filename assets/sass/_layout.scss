@@ -65,6 +65,18 @@ header {
   }
 }
 
+.toc {
+  h3 {
+    margin-top: $default-spacing-small;
+    margin-bottom: $default-spacing-small;
+  }
+  ul {
+    li {
+      margin-bottom: $default-spacing-small / 3; 
+    }
+  }
+}
+
 .content {
   padding: $default-spacing-small;
   
@@ -135,6 +147,12 @@ footer {
 
 .licence {
   padding: 0 0 $default-spacing-small 0;
+}
+
+.description{
+  border-bottom: solid 1px #eee;
+  padding-bottom:  #{$default-spacing-big};
+  margin-bottom:  #{$default-spacing-big};
 }
 
 .highlight-section {

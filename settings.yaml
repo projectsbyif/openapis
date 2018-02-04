@@ -1,11 +1,12 @@
 # About
 title: Open APIs for telecoms
-description: CHANGEME
+sub_title: Oppertunities for new services & stronger digital rights
+description: By doing X, the telecoms sector can do Y andf Z enabling Some things that are areally important
 url: CHANGEME
 
 # Pages, and what order they're in
 pages:
-  - "Open APIs for telecoms enabling new digital rights"
+  - "Open APIs for telecoms"
   - "Introduction to Open APIs"
   - "Case study 1: Choosing the best provider"
   - "Case study 2: Managing a shared household"
@@ -21,7 +22,7 @@ collaborator_name: Open Data Institute
 collaborator_logo_url: "https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/open-data-institute.png"
 collaborator_url: "https://theodi.org"
 
-#Licence
+# Licence
 show_licence: true
 licence_text: "This report is licenced under Creative Commons Attribution 4.0 International"
 licence_url: "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -31,6 +32,9 @@ favicon: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/favicon.png
 apple_touch_icon: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/apple_touch_icon.png
 facebook_card_image: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/fb-image.png
 twitter_card_image: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/fb-image.png
+
+# TOC
+show_table_of_contents: true
 
 # Social media links
 twitter_card_handle: @projectsbyif
