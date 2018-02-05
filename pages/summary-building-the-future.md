@@ -2,29 +2,42 @@
 
 ## Enabling new products and services
 
-Open APIs will enable easier switching, but we believe this will not just be about making it easier to get a better deal. It should make it possible for people to switch along axes other than price, for example in understanding privacy trade-offs or signal streangth as was shown in the [AutoSwap prototype](/scenario-1-choosing-the-best-mobile-network-operator).
+Open APIs will enable easier switching, but we believe this will not just be about making it easier to get a better deal. It should make it possible for people to switch along axes other than price, for example in understanding privacy trade-offs or signal strength as was shown in the [AutoSwap prototype](/scenario-1-choosing-the-best-mobile-network-operator).
 
-There is also the potentual to provide better services to currenlty underserved groups.
+There is also the potential to provide better services to currently under-served groups. In this report we have explored such services for shared households, but other areas we believe could benefit from tailored services built on top of Open APIs include: carers managing the bills on behalf of others; companies operating in multiple locations looking to get the best mobile coverage from multiple providers; operators of networks of connected devices with non-standard usage patterns; and people campaigning for better broadband and mobile connectivity.
 
-In this work we have explored such services for shared households, but other areas we beleieve could benefit from taylored services built on top of Open APIs include carers managing the bills on behlf of others, companies operating in multiple locations looking to get the best mobile coverage from multiple providers, and operators of connected devices with non-standard usage patterns.
+In general, more real-time data about spending and usage has the potential to improve people's ability to plan their finances.
 
-Finally, there is the oppertunity for giving people ways of proving facts about themsleves without revealing large amounts of information. This is again particuarly interessting in the context of shared households, where the person with their name on the bill is the only person able to use the value of that.
+Finally, there is the opportunity for giving people ways of proving facts about themselves without revealing large amounts of information. This is again particularly interesting in the context of shared households, where the person with their name on the bill is the only person able to use the value of that. Giving people the potential to prove the reality of their living situation should not be overlooked as a significant potential outcome of open APIs..
 
-If standards developed in the UK could also be adopted internationally, there exists the opeprtunity to create international services - for example allowing companies opperating in multiple duristictions the ability to manage their billing tarrifs for their mobile devices. This may become increasingly important in the context of Brexit.
+If standards developed in the UK could also be adopted internationally, there exists the opportunity to create international services - for example allowing companies operating in multiple jurisdictions the ability to manage their billing tariffs for their mobile devices. This may become increasingly important in the context of Brexit.
 
-Further, if complementary open APIs can be developed and adopted by other actors in other sectors - for example, water, energy and housing - then whole new classes of products become possible along the lines of the [BillsBox](http://localhost:3000/scenario-2-managing-utility-bills-in-a-shared-household) prototype presented in this report.
+Further, if complementary APIs can be developed and adopted by other actors in other sectors - for example, water, energy and housing - then whole new classes of products become possible along the lines of the [BillsBox](/scenario-2-managing-utility-bills-in-a-shared-household) prototype presented in this report.
 
 ##Permissions and design
+
+One of the most surprising things we found out, many people feel privacy policy has equal importance as price and signal strength when choosing a phone company.
+
+Several of the people we spoke to, were nervous about how data about them, could be potentially accessed so quickly.
+
+While many people didn't want to all data about made accessible, they were open to less sensitive information like data usage and tariff, being used to help them find better deal.
+
+* How do we encourage new services that empower people while respecting their rights?
+
+* We uncovered the needs? 
+
+* Do more research? Esp on the novel things like permission in public space and groups
 
 * Sensitive data, so good design patterns for data sharing are important
 
 * This is doubly important because of GDPR
 
-* How do we encourage new services that empower people while respecting their rights?
+* What about citizen juries (esp bulk)
+
 
 ##Supporting data infrastructure
 
-To enable these types of products and services, it will not be enough to provide APIs onto the core [closed data](https://theodi.org/data-spectrum) like billing or usage. There are a number of supporting datasets that will need to be made open under appropriate licences.
+To enable these types of products and services, it will not be enough to provide APIs onto the core [closed data](https://theodi.org/data-spectrum) like billing or usage. There are a number of [supporting datasets](supporting-datasets-to-be-made-open) that will need to be made open under appropriate licenses.
 
 These broadly fall into two categories.
 
@@ -32,46 +45,66 @@ The first is data about the infrastructure. These include things like locations 
 
 It's not just about the core closed data, also supporting datasets like locations of cell towers, tariffs and signal strength.
 
-There second category is data about rights. To enable people and organsiations to make decisions based on privacy and their digital rights. 
+There second category is data about people&rsquo;s rights. Things like &lsquo;terms and conditions&rsquo;.
 
 We have [written elsewhere](https://projectsbyif.com/blog/ethics-markets-and-registers) about the need for structured, auditable data about how organisations implement access to digital rights to enable individuals and markets to make better decisions.
 
-So, any consideration of supporting open datasets should also examine how data about terms and conditions, and privacy policies are published.
+To enable people and organsiations to make decisions based on privacy and their digital rights, this information will also have to be open and machine readable. So, any consideration of supporting open datasets should also examine how data about terms and conditions, and privacy policies are published.
 
-<!-- APIs for accessing usage data would shift more control over data back to the people and communities, unlocking it from the company.
-
-APIs for joining and leaving companies would make it easier to switch, giving people real power to 'vote with their feet'.
-
-APIs for machine-readable terms and conditions could demystify the jargon and shift the -->
-
-* 
 
 ##Public trust and oversight
 
-* New services enabled by Open APIs may also educate the public about what data is held about them and the potetntual uses.
+The majority of people weren't aware of the data telecoms providers hold about them. Particularly location data, which most people felt very sensitive about sharing. Most felt less sensitive other data about them, like data usage and what phone tariff they were on.
 
-* To get public trust, we need new laws, practices, standards and oversight for collection and reuse of data
+New services enabled by open APIs have also present the opportunity to educate the public about what data is held about them, and improve the debate around digital ethics.
 
-APIs for bulk data, with built-in safety mechanisms, would enable public institutions to improve our towns and cities in a cost effective way.
+They can do this by explaining the sources of data at point-of-use, so people become more familiar about the type of data that is held about them by different types of organisation.
 
-* It is important to understand the constrainst of existing telcos, but also direction of travel.
+<!-- Automated switching is going to require things that help people trust it. Might not be gov. -->
 
-* Build on what already exists
+They also open the possibility of people auditing who has accessed data about them, providing a safeguard against against misuse and fraud.
+
+Similar the the role they play in the built environment through the planning and licensing systems, we also feel there are new roles for central and local government to play in providing new mechanisms for notifying the public about data collection and usage.
+
+As shown in the &lsquo;[improving a city&rsquo;s air quality](/scenario-3-improving-a-citys-air-quality-using-bulk-location-data-from-mobile-phones)&rsquo; prototype, new standards for requesting data collection and new obligations to notify the public could help improve public trust in use of data for public good. From our interviews, we are confident that when given a good explanation about how and why data will be used, people are in a much better position to be able to support it.
+
+##How to get there
+
+As with other sectors, the direction of travel is towards better, fine-grained and real-time access to data. We see no reason to think that telecoms is significantly different from other sectors in this respect.
+
+The main questions are therefore how this is done in a way that 1) enhances people's digital rights 2) takes advantage of the opportunity sooner rather than later.
+
+In approaching this, it is important to understand the constraints and motivations of both existing telecoms providers and other technology organisations, especially smartphone manufacturers.
+
+Some telecoms providers will have an interest in maintain the status quo. Worried about loosing out on features of the current switching system like the ability to call customers and offer upgrades, they may resit the adoption of standards for as long as possible, or take the path of least resistance towards compliance rather than active engagement.
+
+Smartphone manufacturers will have an interest in centralising both switching, data mismanagement and permissions on to their platforms, which may result in more monopolies of power, not less.
+
+As represented by the AutoSwitch sim-card prototype presented in this report, where control of switching lies is a fundamental question for policy makers to consider.
+
+Finally, the needs of the organisaitons who will build services such as those outlines here also need to be considered. Making it easy for technology start-ups to build trusted services will require well documented APIs and design patterns, as well as guidance on security.
 
 
-How to get there
+In order to move towards the world described in this report, we suggest the following:
+
+* Low-hanging fruit of supporting datasets
+
+* New research into data patterns for novel things
+
+* Start with the what already exists (APIs). e.g. apps
 
 * Companies may take the path of least resistance
 
-Ineventable becomes faster / more fine grained
+* It will probably require legislation
 
+* Legislate in a way that allows incremental testing and tuning of standards and design, not for big-bang compliance
 
-Excellent new services won&rsquo;t happen automatically. People won't be able to exercise their new rights if services are poorly implemented.
+* New org to set the standard? Legislation says meet the standard, not the rules
 
-The well-meaning EU &lsquo;cookie law&rsquo; showed that without positive, practical guidance, companies may **comply** with, rather than **embrace** new rights.
+* General responsibility to be open and enable innovation
 
-Much of the data and technology already exists to build the world shown in the case studies.
+* Identify the companies who might provide the services and understand their needs
 
-Rapid innovation and new empowering services are appearing in the finance sector. It's possible to repeat this success elsewhere.
+* Design rules around transparent algos and explanations
 
-Meanwhile, new rights will require that companies open up access to much of the data we've explored.
+* Think about the role of regulators/independent boards in mediating switching
