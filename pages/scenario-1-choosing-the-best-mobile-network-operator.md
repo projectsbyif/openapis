@@ -43,6 +43,20 @@ If your usage changes or a company launches a new deal, AutoSwap will immediatel
 
 ## Summary of findings
 
+### Location history signal strength
+
+Half the people when tested with, welcomed the idea of using their location history to choose a phone company with better signal strength for them. The idea was more popular with people who commute and travel a lot. 
+
+The people who travel less often, found using location history for better signal strength less useful. And having concerns what this meant for their privacy. 
+
+### Automatic swapping
+
+Many people said, just automatically swapping phone company is something they would struggle to trust. They would need more control over the decision to swap a contract. 
+
+People wanted more information about the reason a swap happened and what benefits came from it, like savings or better signal strength. 
+
+Also many people we spoke with used the language like 'contracts' and 'signing' when talking about moving networks. Suggesting a current mental model that you stay with one phone company for months and years, not weeks and days like hinted at in the prototype we showed.
+
 ## Potential design patterns from this prototype
 
 * [Select what data a service can share](/potential-design-patterns-for-open-apis-in-the-utilities-sector#selectwhatdataaservicecanshare)
@@ -54,3 +68,9 @@ If your usage changes or a company launches a new deal, AutoSwap will immediatel
 * [Account history across providers](/potential-design-patterns-for-open-apis-in-the-utilities-sector#accounthistoryacrossproviders)
 
 ## Potential APIs from this prototype
+
+* [Access to service-specific usage data](/potential-open-apis-for-the-telecoms-sector#accesstoservicespecificusagedata)
+* [Machine readable policies](/potential-open-apis-for-the-telecoms-sector#machinereadablepolicies)
+* [Account creation](/potential-open-apis-for-the-telecoms-sector#accountcreation)
+* [Account closure](/potential-open-apis-for-the-telecoms-sector#accountclosure)
+* [Deletion of usage data](/potential-open-apis-for-the-telecoms-sector#deletionofusagedata)
