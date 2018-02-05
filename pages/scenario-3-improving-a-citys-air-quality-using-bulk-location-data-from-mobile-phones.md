@@ -52,6 +52,22 @@ During the trial itself, the privately operated WiFi hotspot screens will be swi
 
 ## Summary of findings
 
+### Using data to improve air quality
+
+Half the people we spoke to, were happy to have data about them used, when it helps make positive changes for their community. They showed a need to understand what data is being collected, when it will happen and a good reason as to why. 
+
+### Public notices
+
+As mentioned before, many people wanted clear reasons what, when and why data is shared for research. A couple of like the ability find out more about when data is collected, so they could make a informed decision to have data about them included or not. 
+
+However there was limited understanding by most people for how their location could be collected and what ‘anonymised’ means. So it is questionable if people individually have the time and capacity to make decisions about bulk data collection. There the need for [alternative consent models](https://www.connectedhealthcities.org/get-involved/citizens-juries/) for scenarios like these. 
+
+### Opt-out mechanisms
+
+Some of the people said they would be hesitate opting-out, because they either would not trust texting a random number or feel self-conscious about doing it in a way others could see. 
+
+The same people said they be worried, should they not see the signs, then data about them would get collected anyway.
+
 ## Potential design patterns from this prototype
 
 * [Public space notices](/potential-design-patterns-for-open-apis-in-the-utilities-sector#publicspacenotices)
@@ -63,3 +79,8 @@ During the trial itself, the privately operated WiFi hotspot screens will be swi
 * [Opting out by WiFi proximity](/potential-design-patterns-for-open-apis-in-the-utilities-sector#optingoutbywifiproximity)
 
 ## Potential APIs from this prototype
+
+* [Machine readable policies](/potential-open-apis-for-the-telecoms-sector#machinereadablepolicies)
+* [Access to anonymised bulk data](/potential-open-apis-for-the-telecoms-sector#accesstoanonymisedbulkdata)
+* [Opt-out for bulk data collection](/potential-open-apis-for-the-telecoms-sector#optoutforbulkdatacollection)
+

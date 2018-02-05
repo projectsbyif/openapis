@@ -73,6 +73,24 @@ And perhaps Bills Box will make your life simpler, next time you move into a new
 
 We learned that although people in shared houses use digital tools to help manage their bills - for example though the use of messenger apps - the experience is sub-optimal.
 
+### All the bills in one place
+
+The prospect of being able to see and manage all your bills in one place, was well received by nearly everyone we spoke too. Some people saying they would feel more in control, by seeing how much they need to pay and how much they were using. 
+
+A couple of participants said they would be nervous about so much utilities data about them being available from their phone or single service like Bills Box. 
+
+### Shared billing
+
+Most people talk about the burden of shared bills. How currently they struggle to know who's paid what or to fix anything, unless they're the 'named' person with the utility company. 
+
+The potential to share rights and responsibilities for bills and other shared data, nearly everyone found to be a empowering prospect. There was even excitement about it being easy to be recognised as a group by utility companies, acknowledging different living situations many people have.
+
+### Moving house
+
+Nearly each person we spoke was very positive about the idea they could move and transfer bills when moving house. How this would save all the time involved now, when cancelling and setting up billings from one property to the next. 
+
+The concept was especially promising to the half dozen people we spoke to who rent; who move house more often and have some housemates leave, while others stay on. 
+
 ## Potential design patterns from this prototype
 
 * [Authorising using a letter](/potential-design-patterns-for-open-apis-in-the-utilities-sector#authorisingusingaletter)
@@ -83,3 +101,9 @@ We learned that although people in shared houses use digital tools to help manag
 
 
 ## Potential APIs from this prototype
+
+* [Creation, updating and deletion of account holders](/potential-open-apis-for-the-telecoms-sector#creationupdatinganddeletionofaccountholders)
+* [Account creation](/potential-open-apis-for-the-telecoms-sector#accountcreation)
+* [Account closure](/potential-open-apis-for-the-telecoms-sector#accountclosure)
+* [Access to service-specific usage data](/potential-open-apis-for-the-telecoms-sector#accesstoservicespecificusagedata)
+* [Deletion of usage data](/potential-open-apis-for-the-telecoms-sector#deletionofusagedata)
