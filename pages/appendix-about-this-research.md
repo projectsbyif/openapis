@@ -35,24 +35,6 @@ There was a lot of enthusiasm for group consent for joint decisions and shared d
 
 Many people asks for more knowledge about what data about them telecoms companies held. Responding well to being shown what data is held and what it says about them, in a  understandable and accessible way. 
 
-## Concept: all the bills in one place
-
-The prospect of being able to see and manage all your bills in one place, was well received by nearly everyone we spoke too. Some people saying they would feel more in control, by seeing how much they need to pay and how much they were consuming. 
-
-A couple of participants said they would be nervous about so much utilities data about them being available from their phone or single service like Bills Box. 
-
-## Concept: Shared billing
-
-Most people talk about the burden of shared bills. How currently the struggle to know who's paid what or to fix anything, unless their the 'named' person with the utility company. 
-
-The potential to share rights and responsibilities for bills and other shared data, nearly everyone found to be a empowering prospect. There was even excitement about it being easy to be recognised as a group by utility companies, acknowledging the more real and complicated living situations most people have.
-
-## Concept: Moving house
-
-Nearly each person we spoke was very positive about the idea they could move and transfer bills when moving house. How this would save all the time involved now, when cancelling and setting up billings from one property to the next. 
-
-The concept was especially promising to the half dozen people we spoke to who rent; who move house more often and have some housemates leave, while others stay on. 
-
 ## Concept: Location history signal strength
 
 Half the people when tested with, welcomed the idea of using their location history to choose a phone company with better signal strength for them. The idea was more popular with people who commute and travel a lot. 
@@ -61,28 +43,46 @@ The people who travel less often, found using location history for better signal
 
 ## Concept: Automatic swapping
 
-For many people, the concept of just automatically swapping phone company is something they would struggle to trust. They would need more control over the decision to swap a contract. 
+Many people said, just automatically swapping phone company is something they would struggle to trust. They would need more control over the decision to swap a contract. 
 
-Many people wanted more information about the reason a swap happened and what benefits came from it, like savings or better phone strength. 
+People wanted more information about the reason a swap happened and what benefits came from it, like savings or better signal strength. 
 
-Also many people we spoke with used the language like 'contracts' and 'signing' when talking about moving networks. Suggesting a current mental model that you can only stay with one phone company for months and years, not weeks and days hinted at in the prototype we showed. 
+Also many people we spoke with used the language like 'contracts' and 'signing' when talking about moving networks. Suggesting a current mental model that you stay with one phone company for months and years, not weeks and days like hinted at in the prototype we showed.
 
-## Website filtering
+## Concept: all the bills in one place
+
+The prospect of being able to see and manage all your bills in one place, was well received by nearly everyone we spoke too. Some people saying they would feel more in control, by seeing how much they need to pay and how much they were using. 
+
+A couple of participants said they would be nervous about so much utilities data about them being available from their phone or single service like Bills Box. 
+
+## Concept: shared billing
+
+Most people talk about the burden of shared bills. How currently they struggle to know who's paid what or to fix anything, unless they're the 'named' person with the utility company. 
+
+The potential to share rights and responsibilities for bills and other shared data, nearly everyone found to be a empowering prospect. There was even excitement about it being easy to be recognised as a group by utility companies, acknowledging different living situations many people have.
+
+## Concept: moving house
+
+Nearly each person we spoke was very positive about the idea they could move and transfer bills when moving house. How this would save all the time involved now, when cancelling and setting up billings from one property to the next. 
+
+The concept was especially promising to the half dozen people we spoke to who rent; who move house more often and have some housemates leave, while others stay on. 
+
+## Concept: website filtering
 
 The perception from people we tested with, was there was little or no censorship by internet provider. There was limited awareness of internet providers blocking some websites. A couple of people we spoke knew about net neutrality and that this is something we have in Europe. 
 
-## Using data to improve air quality
+## Concept: using data to improve air quality
 
 Half the people we spoke to, were happy to have data about them used, when it helps make positive changes for their community. They showed a need to understand what data is being collected, when it will happen and a good reason as to why. 
 
-## Public notices
+## Concept: public notices
 
 As mentioned before, many people wanted clear reasons what, when and why data is shared for research. A couple of like the ability find out more about when data is collected, so they could make a informed decision to have data about them included or not. 
 
-However there was limited understanding by most people for how their location could be collected and what ‘anonymised’ means. So it is questionable if people individually have the time and capacity to make decisions about bulk data collection for research. There the need for alternative consent models for these scenarios. 
+However there was limited understanding by most people for how their location could be collected and what ‘anonymised’ means. So it is questionable if people individually have the time and capacity to make decisions about bulk data collection. There the need for [alternative consent models](https://www.connectedhealthcities.org/get-involved/citizens-juries/) for scenarios like these. 
 
-## Opt-out mechanisms
+## Concept: opt-out mechanisms
 
-Some of the people said they would be hesitant about opting-out. Because they either would not trust texting a random number or feel self-conscious about doing it in a way others could see. 
+Some of the people said they would be hesitate opting-out, because they either would not trust texting a random number or feel self-conscious about doing it in a way others could see. 
 
-The same people said they be worried, should they not see the signs, data about them would get collected anyway.
+The same people said they be worried, should they not see the signs, then data about them would get collected anyway.
