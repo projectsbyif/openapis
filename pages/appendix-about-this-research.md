@@ -1,23 +1,21 @@
-We carried out two rounds of interviews where we presented various prototypes to people and listened to their reactions.
+We begin the worked asking a question, **what types of data do telecom companies hold?**
 
-The first round consisted of short interviews with, with five students from the Royal College of Arts.
+To try answer this, we interviewed five people working in the telecom sectors in the UK and France. Including broadband, mobile and fixed line. 
 
-For the secound round we professionally recruited five individuals with varied backgrounds and digital skills. We interviewed participants from France, Germany, Austria, China, Israel and the the UK.
+From these conversations, we had a working idea of the different types of telecoms data that exists and therefore has potential to be made available by open APIs. 
 
-In addition, we also interviewed 5 people with a history of working in the telecoms sector to undertand the types of data held and potentual causes of intertia for such APIs being adopted.
+Next we wanted to understand some follow up questions:
+
+* What could people do that they cannot do now, if open telecom APIs existed?
+
+* Can we demonstrate new services that people are actually interested in?
+
+* What data do people understand phone & broadband providers hold about them?
+
+* What are people’s attitudes to privacy in relation to telecoms data held about them?
+
+* What needs do people have for the controlling telecoms data about them?
+
+To answer these questions, we tested prototypes with ten people over two rounds of research. Showing the work and getting reactions from diverse groups from the UK, France and further a field. With each person having different attitudes to privacy and confidence in using technology.
 
 The prototypes were iterated based on feedback from the research sessions, the final versions being the ones presented in this report.
-
-## Research questions
-
-Together, the research and prototyping aimed to answer a number of questions. Specifically:
-
-- What could people do that they cannot do now, if open telecom APIs existed?
-
-- Can we demonstrate new services that people are actually interested in?
-
-- What data do people understand phone & broadband providers hold about them?
-
-- What are people&rsquo;s attitudes to privacy in relation to the data held about them?
-
-- What touchpoints do people interact with the data held about them?
