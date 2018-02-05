@@ -4,6 +4,8 @@ The first round consisted of short interviews with, with five students from the 
 
 For the secound round we professionally recruited five individuals with varied backgrounds and digital skills. We interviewed participants from France, Germany, Austria, China, Israel and the the UK.
 
+In addition, we also interviewed 5 people with a history of working in the telecoms sector to undertand the types of data held and potentual causes of intertia for such APIs being adopted.
+
 The prototypes were iterated based on feedback from the research sessions, the final versions being the ones presented in this report.
 
 ## Research questions

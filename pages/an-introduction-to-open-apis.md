@@ -24,7 +24,7 @@ A transformation is underway with [the Open Banking Standard](https://www.openba
 
 ## Open APIs will help people exercise their digital rights
 
-The upcoming [GDPR legislation](#) grants new rights, particularly better access, portability and deletion of data.
+The upcoming [GDPR legislation](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/) grants new rights, particularly better access, portability and deletion of data.
 
 Companies will need to implement new systems to allow people to exercise these rights. To avoid a repeat of disempowering cookie-banners, these should be implemented in a consistent and people-centred way.
 
