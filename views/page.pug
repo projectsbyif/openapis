@@ -1,0 +1,96 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    if pageCurrent == 0
+      title #{settings.title}
+      meta(property="og:title" content=settings.title)
+      meta(name="twitter:title" content=title + " – " + settings.title)
+    else
+      title #{title} – #{settings.title}
+      meta(property="og:title" content=title + " – " + settings.title)
+      meta(name="twitter:title" content=title + " – " + settings.title)
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(type="text/css" rel="stylesheet" href="/public/css/app.css")
+    link(rel="icon" id="favicon" href=settings.favicon)
+    link(rel="apple-touch-icon-precomposed" href=settings.apple_touch_icon)
+    meta(name="description" content=settings.description)
+    meta(property="og:url" content=settings.url)
+    meta(property="og:description" content=settings.description)
+    meta(property="og:image" content=settings.facebook_card_image)
+    meta(name="twitter:card" content=settings.twitter_card_image)
+    meta(name="twitter:site" content=settings.twitter_card_handle)
+    meta(name="twitter:creator" content=settings.twitter_card_handle)
+    meta(name="twitter:description" content=settings.description)
+    meta(name="twitter:image" content=settings.twitter_card_image)
+    script(src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous")
+    script(src="/public/js/app.js")
+  body
+    header
+      a(id="logo" href="https://projectsbyif.com")
+        img(src="https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/if-logotype-strokes.svg" alt="Projects By IF")
+      if pageCurrent != 0
+        a(id="site_title" href="/") #{settings.title}
+      a(id="link_contents" href="#contents") Contents
+    //- Cover page
+    if pageCurrent == 0
+      div(class="content")
+        h1 #{settings.title}
+        if settings.sub_title
+          h2 #{settings.sub_title}
+        p(class="description") #{settings.description}
+        != content
+        if settings.show_table_of_contents
+          //- TOC
+          div(class="toc")
+            h3 Table of contents
+            ul
+              for page, index in settings.contents
+                if index > 0
+                  li
+                    if title == page.title
+                      a(href=page.slug class="bold") #{page.title}
+                    else
+                      a(href=page.slug) #{page.title}
+        else
+          p
+            a(href=pageNext) Read the report
+    //- Content pages          
+    else
+      div(class="content")
+        h1 #{title}
+        != content
+    div(id="contents")
+      div
+        h2 Contents
+        a(id="close_contents" href="#") Close
+        ul
+          for page in settings.contents
+            li
+              if title == page.title
+                a(href=page.slug class="bold") #{page.title}
+              else
+                a(href=page.slug) #{page.title}
+    if pageCurrent != 0
+      nav
+        p(class="previous")
+          if pageCurrent == 1
+            a(href=pagePrevious) &lt; #[span Home]
+          else
+            a(href=pagePrevious) &lt; #[span Previous page]
+        p(class="counter") #{pageCurrent} of #{pageCount}
+        p(class="next")
+          if pageCurrent == pageCount
+            a(href=pageNext) #[span Home] &gt;
+          else
+            a(href=pageNext) #[span Next page] &gt;
+    if settings.show_collaborator_logo || settings.show_licence
+      footer
+        if settings.show_collaborator_logo
+          div(id="in_collaboration_with")
+            p In collaboration with
+            a(href=settings.collaborator_url)
+              img(src=settings.collaborator_logo_url alt=settings.collaborator_name + " logo")
+        if settings.show_licence
+          p(class="licence")
+            a(href=settings.licence_url, rel="license") #{settings.licence_text}

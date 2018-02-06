@@ -1,0 +1,41 @@
+# About
+title: Open APIs for telecoms
+sub_title: Opportunities for new services & stronger digital rights
+description: Through the provision of new, open APIs in the telecoms sector, new classes of commercial products can be developed, people can be empowered to take control over the data held about them, and new mechanisms for using data for the public good can be created.
+url: CHANGEME
+
+# Pages, and what order they're in
+pages:
+  - "Open APIs for telecoms"
+  - "An introduction to Open APIs"
+  - "Scenario 1: choosing the best mobile network operator"
+  - "Scenario 2: managing utility bills in a shared household"
+  - "Scenario 3: improving a city's air quality using bulk location data from mobile phones"
+  - "Summary: building the future"
+  - "Appendix: About this research"
+  - "Appendix: Potential design patterns for open APIs in the utilities sector"
+  - "Appendix: Potential open APIs for the telecoms sector"
+  - "Appendix: Supporting datasets to be made open"
+
+# Design
+show_collaborator_logo: true
+collaborator_name: Open Data Institute
+collaborator_logo_url: "https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/open-data-institute.png"
+collaborator_url: "https://theodi.org"
+
+# Licence
+show_licence: true
+licence_text: "This report is licenced under Creative Commons Attribution-ShareAlike 4.0 International"
+licence_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+
+# Images
+favicon: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/favicon.png
+apple_touch_icon: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/apple_touch_icon.png
+facebook_card_image: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/fb-image.png
+twitter_card_image: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/fb-image.png
+
+# TOC
+show_table_of_contents: true
+
+# Social media links
+twitter_card_handle: @projectsbyif
