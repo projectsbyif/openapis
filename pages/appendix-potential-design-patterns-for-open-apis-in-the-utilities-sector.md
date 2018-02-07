@@ -13,7 +13,7 @@ The prototyping for this report uncovered several potential [design patterns](ht
 * [Getting group consent](#gettinggroupconsent)
 * [Handing over accounts to new people](#handingoveraccountstonewpeople)
 * [Public space notices](#publicspacenotices)
-* [Human-understandable data request](#humanunderstandabledatarequest)
+* [Human-readable data request](#humanreadabledatarequest)
 * [Machine-readable data request](#machinereadabledatarequest)
 * [Data collection minimisation](#datacollectionminimisation)
 * [Plenty of time to opt-out](#plentyoftimetooptout)
@@ -107,7 +107,7 @@ Communicating that certain data about you is collected when entering a space. In
 
 ![A portable electronic sign on the pavement notifying that mobile phone locations will be collected](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/variable-message-signs_v2.gif)
 
-## Human-understandable data request
+## Human-readable data request
 
 Explaining potential data collection in plain, accessible language. 
 

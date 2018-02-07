@@ -75,7 +75,7 @@ As such, undertanding how people can meaningfully opt-out of data collection in 
 ## Potential design patterns from this prototype
 
 * [Public space notices](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#publicspacenotices)
-* [Human-understandable data request](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#humanunderstandabledatarequest)
+* [Human-readable data request](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#humanreadabledatarequest)
 * [Machine-readable data request](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#machinereadabledatarequest)
 * [Data collection minimisation](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#datacollectionminimisation)
 * [Plenty of time to opt-out](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#plentyoftimetooptout)
