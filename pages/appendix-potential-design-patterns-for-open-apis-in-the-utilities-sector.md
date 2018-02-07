@@ -15,7 +15,7 @@ The prototyping for this report uncovered several potential [design patterns](ht
 * [Public space notices](#publicspacenotices)
 * [Human-readable data request](#humanreadabledatarequest)
 * [Machine-readable data request](#machinereadabledatarequest)
-* [Data collection minimisation](#datacollectionminimisation)
+* [Minimising data collection](#minimisingdatacollection)
 * [Plenty of time to opt-out](#plentyoftimetooptout)
 * [Opting out by text](#optingoutbytext)
 * [Opting out by WiFi proximity](#optingoutbywifiproximity) 
@@ -121,7 +121,7 @@ Data requests could be submitted to regulators, posted to public notices, and su
 
 [JSON data request on Github](https://gist.githubusercontent.com/paulfurley/21ac195a66803588a27870f634dfef02/raw/428a6aebd1f5879275ad4225ce09a294bc821212/collection_request.json)
 
-## Data collection minimisation
+## Minimising data collection
 
 Limiting bulk data collection to certain times, location accuracy and other restrictions, to ensure data doesn't contain personally identifiable information. 
 

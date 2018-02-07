@@ -77,7 +77,7 @@ As such, undertanding how people can meaningfully opt-out of data collection in 
 * [Public space notices](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#publicspacenotices)
 * [Human-readable data request](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#humanreadabledatarequest)
 * [Machine-readable data request](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#machinereadabledatarequest)
-* [Data collection minimisation](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#datacollectionminimisation)
+* [Minimising data collection](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#minimisingdatacollection)
 * [Plenty of time to opt-out](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#plentyoftimetooptout)
 * [Opting out by text](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#optingoutbytext)
 * [Opting out by WiFi proximity](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#optingoutbywifiproximity)
