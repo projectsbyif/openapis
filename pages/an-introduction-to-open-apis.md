@@ -1,10 +1,16 @@
+## APIs allow computers to communicate together
+
 An Application Programming Interface (API) is a channel for interacting with an organisation as an alternative to websites, apps, letters and phone calls.
 
 APIs are designed to be accessed by software rather than directly by humans. This allows developers to build on top of those APIs, interacting with an organisation on a person&rsquo;s behalf.
 
+## Open APIs are public and standardised
+
 An __open__ API is one that is described in an [open standard](https://theodi.org/blog/documenting-the-development-of-open-standards-for-data).
 
 Open standards are created collaboratively, use open processes and are published under terms that allow them to be freely used for any purpose.
+
+## Open APIs enable new services to exist
 
 As an example, airlines allow people to search for flights on their website. Many also offer the same search through an API, allowing useful services like SkyScanner to search hundreds of airlines simultaneously.
 
