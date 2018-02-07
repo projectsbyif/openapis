@@ -9,7 +9,7 @@ The prototyping for this report uncovered several potential [design patterns](ht
 * [Future switch notice](#futureswitchnotice)
 * [Account history across providers](#accounthistoryacrossproviders)
 * [Displaying multiple utilities](#displayingmultipleutilities)
-* [Add another person to an account](#addanotherpersontoanaccount)
+* [Adding another person to an account](#addinganotherpersontoanaccount)
 * [Getting group consent](#gettinggroupconsent)
 * [Handing over accounts to new people](#handingoveraccountstonewpeople)
 * [Public space notices](#publicspacenotices)
@@ -78,7 +78,7 @@ Multiple utilities visible and manageable from one service.
 
 ![Two phone screens, one showing a single broadband bill and the other showing broadband, electricity, water and council tax on one screen](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox_screen-23_v1.jpg)
 
-## Add another person to an account
+## Adding another person to an account
 
 Codes generated to share the rights and responsibilities for a bill and shared data. 
 

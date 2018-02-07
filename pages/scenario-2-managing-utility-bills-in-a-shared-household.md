@@ -98,7 +98,7 @@ The concept was especially promising to those we spoke to who rent, moving house
 
 * [Authorising using a letter](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#authorisingusingaletter)
 * [Displaying multiple utilities](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#displayingmultipleutilities)
-* [Add another person to an account](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#addanotherpersontoanaccount)
+* [Adding another person to an account](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#addinganotherpersontoanaccount)
 * [Getting group consent](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#gettinggroupconsent)
 * [Handing over accounts to new people](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#handingoveraccountstonewpeople)
 
