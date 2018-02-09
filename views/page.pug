@@ -26,40 +26,13 @@ html(lang="en")
     script(src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous")
     script(src="/public/js/app.js")
   body
+    a(id="skip_to_content" href="#content") Skip to content
     header
       a(id="logo" href="https://projectsbyif.com")
         img(src="https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/if-logotype-strokes.svg" alt="Projects By IF")
       if pageCurrent != 0
         a(id="site_title" href="/") #{settings.title}
       a(id="link_contents" href="#contents") Contents
-    //- Cover page
-    if pageCurrent == 0
-      div(class="content")
-        h1 #{settings.title}
-        if settings.sub_title
-          h2 #{settings.sub_title}
-        p(class="description") #{settings.description}
-        != content
-        if settings.show_table_of_contents
-          //- TOC
-          div(class="toc")
-            h3 Table of contents
-            ul
-              for page, index in settings.contents
-                if index > 0
-                  li
-                    if title == page.title
-                      a(href=page.slug class="bold") #{page.title}
-                    else
-                      a(href=page.slug) #{page.title}
-        else
-          p
-            a(href=pageNext) Read the report
-    //- Content pages          
-    else
-      div(class="content")
-        h1 #{title}
-        != content
     div(id="contents")
       div
         h2 Contents
@@ -71,6 +44,35 @@ html(lang="en")
                 a(href=page.slug class="bold") #{page.title}
               else
                 a(href=page.slug) #{page.title}
+    //- Cover page
+    main(id="content")
+      if pageCurrent == 0
+        section(class="content")
+          h1 #{settings.title}
+          if settings.sub_title
+            h2 #{settings.sub_title}
+          p(class="description") #{settings.description}
+          != content
+          if settings.show_table_of_contents
+            //- TOC
+            div(class="toc")
+              h3 Table of contents
+              ul
+                for page, index in settings.contents
+                  if index > 0
+                    li
+                      if title == page.title
+                        a(href=page.slug class="bold") #{page.title}
+                      else
+                        a(href=page.slug) #{page.title}
+          else
+            p
+              a(href=pageNext) Read the report
+      //- Content pages
+      else
+        div(class="content")
+          h1 #{title}
+          != content
     if pageCurrent != 0
       nav
         p(class="previous")

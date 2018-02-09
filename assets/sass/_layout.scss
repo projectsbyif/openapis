@@ -1,3 +1,11 @@
+#skip_to_content {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+}
+
 header {
   height: $height-header;
   margin-bottom: $default-spacing-big;
@@ -72,14 +80,14 @@ header {
   }
   ul {
     li {
-      margin-bottom: $default-spacing-small / 3; 
+      margin-bottom: $default-spacing-small / 3;
     }
   }
 }
 
 .content {
   padding: $default-spacing-small;
-  
+
   &:last-of-type {
     margin-bottom: 0;
   }
