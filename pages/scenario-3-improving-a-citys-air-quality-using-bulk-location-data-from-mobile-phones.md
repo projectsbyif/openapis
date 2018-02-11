@@ -44,7 +44,7 @@ The council will also use variable display devices at strategic locations in the
 
 During the trial itself, the privately operated WiFi hotspot screens will be switched from advertising mode to a notification screen. This will display the number of users and allow users to opt out.
 
-![Left: a wifi hotspot with a screen announcing that locations are being tracked. It says 'hold your phone here to remove tracking' Right: The screen switched to saying 'hold 2 more seconds to remove location tracking'](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/data-for-research-campaigns-4.png)
+![Left: a wifi hotspot with a screen announcing that locations are being tracked. It says 'hold your phone here to remove tracking' Right: The screen switched to saying 'hold 2 more seconds to remove location tracking'](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bus-stop-ad_v1.gif)
 
 [end_highlight]
 

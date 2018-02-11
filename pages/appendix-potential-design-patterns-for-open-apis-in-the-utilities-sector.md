@@ -24,7 +24,7 @@ The prototyping for this report uncovered several potential [design patterns](ht
 
 Deciding what types of data one service is allowed request from another using an Open API. This empowers people to control what data they reveal to an organisation.
 
-![Left screen asking for the two most important features out of blocked websites, price, privacy policy, signal strength and social responsibility. Right screen shows AutoSwap requesting to access to recent locations, data, tariff and billing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-23_v2.jpg)
+![Screen shows AutoSwap requesting to access recent locations, data, tariff and billing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Pattern_select_what_data_a_service-can_share.jpg)
 
 ## Authorising using a letter
 
@@ -64,13 +64,13 @@ Over time as trust increases, more automony may be acceptable to switch automati
 
 To accompany an automated action like switching phone company, plenty of notice should be given to allow the person to review or cancel the action.
 
-![Left: an email preview saying 'Autoswap will switch you from Fonico to Squid in 3 days because of better signal strength on your regular locations'. Right: A timeline of phone companies, showing when you switched and how long you were with each one, and how much you spent](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-89_v2.jpg)
+![An email preview saying 'Autoswap will switch you from Fonico to Squid in 3 days because of better signal strength on your regular locations'.](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Pattern_future_switch_notice.jpg)
 
 ## Account history across providers
 
 Seeing history of data usage, access and spending for one person from a series of historical accounts.
 
-![Left: an email preview saying 'Autoswap will switch you from Fonico to Squid in 3 days because of better signal strength on your regular locations'. Right: A timeline of phone companies, showing when you switched and how long you were with each one, and how much you spent](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-89_v2.jpg)
+![A timeline of phone companies, showing when you switched and how long you were with each one, and how much you spent](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Pattern_account_history_across_providers.jpg)
 
 ## Displaying multiple utilities
 
@@ -111,7 +111,7 @@ Communicating that certain data about you is collected when entering a space. In
 
 Explaining potential data collection in plain, accessible language. 
 
-![Left: an SMS notifying that mobile phone locations will be collected. Right: a web page with subtitles about the collection, including what's being colleted, how it works, how data will be minimised, how to opt out](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Saxford-council_prototype-v1.jpg)
+![A web page with subtitles about the collection, including what's being colleted, how it works, how data will be minimised, how to opt out](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Pattern_human-readable_data_request.jpg)
 
 ## Machine-readable data request
 
@@ -134,13 +134,13 @@ Before data collection happens, people are given ample time to find out more and
 Text messages to inform people of data collection and replying to opt-out. Text messages can be sent to people in specific locations using a system like [Cell Broadcast.](https://en.wikipedia.org/wiki/Cell_Broadcast)
 
 
-![Left: an SMS notifying that mobile phone locations will be collected. Right: a web page with subtitles about the collection, including what's being collected, how it works, how data will be minimised, how to opt out](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Saxford-council_prototype-v1.jpg)
+![Left: an SMS notifying that mobile phone locations will be collected and how to opt out by replying 'STOP'](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Pattern_opting_out_by_text.jpg)
 
 ## Opting out by WiFi proximity 
 
 Holding a phone close to a WiFi hotspot to stop it collecting data about you. The hotspot detects the device is close by the latency and radio strength. 
 
-![Left: a wifi hotspot with a screen announcing that locations are being tracked. It says 'hold your phone here to remove tracking' Right: The screen switched to saying 'hold 2 more seconds to remove location tracking'](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/data-for-research-campaigns-4.png)
+![A wifi hotspot with a screen announcing that locations are being tracked. It says 'hold your phone here to remove tracking'. The screen switched to saying 'hold 2 more seconds to remove location tracking'](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bus-stop-ad_v1.gif)
 
 
 
