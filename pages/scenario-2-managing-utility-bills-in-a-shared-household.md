@@ -1,8 +1,6 @@
-When people live together in shared houses they may take on shared responsibility for paying and managing the bills. In many households, people come and go periodically.
+When people live together in a shared house, they may take on shared responsibility for paying and managing the bills. In many households, people come and go periodically.
 
-Most utility companies do not optmise for this complexity - instead defaulting to a single, individual account holder and shifting the administrative burden on to them.
-
-When things go wrong, companies will only speak to the account holder. People joining or leaving a household also involves additional overhead.
+Most utility companies do not optmise for this complexity - instead defaulting to a single, individual account holder and shifting the administrative burden on to them. When things go wrong, companies will only speak to the account holder. People joining or leaving a household also involves additional overhead.
 
 What if it was simple to deal with companies as a group, while also allowing individuals to retain control over the data held about them? How might decision making work? What if utilities could be &rsquo;handed over&rsquo; to the next occupier, just like keys?
 
@@ -72,15 +70,11 @@ And perhaps Bills Box will make your life simpler, next time you move into a new
 
 ## Summary of findings
 
-We learned that although people in shared houses use digital tools to help manage their bills - for example though the use of messenger apps - the experience is sub-optimal.
-
-There was a lot of enthusiasm for group consent for joint decisions and shared data, like those in shared households.
+We learned that although people in shared houses use digital tools to help manage their bills - for example though the use of messenger apps - the experience is sub-optimal. There was a lot of enthusiasm for group consent for joint decisions and shared data, like those in shared households.
 
 ### All the bills in one place
 
-The prospect of being able to see and manage all your bills in one place was well received by nearly everyone we spoke to. Some people said they would feel more in control by seeing how much they need to pay and how much they were using.
-
-A couple of participants said they would be nervous about so much utilities data about them being available from their phone or single service like Bills Box.
+The prospect of being able to see and manage all your bills in one place was well received by nearly everyone we spoke to. Some people said they would feel more in control by seeing how much they need to pay and how much they were using. A couple of participants said they would be nervous about so much utilities data about them being available from their phone or single service like Bills Box.
 
 ### Shared billing
 
@@ -90,9 +84,7 @@ The potential to share rights and responsibilities for bills and data was someth
 
 ### Moving house
 
-Nearly each person we spoke was very positive about the idea they could move and transfer bills when moving house. They spoke about saving all the time involved when cancelling and setting up billing from one property to the next.
-
-The concept was especially promising to those we spoke to who rent, moving house more often with a regular churn of people moving in and out.
+Nearly everyone we spoke to was positive about the idea they could move and transfer bills when moving house. They spoke about saving all the time involved when cancelling and setting up billing from one property to the next. The concept was especially promising to those we spoke to who rent, moving house more often with a regular churn of people moving in and out.
 
 ## Potential design patterns from this prototype
 
