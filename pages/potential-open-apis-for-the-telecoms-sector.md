@@ -1,4 +1,6 @@
-Prototyping for the 3 scenarios shown in this report allowed us to understand the APIs that would need to exist to build them for real. 
+# Potential open APIs for the telecoms sector
+
+Prototyping for the 3 scenarios shown in this report allowed us to understand the APIs that would need to exist to build them for real.
 
 ##Potential APIs
 

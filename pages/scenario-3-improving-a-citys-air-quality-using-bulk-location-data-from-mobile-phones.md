@@ -1,3 +1,6 @@
+###### Scenario 3
+# Improving a city's air quality using bulk location data from mobile phones
+
 Telecommunication providers generate a huge amount of data about people&rsquo;s activities from running their services.
 
 Through cell towers, mobile phone companies know the approximate location of all their subscribers at all times, while WiFi hotspot providers record the venues that people frequent, and laws such as the [Investigatory Powers Act](http://www.legislation.gov.uk/ukpga/2016/25/contents/enacted) require internet service providers to retain &lsquo;Internet Connection Records&rsquo; for their users&rsquo; network usage.
@@ -23,7 +26,7 @@ Although we have rich, street-level data about air quality in Saxford, we lack f
 The Council is confident that cellular location and WiFi hotspot data would help provide the information we need. We have applied to the Data Protection Office for permission to request bulk data from two telecommunications companies:
 
  * Morlyn Mobile
- * Cabler Telecom 
+ * Cabler Telecom
 
 
 You are invited to read and comment on the full request, [which is available on saxford.gov.uk](https://gist.github.com/paulfurley/21ac195a66803588a27870f634dfef02#file-collection_request-md) and as [machine-readable data.](https://gist.githubusercontent.com/paulfurley/21ac195a66803588a27870f634dfef02/raw/75910d4dd41091f1fd7e49636169c0e09957b76c/collection_request.json)
@@ -44,7 +47,7 @@ The council will also use variable display devices at strategic locations in the
 
 During the trial itself, the privately operated WiFi hotspot screens will be switched from advertising mode to a notification screen. This will display the number of users and allow users to opt out.
 
-![Left: a wifi hotspot with a screen announcing that locations are being tracked. It says 'hold your phone here to remove tracking' Right: The screen switched to saying 'hold 2 more seconds to remove location tracking'](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/data-for-research-campaigns-4.png)
+![A large screen on a bus stop announcing that locations are being tracked. It says 'hold your phone here to remove tracking'. The screen switches to saying 'hold 2 more seconds to remove location tracking'](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bus-stop-ad_v1.gif)
 
 [end_highlight]
 
@@ -52,7 +55,7 @@ During the trial itself, the privately operated WiFi hotspot screens will be swi
 
 ### Using data to improve air quality
 
-When it helps make positive changes for their community people responded well to a council using data about them. It was clear that people felt they wanted to understand what data would be collected, when it will happen and why. 
+When it helps make positive changes for their community people responded well to a council using data about them. It was clear that people felt they wanted to understand what data would be collected, when it will happen and why.
 
 ### Public notices
 
@@ -87,4 +90,3 @@ As such, undertanding how people can meaningfully opt-out of data collection in 
 * [Machine readable policies](/appendix-potential-open-apis-for-the-telecoms-sector#machinereadablepolicies)
 * [Access to anonymised bulk data](/appendix-potential-open-apis-for-the-telecoms-sector#accesstoanonymisedbulkdata)
 * [Opt-out for bulk data collection](/appendix-potential-open-apis-for-the-telecoms-sector#optoutforbulkdatacollection)
-

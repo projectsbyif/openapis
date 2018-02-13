@@ -10,11 +10,17 @@ $(function() {
       'right': -$('#contents').outerWidth()
     }).show().animate({
       'right': 0
-    }, 250);
+    }, 250, function() {
+      if ($(window).width() < 800) {
+        $('body').children().not('#contents').hide();
+      }
+    });
   });
 
   $('#close_contents').click(function(e) {
     e.preventDefault();
+
+    $('body').children().not('#contents').show();
 
     $('#contents').animate({
       'right': -$('#contents').outerWidth()

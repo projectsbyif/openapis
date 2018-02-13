@@ -8,6 +8,7 @@ var slugify = require('slug');
 var showdown = require('showdown');
 var fs = require('fs');
 var helmet = require('helmet');
+var _ = require('lodash');
 
 app.use(helmet());
 
@@ -30,32 +31,42 @@ function generatePages() {
 
   // Create a contents object in global settings
   settings.contents = [];
+  settings.contents_appendices = [];
 
   // Generate pages from settings.yaml
-  for (var id in settings.pages) {
-    var id = parseInt(id);
-    var title = settings.pages[id];
-    var file = slugify(title).toLowerCase()
-    var slug = "/" + file;
+  settings.pages.forEach(function(page, id) {
+    var file = slugify(page.title).toLowerCase();
+    var slug = '/' + file;
+    var pageClass = page.class;
 
-    // If this is the first page, make it the root
     if (id === 0) {
-      slug = "/";
+      slug = '/';
     }
 
-    settings.contents.push({
-      title: title,
-      slug: slug
-    });
+    if (page.appendix) {
+      settings.contents_appendices.push({
+        title: page.title,
+        slug: slug,
+        custom_contents: page.custom_contents
+      });
+    } else {
+      settings.contents.push({
+        title: page.title,
+        slug: slug,
+        custom_contents: page.custom_contents
+      });
+    }
 
-    generatePage(id, title, slug, file);
-  }
+    generatePage(id, page.title, slug, file, pageClass);
+  });
+
+  settings.contents_combined = _.concat(settings.contents, settings.contents_appendices);
 }
 
 const HIGHLIGHT_START = "<p>[start_highlight]</p>";
 const HIGHLIGHT_END = "<p>[end_highlight]</p>";
 
-function generatePage(id, title, slug, file) {
+function generatePage(id, title, slug, file, pageClass) {
   fs.readFile('pages/' + file + '.md', 'utf8', function(err, data) {
     // Throw an error for page files that can't be found
     if (err) {
@@ -70,12 +81,12 @@ function generatePage(id, title, slug, file) {
 
     // Find the next page
     if (settings.pages[id + 1]) {
-      pageNext = slugify(settings.contents[id + 1].slug).toLowerCase();
+      pageNext = slugify(settings.contents_combined[id + 1].slug).toLowerCase();
     }
 
     // Find the previous page
     if (settings.pages[id - 2]) {
-      pagePrevious = slugify(settings.contents[id - 2].slug).toLowerCase();
+      pagePrevious = slugify(settings.contents_combined[id - 2].slug).toLowerCase();
     }
 
     // Create captions by stripping out CAPTION_TAG
@@ -106,7 +117,8 @@ function generatePage(id, title, slug, file) {
         pageCurrent: id,
         pageNext: pageNext,
         pagePrevious: pagePrevious,
-        contents: settings.contents
+        contents: settings.contents,
+        pageClass: pageClass
       });
     });
   });
@@ -129,34 +141,28 @@ function checkPages() {
     });
 
     // Loop through each found page file
-    for (var file in pageFiles) {
+
+    pageFiles.forEach(function(file, index) {
       var found = false;
-      file = pageFiles[file];
 
-      // Compare it against the pages in settings.yaml
-      for (var page in settings.pages) {
-        page = slugify(settings.pages[page]).toLowerCase();
+      settings.pages.forEach(function(page, index) {
+        page = slugify(page.title).toLowerCase();
 
-        // Set the flag if it's found
         if (file === page) {
           found = true;
         }
-      }
+      });
 
-      // If it isn't found, put it into the unusedFiles array
       if (!found) {
         unusedFiles.push(file);
       }
-    }
+    });
 
-    // Show a warning in the console if there are extra page files
-    for (var file in unusedFiles) {
-      file = unusedFiles[file];
-
+    unusedFiles.forEach(function(file, index) {
       if (file !== "cover") {
-        console.log("[WARN] Unused file pages/" + file + ".md");
+        console.log(`[WARN] Unused file pages/${file}.md`);
       }
-    }
+    })
   });
 }
 

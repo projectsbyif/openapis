@@ -1,3 +1,6 @@
+###### Scenario 2
+# Managing utility bills in a shared household
+
 When people live together in shared houses they may take on shared responsibility for paying and managing the bills. In many households, people come and go periodically.
 
 Most utility companies do not optmise for this complexity - instead defaulting to a single, individual account holder and shifting the administrative burden on to them.

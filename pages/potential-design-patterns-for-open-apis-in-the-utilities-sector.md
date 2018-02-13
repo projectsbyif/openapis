@@ -1,3 +1,5 @@
+# Potential design patterns for open APIs in the utilities sector
+
 The prototyping for this report uncovered several potential [design patterns](https://catalogue.projectsbyif.com) for solving different problems, from authentication to giving consent to controlling access and transparency. We believe many of these may be useful for designing services for open APIs in the wider utilities sector.
 
 * [Select what data a service can share](#selectwhatdataaservicecanshare)
@@ -18,7 +20,7 @@ The prototyping for this report uncovered several potential [design patterns](ht
 * [Minimising data collection](#minimisingdatacollection)
 * [Plenty of time to opt-out](#plentyoftimetooptout)
 * [Opting out by text](#optingoutbytext)
-* [Opting out by WiFi proximity](#optingoutbywifiproximity) 
+* [Opting out by WiFi proximity](#optingoutbywifiproximity)
 
 ## Select what data a service can share
 
@@ -56,7 +58,7 @@ There are parallels with electricity meters in the home which are considered as 
 
 Giving delegated authority to automatically find and switch service providers. The first step is setting preferences to seed recommendations and initially there is no automation.
 
-Over time as trust increases, more automony may be acceptable to switch automatically without explicit permission each time. 
+Over time as trust increases, more automony may be acceptable to switch automatically without explicit permission each time.
 
 ![Left: an email preview saying 'Autoswap will switch you from Fonico to Squid in 3 days because of better signal strength on your regular locations'. Right: A timeline of phone companies, showing when you switched and how long you were with each one, and how much you spent](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-89_v2.jpg)
 
@@ -80,7 +82,7 @@ Multiple utilities visible and manageable from one service.
 
 ## Adding another person to an account
 
-Codes generated to share the rights and responsibilities for a bill and shared data. 
+Codes generated to share the rights and responsibilities for a bill and shared data.
 
 ![The left phone generates a QR code to add a housemate, and the right phone scans it to join the house](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox_screen-45_v1.jpg)
 
@@ -96,7 +98,7 @@ Collecting consent for group decisions for actions which affect multiple account
 
 ## Handing over accounts to new people
 
-Allowing people to take over rights and responsibility for bills. 
+Allowing people to take over rights and responsibility for bills.
 
 ![A letter to the new tenants in a house with costs of the bills from previous months, and offering to take over the bills using a unique code](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox-setup-bills-letter_v1.jpg)
 
@@ -109,7 +111,7 @@ Communicating that certain data about you is collected when entering a space. In
 
 ## Human-readable data request
 
-Explaining potential data collection in plain, accessible language. 
+Explaining potential data collection in plain, accessible language.
 
 ![Left: an SMS notifying that mobile phone locations will be collected. Right: a web page with subtitles about the collection, including what's being colleted, how it works, how data will be minimised, how to opt out](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Saxford-council_prototype-v1.jpg)
 
@@ -123,11 +125,11 @@ Data requests could be submitted to regulators, posted to public notices, and su
 
 ## Minimising data collection
 
-Limiting bulk data collection to certain times, location accuracy and other restrictions, to ensure data doesn't contain personally identifiable information. 
+Limiting bulk data collection to certain times, location accuracy and other restrictions, to ensure data doesn't contain personally identifiable information.
 
 ## Plenty of time to opt-out
 
-Before data collection happens, people are given ample time to find out more and decide whether to opt-out or not. 
+Before data collection happens, people are given ample time to find out more and decide whether to opt-out or not.
 
 ## Opting out by text
 
@@ -136,11 +138,8 @@ Text messages to inform people of data collection and replying to opt-out. Text 
 
 ![Left: an SMS notifying that mobile phone locations will be collected. Right: a web page with subtitles about the collection, including what's being collected, how it works, how data will be minimised, how to opt out](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Saxford-council_prototype-v1.jpg)
 
-## Opting out by WiFi proximity 
+## Opting out by WiFi proximity
 
-Holding a phone close to a WiFi hotspot to stop it collecting data about you. The hotspot detects the device is close by the latency and radio strength. 
+Holding a phone close to a WiFi hotspot to stop it collecting data about you. The hotspot detects the device is close by the latency and radio strength.
 
 ![Left: a wifi hotspot with a screen announcing that locations are being tracked. It says 'hold your phone here to remove tracking' Right: The screen switched to saying 'hold 2 more seconds to remove location tracking'](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/data-for-research-campaigns-4.png)
-
-
-

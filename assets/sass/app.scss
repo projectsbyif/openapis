@@ -3,6 +3,7 @@
 @import "reset";
 @import "type";
 @import "layout";
+@import "page_styles";
 
 ::selection {
   background: #212121;
@@ -19,8 +20,4 @@ blockquote {
     font-style: italic;
   }
   background-color: rgb(245, 245, 245);
-}
-
-strong {
-  font-weight: bold;
 }

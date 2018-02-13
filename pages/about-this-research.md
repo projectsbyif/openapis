@@ -1,6 +1,8 @@
+# About this research
+
 We began the work by asking the question, **what types of data do telecom companies hold?**
 
-To answer this, we interviewed five people working in the telecom sectors in the UK and France including mobile and fixed line. 
+To answer this, we interviewed five people working in the telecom sectors in the UK and France including mobile and fixed line.
 
 We also studied the legislation that requires telecoms companies to retain certain information.
 

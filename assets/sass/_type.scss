@@ -13,6 +13,10 @@ em {
   font-style:italic;
 }
 
+strong {
+  font-family: "Calibre-Semibold", "Helvetica Neue", "Arial", sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-header;
 }
@@ -25,20 +29,30 @@ h1 {
 
 h2 {
   font-family: "Calibre-Bold", "Helvetica Neue", "Arial", sans-serif;
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 1.1;
   text-transform: uppercase;
   color: #545454;
   margin-bottom: $default-spacing-small;
+  margin-top: $default-spacing-big;
 }
 
 h3 {
   font-size: 1em;
   margin-bottom: $default-spacing-small;
+  margin-top: $default-spacing-big;
 }
 
 h4, h5, h6 {
   margin-bottom: $default-spacing-small;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  margin-bottom: 3px;
+  font-family: "Calibre-Bold", "Helvetica Neue", "Arial", sans-serif;
+  color: #212121;
 }
 
 p {
@@ -74,7 +88,7 @@ blockquote {
   a {
     background-repeat: repeat-x;
     background-image: url("/public/images/line-black.svg");
-    background-size: 6px 6px;
+    background-size: 4px 7px;
     background-position: 0 0.7em;
 
     &:hover {
@@ -111,21 +125,13 @@ blockquote {
   }
 }
 
-#contents ul li a {
-  border-bottom: #000 1px solid;
-}
-
 .bold {
   font-family: $font-family-bold;
-}
+  color: $color-orange;
 
-#link_contents {
-  border-bottom: 0;
-  font-size: 12px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-family: $font-family-header;
-  line-height: $height-header;
+  .content_sublabel {
+    color: $color-orange !important;
+  }
 }
 
 #in_collaboration_with {
@@ -145,8 +151,10 @@ blockquote {
   h2 {
     text-transform: uppercase;
     font-size: 0.8em;
+    margin-bottom: 0;
   }
   h3 {
+    margin-top: 0;
     margin-bottom: $default-spacing-small;
     font-size: 1.4em;
   }
@@ -168,7 +176,7 @@ blockquote {
   font-size:0.9em;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 800px) {
   body {
     font-size: 22px;
   }
