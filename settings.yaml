@@ -35,7 +35,7 @@ facebook_card_image: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/
 twitter_card_image: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/fb-image.png
 
 # TOC
-show_table_of_contents: true
+show_table_of_contents: false
 
 # Social media links
 twitter_card_handle: @projectsbyif
