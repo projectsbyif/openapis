@@ -80,13 +80,13 @@ function generatePage(id, title, slug, file, pageClass) {
     var content = mdConverter.makeHtml(data)
 
     // Find the next page
-    if (settings.pages[id + 1]) {
+    if (settings.contents_combined[id + 1]) {
       pageNext = slugify(settings.contents_combined[id + 1].slug).toLowerCase();
     }
 
     // Find the previous page
-    if (settings.pages[id - 2]) {
-      pagePrevious = slugify(settings.contents_combined[id - 2].slug).toLowerCase();
+    if (settings.contents_combined[id - 2]) {
+      pagePrevious = slugify(settings.contents_combined[id - 1].slug).toLowerCase();
     }
 
     // Create captions by stripping out CAPTION_TAG
@@ -113,11 +113,10 @@ function generatePage(id, title, slug, file, pageClass) {
         slug: slug,
         content: content,
         settings: settings,
-        pageCount: settings.pages.length - 1,
+        pageCount: settings.contents_combined.length - 1,
         pageCurrent: id,
-        pageNext: pageNext,
-        pagePrevious: pagePrevious,
-        contents: settings.contents,
+        pageNext: '/' + pageNext,
+        pagePrevious: '/' + pagePrevious,
         pageClass: pageClass
       });
     });

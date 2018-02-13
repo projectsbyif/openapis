@@ -90,26 +90,32 @@ html(lang="en")
       else
         div(class="content")
           != content
-    if pageCurrent != 0
-      nav
-        p(class="previous")
-          if pageCurrent == 1
-            a(href=pagePrevious) Home
-          else
-            a(href=pagePrevious) Previous page
-        p(class="counter") #{pageCurrent} of #{pageCount}
-        p(class="next")
-          if pageCurrent == pageCount
-            a(href=pageNext) Home
-          else
-            a(href=pageNext) Next page
-    else
-      nav
-        p(class="previous_contents")
-          a(href=pagePrevious) Contents
-        p(class="counter")
-        p(class="next")
-          a(href=pageNext) Read the report
+    nav
+      div(class="previous")
+        if pageCurrent == 1
+          a(href="/")
+            img(src="/public/images/pointer-left.svg")
+            span Home
+        else if pageCurrent != 0
+          a(href=pagePrevious)
+            img(src="/public/images/pointer-left.svg")
+            span Previous page
+      div(class="counter")
+        if pageCurrent != 0
+          p #{pageCurrent} of #{pageCount}
+      div(class="next")
+        if pageCurrent == 0
+          a(href=pageNext)
+            span Read the report
+            img(src="/public/images/pointer-right.svg")
+        else if pageCurrent == pageCount
+          a(href="/")
+            span Home
+            img(src="/public/images/pointer-right.svg")
+        else
+          a(href=pageNext)
+            span Next page
+            img(src="/public/images/pointer-right.svg")
     if settings.show_collaborator_logo || settings.show_licence
       footer
         if settings.show_collaborator_logo

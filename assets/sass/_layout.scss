@@ -174,49 +174,52 @@ nav {
   margin-top: calc(#{$default-spacing-big} - 20px);
   height: $height-nav;
 
-  .previous_contents,
-  .previous,
-  .next,
-  .counter {
+  div {
+    width: 33.333%;
     float: left;
-    margin-bottom: 0;
     height: $height-nav;
-    line-height: calc(#{$height-nav} + 8px);
   }
 
-  .previous_contents,
-  .previous,
-  .next {
+  a {
+    height: $height-nav;
     width: $height-nav;
-    height: $height-nav;
-    background-repeat: no-repeat;
-    background-size: 30% 30%;
-    text-indent: -9999px;
+    display: block;
   }
 
-  .previous_contents {
-    opacity: 0;
+  span {
+    display: none;
+  }
+
+  img {
+    height: 18px;
+    margin-top: 22px;
   }
 
   .previous {
-    background-image: url('/public/images/pointer-left.svg');
-    background-position: center left;
-  }
 
-  .next {
-    background-image: url('/public/images/pointer-right.svg');
-    background-position: center right;
   }
 
   .counter {
     text-align: center;
-    width: calc(100% - (2 * #{$height-nav}));
+
+    p {
+      margin-top: 22px;
+    }
+  }
+
+  .next {
+    text-align: right;
+
+    a {
+      float: right;
+    }
   }
 }
 
 footer {
   border-top: #{$color-accent} 1px solid;
 }
+
 #in_collaboration_with {
   padding: #{$default-spacing-small} #{$default-spacing-small} 10px #{$default-spacing-small};
 
@@ -281,7 +284,6 @@ footer {
       height: auto;
       top: 25px;
     }
-
   }
 
   .content {
@@ -317,33 +319,22 @@ footer {
   }
 
   nav {
-    .counter {
-      width: 33.333% !important;
+    span {
+      display: inline;
+      top: -2px;
+      position: relative;
     }
 
-    .previous_contents,
-    .previous,
-    .next {
-      text-indent: 0;
-      width: 33.333% !important;
+    a {
+      width: 100%;
     }
 
-    .previous {
-      a {
-        padding-left: 18%;
-      }
+    .previous img {
+      margin-right: 3px;
     }
 
-    .next {
-      text-align: right;
-
-      a {
-        padding-right: 18%;
-      }
-    }
-
-    .previous_contents {
-      opacity: 0;
+    .next img {
+      margin-left: 3px;
     }
   }
 }
@@ -357,6 +348,10 @@ footer {
     border-bottom: 0;
   }
 
+  #contents {
+    display: none;
+  }
+
   header {
     height: auto;
     padding: $default-spacing-small;
@@ -365,6 +360,7 @@ footer {
     #site_title {
       display: inline;
       font-family: $font-family-bold;
+      margin-left: 0;
     }
 
     #logo {
@@ -377,7 +373,7 @@ footer {
     }
   }
 
-  #content {
+  .content {
     margin-bottom: 0;
 
     img {
