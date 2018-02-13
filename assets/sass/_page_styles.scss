@@ -1,0 +1,31 @@
+.cover-page {
+  main {
+    margin-top: 190px;
+  }
+}
+
+.scenario-1 {
+  .highlight-section {
+    background: #EEFDFF;
+  }
+}
+.scenario-2 {
+  .highlight-section {
+    background: #EDFFFB;
+  }
+}
+
+.scenario-3 {
+  .highlight-section {
+    background: #FEF1EA;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .cover-page {
+    main {
+      margin-top: 440px;
+      margin-bottom: 20px;
+    }
+  }
+}

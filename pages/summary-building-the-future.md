@@ -1,3 +1,6 @@
+###### Summary
+# Building the future
+
 ## Enabling new products and services
 
 Open APIs will enable easier switching, but we believe this will not just be about making it easier to get a better deal. It should make it possible for people to switch along axes other than price, for example in understanding privacy trade-offs or signal strength as was shown in the [AutoSwap prototype](/scenario-1-choosing-the-best-mobile-network-operator).
