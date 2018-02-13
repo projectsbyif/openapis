@@ -16,11 +16,11 @@ header {
 
   #logo {
     display: block;
-    width: 41px;
-    height: 55px;
+    width: 35px;
+    height: 48px;
     position: absolute;
-    top: 8px;
-    left: calc(50% - 20.5px);
+    top: 11px;
+    left: calc(50% - (35px / 2));
 
     img {
       width: 100%;
