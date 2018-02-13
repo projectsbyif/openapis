@@ -28,4 +28,12 @@ $(function() {
       $('#contents').hide();
     });
   });
+
+  $(window).on('resize', function() {
+    if ($(window).width() < 800 && $('#contents').is(":visible")) {
+      $('body').children().not('#contents').hide();
+    } else if ($(window).width() > 800 && $('#contents').is(":visible")) {
+      $('body').children().not('#contents').show();
+    }
+  });
 });

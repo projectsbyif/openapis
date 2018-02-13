@@ -73,6 +73,7 @@ header {
   width: calc(100vw - 60px);
   min-height: 100vh;
   background-color: #EDF0F2;
+  z-index: 9999;
 
   h1 {
     font-family: "Circular-Bold", "Helvetica Neue", "Arial", sans-serif;
@@ -306,10 +307,13 @@ footer {
   #contents {
     div {
       margin: 0 auto;
+      height: calc(100vh - 60px);
+      overflow-y: scroll;
     }
 
     &.hideable {
       width: 33vw;
+      position: fixed;
 
       div {
         width: 100%;
