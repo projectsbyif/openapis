@@ -20,6 +20,7 @@
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
     "helmet": "^3.10.0",
+    "lodash": "^4.17.5",
     "nodemon": "^1.14.12",
     "pug": "^2.0.0-beta11",
     "pump": "^1.0.3",

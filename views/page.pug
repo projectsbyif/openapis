@@ -25,7 +25,7 @@ html(lang="en")
     meta(name="twitter:image" content=settings.twitter_card_image)
     script(src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous")
     script(src="/public/js/app.js")
-  body
+  body(class=pageClass)
     a(id="skip_to_content" href="#content") Skip to content
     header
       a(id="logo" href="https://projectsbyif.com")
@@ -33,17 +33,38 @@ html(lang="en")
       if pageCurrent != 0
         a(id="site_title" href="/") #{settings.title}
       a(id="link_contents" href="#contents") Contents
+    if pageCurrent == 0
+      div(class="cover-image")
     div(id="contents")
       div
-        h2 Contents
+        h1 Contents
         a(id="close_contents" href="#") Close
-        ul
+        ul(class="contents_main")
           for page in settings.contents
             li
               if title == page.title
-                a(href=page.slug class="bold") #{page.title}
+                if page.custom_contents
+                  a(href=page.slug class="bold") !{page.custom_contents}
+                else
+                  a(href=page.slug class="bold") #{page.title}
               else
-                a(href=page.slug) #{page.title}
+                if page.custom_contents
+                  a(href=page.slug) !{page.custom_contents}
+                else
+                  a(href=page.slug) #{page.title}
+        ul(class="contents_appendices")
+          for page in settings.contents_appendices
+            li
+              if title == page.title
+                if page.custom_contents
+                  a(href=page.slug class="bold") !{page.custom_contents}
+                else
+                  a(href=page.slug class="bold") #{page.title}
+              else
+                if page.custom_contents
+                  a(href=page.slug) !{page.custom_contents}
+                else
+                  a(href=page.slug) #{page.title}
     //- Cover page
     main(id="content")
       if pageCurrent == 0
@@ -65,27 +86,30 @@ html(lang="en")
                         a(href=page.slug class="bold") #{page.title}
                       else
                         a(href=page.slug) #{page.title}
-          else
-            p
-              a(href=pageNext) Read the report
       //- Content pages
       else
         div(class="content")
-          h1 #{title}
           != content
     if pageCurrent != 0
       nav
         p(class="previous")
           if pageCurrent == 1
-            a(href=pagePrevious) &lt; #[span Home]
+            a(href=pagePrevious) Home
           else
-            a(href=pagePrevious) &lt; #[span Previous page]
+            a(href=pagePrevious) Previous page
         p(class="counter") #{pageCurrent} of #{pageCount}
         p(class="next")
           if pageCurrent == pageCount
-            a(href=pageNext) #[span Home] &gt;
+            a(href=pageNext) Home
           else
-            a(href=pageNext) #[span Next page] &gt;
+            a(href=pageNext) Next page
+    else
+      nav
+        p(class="previous_contents")
+          a(href=pagePrevious) Contents
+        p(class="counter")
+        p(class="next")
+          a(href=pageNext) Read the report
     if settings.show_collaborator_logo || settings.show_licence
       footer
         if settings.show_collaborator_logo

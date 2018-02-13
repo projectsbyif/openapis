@@ -1,3 +1,5 @@
+# An introduction to Open APIs
+
 ## APIs allow computers to communicate together
 
 An Application Programming Interface (API) is a channel for interacting with an organisation as an alternative to websites, apps, letters and phone calls.
@@ -20,4 +22,4 @@ By embracing Open APIs, powerful new services can exist that empower people in w
 
 For example, banking services in the UK are currently changing as part of the [the Open Banking Standard](https://www.openbanking.org.uk). It will allow totally new financial services to be developed using open APIs.
 
-Alongside banking, open APIs for telecoms could form a critical part of the UK&rsquo;s [data infrastructure ](https://theodi.org/what-is-data-infrastructure) with the potential to radically empower people.
+Alongside banking, open APIs for telecoms could form a critical part of the UK&rsquo;s [data infrastructure](https://theodi.org/what-is-data-infrastructure) with the potential to radically empower people.

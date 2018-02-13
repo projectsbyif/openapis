@@ -6,16 +6,28 @@ url: CHANGEME
 
 # Pages, and what order they're in
 pages:
-  - "Open APIs for telecoms"
-  - "An introduction to Open APIs"
-  - "Scenario 1: choosing the best mobile network operator"
-  - "Scenario 2: managing utility bills in a shared household"
-  - "Scenario 3: improving a city's air quality using bulk location data from mobile phones"
-  - "Summary: building the future"
-  - "Appendix: About this research"
-  - "Appendix: Potential design patterns for open APIs in the utilities sector"
-  - "Appendix: Potential open APIs for the telecoms sector"
-  - "Appendix: Supporting datasets to be made open"
+  - title: "Open APIs for telecoms"
+    class: "cover-page"
+  - title: "An introduction to Open APIs"
+  - title: "Scenario 1: choosing the best mobile network operator"
+    class: "scenario-1"
+    custom_contents: "<p><span class=\"content_sublabel\">Scenario 1</span><br />Choosing the best mobile network operator</p>"
+  - title: "Scenario 2: managing utility bills in a shared household"
+    class: "scenario-2"
+    custom_contents: "<p><span class=\"content_sublabel\">Scenario 2</span><br />Managing utility bills in a shared household</p>"
+  - title: "Scenario 3: improving a city's air quality using bulk location data from mobile phones"
+    class: "scenario-3"
+    custom_contents: "<p><span class=\"content_sublabel\">Scenario 3</span><br />Improving a city's air quality using bulk location data from mobile phones</p>"
+  - title: "Summary: building the future"
+    custom_contents: "<p><span class=\"content_sublabel\">Summary</span><br />Building the future</p>"
+  - title: "About this research"
+    appendix: true
+  - title: "Potential design patterns for open APIs in the utilities sector"
+    appendix: true
+  - title: "Potential open APIs for the telecoms sector"
+    appendix: true
+  - title: "Supporting datasets to be made open"
+    appendix: true
 
 # Design
 show_collaborator_logo: true
