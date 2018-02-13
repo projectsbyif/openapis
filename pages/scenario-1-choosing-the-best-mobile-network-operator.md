@@ -18,27 +18,27 @@ To explore these ideas, we prototyped a service called &lsquo;AutoSwap&rsquo;.
 
 AutoSwap recommends the perfect phone contract by learning and understanding your behavior.
 
-![AutoSwap start screen saying 'we help you find the perfect provider for your needs'](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-1_v2.jpg)
+![AutoSwap start screen saying 'we help you find the perfect provider for your needs'](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-1_v2.jpg)
 
 For many people, it&rsquo;s not just about price. AutoSwap lets you prioritise what matters to you, and takes that into account when searching for providers.
 
-![Left screen asking for the two most important features out of blocked websites, price, privacy policy, signal strength and social responsibility. Right screen shows AutoSwap requesting to access to recent locations, data, tariff and billing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-23_v2.jpg)
+![Left screen asking for the two most important features out of blocked websites, price, privacy policy, signal strength and social responsibility. Right screen shows AutoSwap requesting to access to recent locations, data, tariff and billing](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-23_v2.jpg)
 
 With your permission, it uses the new Open Utility APIs to understand the types of calls you make, your internet usage and the areas where you really need good signal.
 
-![Left: A text message asking permission to share data with AutoSwap and a reply saying ALLOW. Right: AutoSwap fetching frequent locations, data usage, tariff, nearby cell towers and more](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-45_v2.jpg)
+![Left: A text message asking permission to share data with AutoSwap and a reply saying ALLOW. Right: AutoSwap fetching frequent locations, data usage, tariff, nearby cell towers and more](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-45_v2.jpg)
 
 By using your location data, AutoSwap can work out your commute and find the provider with the best signal strength for you and display it to you on a map.
 
-![Left: Autoswap showing your current mobile tariff with a map of signal strength. Right: Autoswap recommending a new phone company based on signal strength, and a map illustrating the improved signal over your normal commuting route](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-67_v2.jpg)
+![Left: Autoswap showing your current mobile tariff with a map of signal strength. Right: Autoswap recommending a new phone company based on signal strength, and a map illustrating the improved signal over your normal commuting route](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-67_v2.jpg)
 
 Once you&rsquo;ve chosen a new provider, we&rsquo;ll send you a flexible SIM card which supports all UK telecoms companies. Next time you won&rsquo;t need to fiddle around swapping SIM cards, and it&rsquo;ll be even easier to switch again.
 
-![A 'flexible SIM card' with lots of phone companies icons printed on it, and a phone with its SIM card drawer open](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Flexible-SIM-card_v1.jpg)
+![A 'flexible SIM card' with lots of phone companies icons printed on it, and a phone with its SIM card drawer open](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Flexible-SIM-card_v1.jpg)
 
 If your usage changes or a company launches a new deal, AutoSwap will immediately recalculate its recommendation. It can even switch provider automatically for you, handling all the paperwork and payments.
 
-![Left: an email preview saying 'Autoswap will switch you from Fonico to Squid in 3 days because of better signal strength on your regular locations'. Right: A timeline of phone companies, showing when you switched and how long you were with each one, and how much you spent](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-89_v2.jpg)
+![Left: an email preview saying 'Autoswap will switch you from Fonico to Squid in 3 days because of better signal strength on your regular locations'. Right: A timeline of phone companies, showing when you switched and how long you were with each one, and how much you spent](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-89_v2.jpg)
 
 [end_highlight]
 

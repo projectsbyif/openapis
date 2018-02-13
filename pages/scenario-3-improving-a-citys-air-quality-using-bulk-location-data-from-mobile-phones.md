@@ -37,17 +37,17 @@ The Council will take every practical measure to ensure citizens are informed ab
 
 The council will use the [Cell Broadcast](https://en.wikipedia.org/wiki/Cell_Broadcast) system to issue SMS alerts to people entering the affected area during the 30 days preceding the trial.
 
-![Left: an SMS notifying that mobile phone locations will be collected. Right: a web page with subtitles about the collection, including what's being collected, how it works, how data will be minimised, how to opt out](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Saxford-council_prototype-v1.jpg)
+![Left: an SMS notifying that mobile phone locations will be collected. Right: a web page with subtitles about the collection, including what's being collected, how it works, how data will be minimised, how to opt out](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Saxford-council_prototype-v1.jpg)
 
 The council will also use variable display devices at strategic locations in the city to alert pedestrians and drivers.
 
-![A portable electronic sign on the pavement notifying that mobile phone locations will be collected](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/variable-message-signs_v2.gif)
+![A portable electronic sign on the pavement notifying that mobile phone locations will be collected](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/variable-message-signs_v2.gif)
 
 #### Opting out
 
 During the trial itself, the privately operated WiFi hotspot screens will be switched from advertising mode to a notification screen. This will display the number of users and allow users to opt out.
 
-![A large screen on a bus stop announcing that locations are being tracked. It says 'hold your phone here to remove tracking'. The screen switches to saying 'hold 2 more seconds to remove location tracking'](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bus-stop-ad_v1.gif)
+![A large screen on a bus stop announcing that locations are being tracked. It says 'hold your phone here to remove tracking'. The screen switches to saying 'hold 2 more seconds to remove location tracking'](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bus-stop-ad_v1.gif)
 
 [end_highlight]
 
