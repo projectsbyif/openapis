@@ -10,10 +10,6 @@ header {
   height: $height-header;
   margin-bottom: $default-spacing-big;
 
-  #site_title {
-    display: none;
-  }
-
   #logo {
     display: block;
     width: 35px;
@@ -26,6 +22,24 @@ header {
       width: 100%;
       height: 100%;
     }
+  }
+
+  #site_title,
+  #link_contents {
+    border-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: $font-family-header;
+    line-height: $height-header;
+
+    &:hover {
+      color: #555;
+    }
+  }
+
+  #site_title {
+    display: none;
   }
 
   #link_contents {
@@ -155,6 +169,10 @@ footer {
 
 .licence {
   padding: 0 0 $default-spacing-small 0;
+
+  a {
+    color: #999;
+  }
 }
 
 .description{
@@ -186,19 +204,20 @@ footer {
       left: calc(50% - 25px);
     }
 
-    #link_contents {
-      font-size: 14px;
-      height: 96px;
-      line-height: 96px;
-      right: calc(2 * #{$default-spacing-small});
-    }
-
     #site_title {
       display: inline-block;
       height: 96px;
       line-height: 105px;
       position: absolute;
       left: calc(2 * #{$default-spacing-small});
+      font-size: 14px;
+    }
+
+    #link_contents {
+      font-size: 14px;
+      height: 96px;
+      line-height: 96px;
+      right: calc(2 * #{$default-spacing-small});
     }
   }
 
