@@ -1,5 +1,5 @@
 ###### Scenario 3
-# Improving a City’s Air Quality Using Bulk Location Data from Mobile Phones
+# Improving a city’s air quality using bulk location data from mobile phones
 
 Telecommunication providers generate a huge amount of data about people’s activities as they run their services.
 
@@ -48,7 +48,7 @@ The council will also use variable display devices placed at strategic locations
 
 During the trial itself, the privately operated WiFi hotspot screens will be switched from advertising mode to a notification screen. This will display the number of users and allow users to opt out.
 
-![A large screen on a bus stop announcing that locations are being tracked. It says 'hold your phone here to remove tracking'. The screen switches to saying 'hold 2 more seconds to remove location tracking'](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bus-stop-ad_v1.gif)
+![A wifi hotspot with a screen announcing that locations are being tracked. It says 'hold your phone here to remove tracking' Then, the screen switches to saying 'hold 2 more seconds to remove location tracking'](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bus-stop-ad_v1.gif)
 
 [end_highlight]
 

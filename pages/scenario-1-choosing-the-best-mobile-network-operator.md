@@ -1,5 +1,5 @@
 ###### Scenario 1
-# Choosing a New Mobile Network
+# Choosing a new mobile network
 
 There&rsquo;s no shortage of comparison websites: finding a new mobile phone contract or broadband provider is easier than ever. But today&rsquo;s comparison sites are typically geared towards price, helping people find the _cheapest_ deal.
 

@@ -1,4 +1,4 @@
-# Potential Open APIs for the Telecoms Sector
+# Potential open APIs for the telecoms sector
 
 Prototyping for the 3 scenarios shown in this report allowed us to understand the APIs that would need to exist if they were to be built.
 
@@ -42,7 +42,7 @@ There are some considerations for implementing this API:
 
 ### Access to service-specific usage data
 
-As people use telecoms companies, they generate a lot of data that’s typically locked inside the company. The company is able to mine that data for its own benefit while the person that generated the data has little access.
+As people use telecoms companies, they generate a lot of data that&rsquo;s typically locked inside the company. The company is able to mine that data for its own benefit while the person that generated the data has little access.
 
 * **Calls, texts and data usage** are the basic data needed for people to understand their usage and compare deals across different companies.
 * **Call detail records** contain more granular information about who people call, for how long and at what times of day.
@@ -51,7 +51,7 @@ As people use telecoms companies, they generate a lot of data that’s typically
 * **Social graph** information can be derived from the records of who people call, text and are typically nearby according to their location records.
 * **Internet connection records** detail every website people visit and every connection made by their apps. These are required to be held by the Investigatory Powers Act 2016, though the [public are largely unaware](https://www.independent.co.uk/life-style/gadgets-and-tech/news/snoopers-charter-investigatory-powers-bill-government-online-surveillance-majority-uk-unaware-a7749851.html) of this.
 
-[AutoSwap](/scenario-1-choosing-the-best-mobile-network-operator) demonstrated the power of combining a person’s location history with signal data. However, people should know what information is held about them and this should be made visible through APIs for transparency. For example:
+[AutoSwap](/scenario-1-choosing-the-best-mobile-network-operator) demonstrated the power of combining a person&rsquo;s location history with signal data. However, people should know what information is held about them and this should be made visible through APIs for transparency. For example:
 
 - Should people be able to access insights learned about them from the data they provided?
 - Is there a risk that showing people what&rsquo;s held about them might legitimise excessive collection of data?
@@ -75,8 +75,8 @@ To enable this, policies should be available as data and published through stand
 Many types of policy could be available through APIs:
 
 * **Terms and conditions** outline the agreement – or the terms of the contract – between the company and the user.
-* **Social responsibility policies** outline what the company’s values are and how it improves the world it operates in.
-* **Data protection and privacy policies** help people to understand how data is treated, including whether it’s sold to third parties.
+* **Social responsibility policies** outline what the company&rsquo;s values are and how it improves the world it operates in.
+* **Data protection and privacy policies** help people to understand how data is treated, including whether it&rsquo;s sold to third parties.
 * **Site-blocking policies** describe what filtering - or censorship - is carried out by the network, the default blocking policy, who provides the technology, what categories are blocked and how to dispute a blocked site.
 
 When policies are updated they should be version-controlled, with each version being available indefinitely.
@@ -91,10 +91,9 @@ The [air quality prototype](/scenario-3-improving-a-citys-air-quality-using-bulk
 
 This data could be made available through APIs with a built-in capability for minimising and anonymising data before handing it over.
 
-By removing personally identifiable information before the data is handed over, risk-averse public bodies would be in a better position to use it without fear of invading people’s privacy.
+By removing personally identifiable information before the data is handed over, risk-averse public bodies would be in a better position to use it without fear of invading people&rsquo;s privacy.
 
 We imagine bulk data APIs would have similarities to planning applications, with public notices, public scrutiny and the power for citizens being the object.
-
 
 * How do we ensure data applications are simple enough that anyone can understand and scrutinise them?
 
@@ -104,7 +103,7 @@ Bulk data collection should be private by design, but should also allow people a
 
 ## Further considerations
 
-Making these APIs available isn’t enough on its own. Real consideration needs to be given to designing access control and permissions systems that are both secure and legible to the people using them.
+Making these APIs available isn&rsquo;t enough on its own. Real consideration needs to be given to designing access control and permissions systems that are both secure and legible to the people using them.
 
-This requires investment in further research to understand what works, especially in areas where there are limited examples of what good design patterns look like, for example for multiple account holders and when there’s shared access to data.
+This requires investment in further research to understand what works, especially in areas where there are limited examples of what good design patterns look like, for example for multiple account holders and when there&rsquo;s shared access to data.
 

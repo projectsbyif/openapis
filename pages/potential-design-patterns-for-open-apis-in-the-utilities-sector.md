@@ -1,4 +1,4 @@
-# Potential Design Patterns for Open APIs in the Utilities Sector
+# Potential design patterns for open APIs in the utilities sector
 
 The prototyping for this report uncovered several potential [design patterns](https://catalogue.projectsbyif.com) for solving different problems, from authentication to giving consent to controlling access and transparency. Many of these could be useful for designing services for open APIs in the wider utilities sector.
 
@@ -26,7 +26,7 @@ The prototyping for this report uncovered several potential [design patterns](ht
 
 Deciding what types of data one service is allowed to request from another using an open API. This empowers people to control what data they reveal to an organisation.
 
-![Left screen asking for the two most important features out of blocked websites, price, privacy policy, signal strength and social responsibility. Right screen shows AutoSwap requesting to access to recent locations, data, tariff and billing](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-23_v2.jpg)
+![Screen shows AutoSwap requesting to access recent locations, data, tariff and billing](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Pattern_select_what_data_a_service-can_share.jpg)
 
 ## Authorise using a letter
 
@@ -61,20 +61,19 @@ Delegated authority allows a service to automatically find and switch service pr
 
 Over time, as trust increases, more autonomy might be acceptable, leading to automatic switches without explicit permission each time.
 
-
 ![Left: an email preview saying 'Autoswap will switch you from Fonico to Squid in 3 days because of better signal strength on your regular locations'. Right: A timeline of phone companies, showing when you switched and how long you were with each one, and how much you spent](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-89_v2.jpg)
 
 ## Future switch notice
 
 An automated action, like switching phone company, includes plenty of notice to allow the person to review or cancel the action.
 
-![Left: an email preview saying 'Autoswap will switch you from Fonico to Squid in 3 days because of better signal strength on your regular locations'. Right: A timeline of phone companies, showing when you switched and how long you were with each one, and how much you spent](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-89_v2.jpg)
+![An email preview saying 'Autoswap will switch you from Fonico to Squid in 3 days because of better signal strength on your regular locations'.](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Pattern_future_switch_notice.jpg)
 
 ## Account history across providers
 
 A visible history of data usage, access and spending for one person from a series of historical accounts.
 
-![Left: an email preview saying 'Autoswap will switch you from Fonico to Squid in 3 days because of better signal strength on your regular locations'. Right: A timeline of phone companies, showing when you switched and how long you were with each one, and how much you spent](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/AutoSwap_screen-89_v2.jpg)
+![A timeline of phone companies, showing when you switched and how long you were with each one, and how much you spent](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Pattern_account_history_across_providers.jpg)
 
 ## Display multiple utilities
 
@@ -115,7 +114,7 @@ Communicate when certain data about a person is collected as  they enter a space
 
 Explain potential data collection in plain, accessible language.
 
-![Left: an SMS notifying that mobile phone locations will be collected. Right: a web page with subtitles about the collection, including what's being colleted, how it works, how data will be minimised, how to opt out](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Saxford-council_prototype-v1.jpg)
+![A web page with subtitles about the collection, including what's being colleted, how it works, how data will be minimised, how to opt out](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Pattern_human-readable_data_request.jpg)
 
 ## Machine-readable data request
 
@@ -139,7 +138,7 @@ Before data collection happens, people are given ample time to find out more and
 Text messages inform people of data collection and let them reply to opt out. Text messages can be sent to people in specific locations using a system such as [Cell Broadcast.](https://en.wikipedia.org/wiki/Cell_Broadcast)
 
 
-![Left: an SMS notifying that mobile phone locations will be collected. Right: a web page with subtitles about the collection, including what's being collected, how it works, how data will be minimised, how to opt out](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Saxford-council_prototype-v1.jpg)
+![A wifi hotspot with a screen announcing that locations are being tracked. It says 'hold your phone here to remove tracking'. The screen switched to saying 'hold 2 more seconds to remove location tracking'](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bus-stop-ad_v1.gif)
 
 ## Opt out by WiFi proximity
 
