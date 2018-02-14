@@ -46,7 +46,7 @@ Bills Box helps you put new housemates on the bills – something that used to b
 
 ![The left phone generates a QR code to add a housemate, and the right phone scans it to join the house](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox_screen-45_v1.jpg)
 
-Before joining, the new housemate can see what they’re signing up for; once they go ahead, they’re automatically added to the accounts.
+Before joining, the new housemate can see what they&rsquo;re signing up for; once they go ahead, they&rsquo;re automatically added to the accounts.
 
 ![The left screen shows a confirmation to join a house and the right screen shows a number of emails from different providers saying 'you've been added to this account'](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox_screen-67_v1.jpg)
 
@@ -57,13 +57,13 @@ Some decisions involve the whole house, and Bills Box makes it easy for you to m
 
 ![The left screen shows three names housemates and the right screen collects information about everyone moving out on 29th January 2021, and requesting to move the bills to the new address](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox_screen-910_v1.jpg)
 
-One housemate can start off the process, then once everyone agrees, Bills Box can tell your provider that you’ve all agreed to move out. If you’re all moving together, Bills Box can even take your accounts with you to the new address.
+One housemate can start off the process, then once everyone agrees, Bills Box can tell your provider that you&rsquo;ve all agreed to move out. If you&rsquo;re all moving together, Bills Box can even take your accounts with you to the new address.
 
 ![The left screen shows one of three housemates having agreed to the move, with the other two 'waiting'. The right screen shows a confirmation screen each housemate would have to agree to in order to move out](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox_screen-1112_v1.jpg)
 
 #### Helping out the next tenants
 
-As well as tying up loose ends, Bills Box makes it simple for the next tenants. This helps ensure there’s a clean switch, and no chasing bills months after you’ve moved out.
+As well as tying up loose ends, Bills Box makes it simple for the next tenants. This helps ensure there&rsquo;s a clean switch, and no chasing bills months after you&rsquo;ve moved out.
 
 And perhaps Bills Box will make your life simpler next time you move into a new home.
 	
@@ -80,14 +80,14 @@ There was a lot of enthusiasm for group consent for joint decisions and shared d
 
 ### All bills in one place
 
-The prospect of being able to see and manage all your bills in one place was well-received by nearly everyone we spoke to. A few people said they’d feel more in control if they could see how much they need to pay and how much they were using.
+The prospect of being able to see and manage all your bills in one place was well-received by nearly everyone we spoke to. A few people said they&rsquo;d feel more in control if they could see how much they need to pay and how much they were using.
 
 A couple of participants voiced anxiety about so much of their utilities data being available from their phone or within a single service like Bills Box.
 
 
 ### Shared billing
 
-There’s a clear burden when it comes to managing shared bills in a shared household. People struggle to know who’s paid what or to fix anything, unless they’re the named person on the account with the utility company.
+There&rsquo;s a clear burden when it comes to managing shared bills in a shared household. People struggle to know who&rsquo;s paid what or to fix anything, unless they&rsquo;re the named person on the account with the utility company.
 
 The potential to share rights and responsibilities for bills and data was something nearly all participants found to be a empowering prospect. There was even excitement about it being easy to be recognised as a group by utility companies, acknowledging the different living situations many people have.
 
