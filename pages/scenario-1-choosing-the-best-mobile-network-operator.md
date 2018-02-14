@@ -1,12 +1,8 @@
 There&rsquo;s no shortage of websites that&rsquo;ll help find a new mobile phone contract or broadband provider. However, today&rsquo;s comparison sites are typically geared towards price, helping people find the _cheapest_ deal.
 
-What if a comparison service had access to richer information about its users? What if it knew about the places people struggle with signal strength? Or their preference for strong ethics? Or their _real_ data usage, not just a single monthly number.
+What if a comparison service had access to richer information about its users? What if it knew about the places people struggle with signal strength? Or their preference for strong ethics? Or their _real_ data usage, not just a single monthly number. This type of data could enable new services for managing and switching between mobile network providers, for example, services that optimise for privacy or for signal strength.
 
-This type of data could enable totally new services for managing and switching between mobile network providers, for example, ones that optimise for privacy or for signal strength.
-
-However, given the sensitivity of the data, it is also critical that services like this have clear and trusted mechanisms for people to control what data is used for what purpose.
-
-To explore these ideas, we prototyped a service called &lsquo;AutoSwap&rsquo;.
+However, given the sensitivity of the data, it is also critical that services like this have clear and trusted mechanisms for people to control what data is used for what purpose. To explore these ideas, we prototyped a service called &lsquo;AutoSwap&rsquo;.
 
 [start_highlight]
 
@@ -43,17 +39,13 @@ If your usage changes or a company launches a new deal, AutoSwap will immediatel
 
 ### Location history signal strength
 
-Some of the people we tested with welcomed the idea of using their location history to choose a phone company with better signal strength for them. The idea was more popular with people who commute and travel a lot. 
-
-Others, who travel less often, found using location history for better signal strength less useful and had concerns what this meant for their privacy.
+Some of the people we tested with welcomed the idea of using their location history to choose a phone company with better signal strength for them. The idea was more popular with people who commute and travel a lot. Others, who travel less often, found using location history for better signal strength less useful and had concerns what this meant for their privacy.
 
 ### Automatic swapping
 
 Automatically swapping phone company is something that people could struggle to trust without good control over the decision to actually swap a contract.
 
-People wanted more information about the reason a swap happened and what benefits came from it, like savings or better signal strength. 
-
-Also many people we spoke with used the language like &lsquo;contracts&rsquo; and &lsquo;signing&rsquo; when talking about moving networks. This suggests a current mental model that you stay with one phone company for months and years, not weeks and days like hinted at in the prototype we showed.
+People wanted more information about the reason a swap happened and what benefits came from it, like savings or better signal strength. Many people we spoke with used the language like &lsquo;contracts&rsquo; and &lsquo;signing&rsquo; when talking about moving networks. This suggests a current mental model that you stay with one phone company for months and years, not weeks and days like hinted at in the prototype we showed.
 
 ## Potential design patterns from this prototype
 
