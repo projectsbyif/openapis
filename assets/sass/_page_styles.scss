@@ -27,6 +27,11 @@
       width:100%;
       display:block;
     }
+    a#logo {
+      img {
+        margin-top:0;
+      }
+    }
   }
   .content {
     margin-bottom: $default-spacing-big;
