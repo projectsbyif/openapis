@@ -33,8 +33,15 @@ html(lang="en")
       if pageCurrent != 0
         a(id="site_title" href="/") #{settings.title}
       a(id="link_contents" href="#contents") Contents
-    if pageCurrent == 0
-      div(class="cover-image")
+      if pageCurrent == 0
+        div
+          h1 #{settings.title}
+          if settings.sub_title
+            h2 #{settings.sub_title}
+          if settings.publication_date
+            h3 #{settings.publication_date}
+          img(src="https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/report_header.jpg")
+
     div(id="contents")
       div
         h1 Contents
@@ -69,15 +76,11 @@ html(lang="en")
     main(id="content")
       if pageCurrent == 0
         section(class="content")
-          h1 #{settings.title}
-          if settings.sub_title
-            h2 #{settings.sub_title}
-          p(class="description") #{settings.description}
           != content
           if settings.show_table_of_contents
             //- TOC
             div(class="toc")
-              h3 Table of contents
+              h3 Contents
               ul
                 for page, index in settings.contents
                   if index > 0
@@ -90,32 +93,33 @@ html(lang="en")
       else
         div(class="content")
           != content
-    nav
-      div(class="previous")
-        if pageCurrent == 1
-          a(href="/")
-            img(src="/public/images/pointer-left.svg")
-            span Home
-        else if pageCurrent != 0
-          a(href=pagePrevious)
-            img(src="/public/images/pointer-left.svg")
-            span Previous page
-      div(class="counter")
-        if pageCurrent != 0
-          p #{pageCurrent} of #{pageCount}
-      div(class="next")
-        if pageCurrent == 0
-          a(href=pageNext)
-            span Read the report
-            img(src="/public/images/pointer-right.svg")
-        else if pageCurrent == pageCount
-          a(href="/")
-            span Home
-            img(src="/public/images/pointer-right.svg")
-        else
-          a(href=pageNext)
-            span Next page
-            img(src="/public/images/pointer-right.svg")
+    if pageCurrent > 0          
+      nav
+        div(class="previous")
+          if pageCurrent == 1
+            a(href="/")
+              img(src="/public/images/pointer-left.svg")
+              span Home
+          else if pageCurrent != 0
+            a(href=pagePrevious)
+              img(src="/public/images/pointer-left.svg")
+              span Previous page
+        div(class="counter")
+          if pageCurrent != 0
+            p #{pageCurrent} of #{pageCount}
+        div(class="next")
+          if pageCurrent == 0
+            a(href=pageNext)
+              span Read the report
+              img(src="/public/images/pointer-right.svg")
+          else if pageCurrent == pageCount
+            a(href="/")
+              span Home
+              img(src="/public/images/pointer-right.svg")
+          else
+            a(href=pageNext)
+              span Next page
+              img(src="/public/images/pointer-right.svg")
     if settings.show_collaborator_logo || settings.show_licence
       footer
         if settings.show_collaborator_logo

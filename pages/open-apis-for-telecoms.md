@@ -1,3 +1,7 @@
+
+In collaboration with the Open Data Institute, IF researched how open APIs in the telecoms sector could lead to new classes of commercial products. We found resulting effects could include personal empowerment over data held about people, as well as the creation of new mechanisms to use data for the public good.
+
+
 We prototyped three scenarios that could arise as a result of open APIs existing in the telecoms sector. These were informed by interviews with experts in the industry and tested using UK and international participants.
 
 The aims were to:

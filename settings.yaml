@@ -2,6 +2,7 @@
 title: Open APIs in the Telecoms Industry
 sub_title: Exploring and testing opportunities for new services and stronger digital rights
 description: In collaboration with the Open Data Institute, IF researched how open APIs in the telecoms sector could lead to new classes of commercial products. We found resulting effects could include personal empowerment over data held about people, as well as the creation of new mechanisms to use data for the public good.
+publication_date: February 2018 
 url: CHANGEME
 
 # Pages, and what order they're in
@@ -47,7 +48,7 @@ facebook_card_image: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/
 twitter_card_image: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/fb-image.png
 
 # TOC
-show_table_of_contents: false
+show_table_of_contents: true
 
 # Social media links
 twitter_card_handle: @projectsbyif

@@ -55,18 +55,18 @@ header {
   }
 }
 
-.cover-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 250px;
-  background-image: url('https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/report_header.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  z-index: -1;
-}
+// .cover-image {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100vw;
+//   height: 250px;
+//   background-image: url('https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/report_header.jpg');
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center center;
+//   z-index: -1;
+// }
 
 #contents {
   padding: 30px;
@@ -235,7 +235,8 @@ footer {
 }
 
 .licence {
-  padding: 0 0 $default-spacing-small 0;
+  padding-left:$default-spacing-small;
+  padding-right:$default-spacing-small;
 
   a {
     color: #999;
@@ -260,9 +261,9 @@ footer {
 }
 
 @media screen and (min-width: 800px) {
-  .cover-image {
-    height: 500px;
-  }
+  // .cover-image {
+  //   height: 500px;
+  // }
 
   header {
     height: 96px;
