@@ -67,9 +67,9 @@ People have the right to delete data held about them (except where it&rsquo;s le
 
 ### Machine-readable policies
 
-Company policies like terms and conditions are often locked away inside PDFs and are impenetrable to ordinary people, disempowering people and eroding trust.
+Company policies like &lsquo;terms and conditions&rsquo; are often locked away inside PDFs and are impenetrable to ordinary people.
 
-[AutoSwap](/scenario-1-choosing-the-best-mobile-network-operator) demonstrated giving people choice about a company based on their privacy policy and social responsibility. This allowed more meaningful scrutiny and comparison, empowering people to choose a company based on their behaviour and not just price.
+[AutoSwap](/scenario-1-choosing-the-best-mobile-network-operator) demonstrated giving people choice about a company based on their privacy policy and social responsibility. This allowed more meaningful scrutiny and comparison, allowing people to choose a company based on their behaviour and not just price.
 To enable this, policies should be available as data and published through standardised APIs.
 
 Many types of policy could be available through APIs:

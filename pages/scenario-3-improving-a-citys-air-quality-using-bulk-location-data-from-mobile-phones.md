@@ -60,7 +60,7 @@ People responded well to a council using data about them, when it was being used
 
 ### Public notices
 
-A couple of participants appreciated being able to look into the detail of how and why data was being collected, as it empowered them to make an informed decision about whether to be included or not. Although they described themselves as privacy-conscious, the level of detail gave these people confidence that the data collection was a positive thing.
+A couple of participants appreciated being able to look into the detail of how and why data was being collected, as it allowed them to make an informed decision about whether to be included or not. Although they described themselves as privacy-conscious, the level of detail gave these people confidence that the data collection was a positive thing.
 
 Nonetheless, there was limited understanding by most people about how their location could be collected and what ‘anonymised’ meant.
 

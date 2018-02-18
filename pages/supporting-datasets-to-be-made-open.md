@@ -33,7 +33,7 @@ We encountered a number of different types of product data that could be include
 
 ## Technical information by postcode
 
-To empower consumers to make informed decisions about the companies they choose, they need access to more information. Simplistic claims like 'up to 50 megabytes' don't mean much and can be tested against existing high-granularity data such as:
+To allow consumers to make informed decisions about the companies they choose, they need access to more information. Simplistic claims like 'up to 50 megabytes' don't mean much and can be tested against existing high-granularity data such as:
 
 * Broadband technology availability, for example fibre, cable or ADSL
 * Theoretical broadband speeds by postcode

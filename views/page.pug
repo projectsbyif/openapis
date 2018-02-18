@@ -89,6 +89,20 @@ html(lang="en")
                         a(href=page.slug class="bold") #{page.title}
                       else
                         a(href=page.slug) #{page.title}
+              h4 Appendices
+              ul(class="contents_appendices")
+                for page in settings.contents_appendices
+                  li
+                    if title == page.title
+                      if page.custom_contents
+                        a(href=page.slug class="bold") !{page.custom_contents}
+                      else
+                        a(href=page.slug class="bold") #{page.title}
+                    else
+                      if page.custom_contents
+                        a(href=page.slug) !{page.custom_contents}
+                      else
+                        a(href=page.slug) #{page.title}
       //- Content pages
       else
         div(class="content")

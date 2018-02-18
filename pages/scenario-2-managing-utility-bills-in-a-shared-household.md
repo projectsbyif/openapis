@@ -89,7 +89,7 @@ A couple of participants voiced anxiety about so much of their utilities data be
 
 There&rsquo;s a clear burden when it comes to managing shared bills in a shared household. People struggle to know who&rsquo;s paid what or to fix anything, unless they&rsquo;re the named person on the account with the utility company.
 
-The potential to share rights and responsibilities for bills and data was something nearly all participants found to be a empowering prospect. There was even excitement about it being easy to be recognised as a group by utility companies, acknowledging the different living situations many people have.
+The potential to share rights and responsibilities for bills and data was something nearly all participants found to be a positive prospect. There was even excitement about it being easy to be recognised as a group by utility companies, acknowledging the different living situations many people have.
 
 
 ### Moving house

@@ -24,7 +24,7 @@ The prototyping for this report uncovered several potential [design patterns](ht
 
 ## Select what data a service can share
 
-Deciding what types of data one service is allowed to request from another using an open API. This empowers people to control what data they reveal to an organisation.
+Deciding what types of data one service is allowed to request from another using an open API. This gives people control over what data they reveal to an organisation.
 
 ![Screen shows AutoSwap requesting to access recent locations, data, tariff and billing](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Pattern_select_what_data_a_service-can_share.jpg)
 
