@@ -5,7 +5,7 @@ When people live together in shared houses they might take on shared responsibil
 
 Most utility companies do not optimise for this complexity, instead defaulting to a single, individual account holder and shifting the administrative burden onto them.
 
-When things go wrong, companies will only speak to the account holder. People joining or leaving a household also involves additional overhead.
+When things go wrong, companies will only speak to the account holder. People joining or leaving a household also involves additional overheads.
 
 What if it was simple to deal with companies as a group, while also allowing individuals to retain control over the data held about them? How might decision making work? What if utilities could be &rsquo;handed over&rsquo; to the next occupier, just like keys?
 

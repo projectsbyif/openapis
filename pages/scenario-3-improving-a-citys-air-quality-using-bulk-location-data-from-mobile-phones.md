@@ -56,7 +56,7 @@ During the trial itself, the privately operated WiFi hotspot screens will be swi
 
 ### Using data to improve air quality
 
-People responded well to a council using data about them, when it was being used to make positive changes in their community. It was clear that people felt they wanted to understand what data would be collected, when it will happen and why.
+People responded well to a council using data about them when it was being used to make positive changes in their community. It was clear that people felt they wanted to understand what data would be collected, when it will happen and why.
 
 ### Public notices
 

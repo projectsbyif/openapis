@@ -42,4 +42,3 @@ To allow consumers to make informed decisions about the companies they choose, t
 * Actual (measured) signal strength for different networks
 
 Crowdsourcing efforts such as [OpenSignal](https://opensignal.com/networks) demonstrate there is a need for this sort of data.
-Crowdsourcing efforts such as OpenSignal demonstrate that there is a need for this type of data.

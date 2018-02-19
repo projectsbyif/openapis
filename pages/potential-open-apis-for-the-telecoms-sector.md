@@ -37,8 +37,7 @@ We found in our research that adding people to bills is time-consuming and awkwa
 There are some considerations for implementing this API:
 
 * How would companies deciding whether to accept a new account holder?
-* Who gets to authorize removing an account holder – the person leaving, the group or something else?
-
+* Who gets to authorise removing an account holder – the person leaving, the group or someone else?
 
 ### Access to service-specific usage data
 
@@ -106,4 +105,3 @@ Bulk data collection should be private by design, but should also allow people a
 Making these APIs available isn&rsquo;t enough on its own. Real consideration needs to be given to designing access control and permissions systems that are both secure and legible to the people using them.
 
 This requires investment in further research to understand what works, especially in areas where there are limited examples of what good design patterns look like, for example for multiple account holders and when there&rsquo;s shared access to data.
-

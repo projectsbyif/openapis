@@ -3,7 +3,7 @@
 
 There&rsquo;s no shortage of comparison websites: finding a new mobile phone contract or broadband provider is easier than ever. But today&rsquo;s comparison sites are typically geared towards price, helping people find the _cheapest_ deal.
 
-What if a comparison service had access to richer information about its users instead? What if it knew about the places where people struggle with signal strength, their preference for strong ethics, or their _real_ data usage rather than a single monthly number.
+What if a comparison service had access to richer information about its users instead? What if it knew about the places where people struggle with signal strength, their preference for strong ethics, or their _real_ data usage rather than a single monthly number?
 
 Data like this could enable the creation of services for managing and switching between mobile network providers: ones that optimise based on privacy or signal strength.
 
@@ -57,7 +57,7 @@ Automatically switching to a new phone company with a better deal is something t
 
 People wanted more information about the reason a swap happened and what benefits came from it, for example savings they would make, or whether they would get better signal strength.
 
-Many people we spoke with used words like &lsquo;contracts&rsquo; and &lsquo;signing&rsquo; when talking about moving networks. This suggests a current mental model that you stay with staying with one phone company for months and years, rather than the weeks and days we hinted at in our prototype.
+Many people we spoke with used words like &lsquo;contracts&rsquo; and &lsquo;signing&rsquo; when talking about moving networks. This suggests a current mental model that you stay with one phone company for months and years, rather than the weeks and days we hinted at in our prototype.
 
 
 ## Potential design patterns from this prototype
