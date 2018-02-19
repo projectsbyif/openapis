@@ -46,7 +46,7 @@ html(lang="en")
       div
         h1 Contents
         a(id="close_contents" href="#") Close
-        ul(class="contents_main")
+        ul(class="contents-list")
           for page in settings.contents
             li
               if title == page.title
@@ -59,7 +59,7 @@ html(lang="en")
                   a(href=page.slug) !{page.custom_contents}
                 else
                   a(href=page.slug) #{page.title}
-        ul(class="contents_appendices")
+        ul(class="contents-appendices")
           for page in settings.contents_appendices
             li
               if title == page.title
@@ -79,35 +79,27 @@ html(lang="en")
           != content
           if settings.show_table_of_contents
             //- TOC
-            div(class="toc")
+            div(class="contents-list")
               h3 Contents
-              ul
-                for page, index in settings.contents
-                  if index > 0
-                    li
-                      if title == page.title
-                        a(href=page.slug class="bold") #{page.title}
-                      else
-                        a(href=page.slug) #{page.title}
-              h4 Appendices
-              ul(class="contents_appendices")
+              ul(class="contents-list")
+                for page in settings.contents
+                  li
+                    if page.custom_contents
+                      a(href=page.slug) !{page.custom_contents}
+                    else
+                      a(href=page.slug) #{page.title}
+              ul(class="contents-appendices")
                 for page in settings.contents_appendices
                   li
-                    if title == page.title
-                      if page.custom_contents
-                        a(href=page.slug class="bold") !{page.custom_contents}
-                      else
-                        a(href=page.slug class="bold") #{page.title}
+                    if page.custom_contents
+                      a(href=page.slug) !{page.custom_contents}
                     else
-                      if page.custom_contents
-                        a(href=page.slug) !{page.custom_contents}
-                      else
-                        a(href=page.slug) #{page.title}
+                      a(href=page.slug) #{page.title}
       //- Content pages
       else
         div(class="content")
           != content
-    if pageCurrent > 0          
+    if pageCurrent > 0
       nav
         div(class="previous")
           if pageCurrent == 1

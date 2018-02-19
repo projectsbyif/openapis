@@ -98,35 +98,13 @@ header {
     right: 0;
   }
 
-  ul {
-    li {
-      margin-bottom: 15px;
-
-      .content_sublabel {
-        font-family: "Circular-Bold", "Helvetica Neue", "Arial", sans-serif;
-        font-size: 0.65em;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        color: #999;
-      }
-
-      &.seperator {
-        margin-top: 15px;
-        margin-bottom: 15px;
-        height: 1px;
-        background: rgba(0,0,0,0.1);
-      }
-
-      &:last-child {
-        margin-bottom: 0;
-      }
+  ul.contents-list {
+    .content_label {
+      background: none;
     }
   }
 
-  .contents_appendices {
-    border-top: rgba(0,0,0,0.1) 1px solid;
-    padding-top: 20px;
-    margin-top: 15px;
+  ul.contents-appendices {
     font-size: 0.9em;
   }
 
@@ -145,17 +123,72 @@ header {
   }
 }
 
-.toc {
-  h3 {
-    margin-top: $default-spacing-small;
-    margin-bottom: $default-spacing-small;
-  }
-  ul {
-    li {
-      margin-bottom: $default-spacing-small / 3;
+ul.contents-list {
+  list-style-type: none;
+
+  li {
+    margin-left: 0;
+    margin-bottom: 15px;
+
+    .content_sublabel {
+      font-family: "Circular-Bold", "Helvetica Neue", "Arial", sans-serif;
+      font-size: 0.65em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #999;
+    }
+
+    .content_label {
+      background-repeat: repeat-x;
+      background-image: url("/public/images/line-black.svg");
+      background-size: 4px 7px;
+      background-position: 0 0.7em;
+
+      &:hover {
+        background-image: url("/public/images/line-orange.svg");
+      }
+    }
+
+    &.seperator {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      height: 1px;
+      background: rgba(0,0,0,0.1);
+    }
+
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 }
+
+ul.contents-appendices {
+  margin-top: 15px;
+  list-style-type: none;
+  border-top: rgba(0,0,0,0.1) 1px solid;
+  padding-top: 20px;
+
+  li {
+    margin-left: 0;
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// .toc {
+//   h3 {
+//     margin-top: $default-spacing-small;
+//     margin-bottom: $default-spacing-small;
+//   }
+//   ul {
+//     li {
+//       margin-bottom: $default-spacing-small / 3;
+//     }
+//   }
+// }
 
 .content {
   padding: $default-spacing-small;
