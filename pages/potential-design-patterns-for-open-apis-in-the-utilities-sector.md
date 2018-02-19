@@ -3,24 +3,24 @@
 The prototyping for this report uncovered several potential [design patterns](https://catalogue.projectsbyif.com) for solving different problems, from authentication to giving consent to controlling access and transparency. Many of these could be useful for designing services for open APIs in the wider utilities sector.
 
 * [Select what data a service can share](#selectwhatdataaservicecanshare)
-* [Authorise using a letter](#authorisingusingaletter)
-* [Authorise using another factor](#authorisingusinganotherfactor)
-* [Combine open, shared and closed data](#combiningopensharedandcloseddata)
+* [Authorise using a letter](#authoriseusingaletter)
+* [Authorise using another factor](#authoriseusinganotherfactor)
+* [Combine open, shared and closed data](#combineopensharedandcloseddata)
 * [Consent by SIM card](#consentbysimcard)
 * [Automated switching](#automatedswitching)
 * [Future switch notice](#futureswitchnotice)
 * [Account history across providers](#accounthistoryacrossproviders)
-* [Display multiple utilities](#displayingmultipleutilities)
-* [Add another person to an account](#addinganotherpersontoanaccount)
-* [Get group consent](#gettinggroupconsent)
-* [Hand over accounts to new people](#handingoveraccountstonewpeople)
+* [Display multiple utilities](#displaymultipleutilities)
+* [Add another person to an account](#addanotherpersontoanaccount)
+* [Get group consent](#getgroupconsent)
+* [Hand over accounts to new people](#handoveraccountstonewpeople)
 * [Public space notices](#publicspacenotices)
 * [Human-readable data request](#humanreadabledatarequest)
 * [Machine-readable data request](#machinereadabledatarequest)
-* [Minimise data collection](#minimisingdatacollection)
+* [Minimise data collection](#minimisedatacollection)
 * [Plenty of time to opt-out](#plentyoftimetooptout)
-* [Opt out by text](#optingoutbytext)
-* [Opt out by WiFi proximity](#optingoutbywifiproximity)
+* [Opt out by text](#optoutbytext)
+* [Opt out by WiFi proximity](#optoutbywifiproximity)
 
 ## Select what data a service can share
 
@@ -133,7 +133,7 @@ Limit bulk data collection to certain times, location accuracy and other restric
 
 Before data collection happens, people are given ample time to find out more and decide whether to opt out or not.
 
-## Opting out by text
+## Opt out by text
 
 Text messages inform people of data collection and let them reply to opt out. Text messages can be sent to people in specific locations using a system such as [Cell Broadcast.](https://en.wikipedia.org/wiki/Cell_Broadcast)
 

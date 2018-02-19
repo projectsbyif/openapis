@@ -62,18 +62,18 @@ Many people we spoke with used words like &lsquo;contracts&rsquo; and &lsquo;sig
 
 ## Potential design patterns from this prototype
 
-* [Selecting what data a service can share](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#selectwhatdataaservicecanshare)
-* [Authorising using another factor](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#authorisingusinganotherfactor)
-* [Combining open, shared and closed data](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#combiningopensharedandcloseddata)
-* [Consenting by SIM card](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#consentbysimcard)
-* [Automated switching](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#automatedswitching)
-* [Future switch notice](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#futureswitchnotice)
-* [Accessing account history across providers](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#accounthistoryacrossproviders)
+* [Select what data a service can share](/potential-design-patterns-for-open-apis-in-the-utilities-sector#selectwhatdataaservicecanshare)
+* [Authorise using another factor](/potential-design-patterns-for-open-apis-in-the-utilities-sector#authoriseusinganotherfactor)
+* [Combine open, shared and closed data](/potential-design-patterns-for-open-apis-in-the-utilities-sector#combineopensharedandcloseddata)
+* [Consent by SIM card](/potential-design-patterns-for-open-apis-in-the-utilities-sector#consentbysimcard)
+* [Automated switching](/potential-design-patterns-for-open-apis-in-the-utilities-sector#automatedswitching)
+* [Future switch notice](/potential-design-patterns-for-open-apis-in-the-utilities-sector#futureswitchnotice)
+* [Account history across providers](/potential-design-patterns-for-open-apis-in-the-utilities-sector#accounthistoryacrossproviders)
 
 ## Potential APIs from this prototype
 
-* [Access to service-specific usage data](/appendix-potential-open-apis-for-the-telecoms-sector#accesstoservicespecificusagedata)
-* [Machine-readable policies](/appendix-potential-open-apis-for-the-telecoms-sector#machinereadablepolicies)
-* [Account creation](/appendix-potential-open-apis-for-the-telecoms-sector#accountcreation)
-* [Account closure](/appendix-potential-open-apis-for-the-telecoms-sector#accountclosure)
-* [Deletion of usage data](/appendix-potential-open-apis-for-the-telecoms-sector#deletionofusagedata)
+* [Access to service-specific usage data](/potential-open-apis-for-the-telecoms-sector#accesstoservicespecificusagedata)
+* [Machine-readable policies](/potential-open-apis-for-the-telecoms-sector#machinereadablepolicies)
+* [Account creation](/potential-open-apis-for-the-telecoms-sector#accountcreation)
+* [Account closure](/potential-open-apis-for-the-telecoms-sector#accountclosure)
+* [Deletion of usage data](/potential-open-apis-for-the-telecoms-sector#deletionofusagedata)
