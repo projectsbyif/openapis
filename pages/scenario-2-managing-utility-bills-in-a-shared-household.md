@@ -66,7 +66,7 @@ One housemate can start off the process, then once everyone agrees, Bills Box ca
 As well as tying up loose ends, Bills Box makes it simple for the next tenants. This helps ensure there&rsquo;s a clean switch, and no chasing bills months after you&rsquo;ve moved out.
 
 And perhaps Bills Box will make your life simpler next time you move into a new home.
-	
+
 
 ![A letter to the new tenants in a house with costs of the bills from previous months, and offering to take over the bills using a unique code](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox-setup-bills-letter_v1.jpg)
 
@@ -101,17 +101,17 @@ The concept was especially promising to those we spoke to who rent, moving house
 
 ## Potential design patterns from this prototype
 
-* [Authorising using a letter](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#authorisingusingaletter)
-* [Displaying multiple utilities](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#displayingmultipleutilities)
-* [Adding another person to an account](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#addinganotherpersontoanaccount)
-* [Getting group consent](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#gettinggroupconsent)
-* [Handing over accounts to new people](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#handingoveraccountstonewpeople)
+* [Authorise using a letter](/potential-design-patterns-for-open-apis-in-the-utilities-sector#authoriseusingaletter)
+* [Display multiple utilities](/potential-design-patterns-for-open-apis-in-the-utilities-sector#displaymultipleutilities)
+* [Add another person to an account](/potential-design-patterns-for-open-apis-in-the-utilities-sector#addanotherpersontoanaccount)
+* [Get group consent](/potential-design-patterns-for-open-apis-in-the-utilities-sector#getgroupconsent)
+* [Hand over accounts to new people](/potential-design-patterns-for-open-apis-in-the-utilities-sector#handoveraccountstonewpeople)
 
 
 ## Potential APIs from this prototype
 
-* [Creation, updating and deletion of account holders](/appendix-potential-open-apis-for-the-telecoms-sector#creationupdatinganddeletionofaccountholders)
-* [Account creation](/appendix-potential-open-apis-for-the-telecoms-sector#accountcreation)
-* [Account closure](/appendix-potential-open-apis-for-the-telecoms-sector#accountclosure)
-* [Access to service-specific usage data](/appendix-potential-open-apis-for-the-telecoms-sector#accesstoservicespecificusagedata)
-* [Deletion of usage data](/appendix-potential-open-apis-for-the-telecoms-sector#deletionofusagedata)
+* [Creation, updates and deletion of account holders](/potential-open-apis-for-the-telecoms-sector#creationupdatesanddeletionofaccountholders)
+* [Account creation](/potential-open-apis-for-the-telecoms-sector#accountcreation)
+* [Account closure](/potential-open-apis-for-the-telecoms-sector#accountclosure)
+* [Access to service-specific usage data](/potential-open-apis-for-the-telecoms-sector#accesstoservicespecificusagedata)
+* [Deletion of usage data](/potential-open-apis-for-the-telecoms-sector#deletionofusagedata)

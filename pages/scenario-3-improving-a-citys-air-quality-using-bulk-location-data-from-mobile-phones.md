@@ -78,16 +78,16 @@ As such, understanding how people can meaningfully opt-out of data collection in
 
 ## Potential design patterns from this prototype
 
-* [Public space notices](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#publicspacenotices)
-* [Human-readable data request](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#humanreadabledatarequest)
-* [Machine-readable data request](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#machinereadabledatarequest)
-* [Minimising data collection](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#minimisingdatacollection)
-* [Plenty of time to opt-out](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#plentyoftimetooptout)
-* [Opting out by text](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#optingoutbytext)
-* [Opting out by WiFi proximity](/appendix-potential-design-patterns-for-open-apis-in-the-utilities-sector#optingoutbywifiproximity)
+* [Public space notices](/potential-design-patterns-for-open-apis-in-the-utilities-sector#publicspacenotices)
+* [Human-readable data request](/potential-design-patterns-for-open-apis-in-the-utilities-sector#humanreadabledatarequest)
+* [Machine-readable data request](/potential-design-patterns-for-open-apis-in-the-utilities-sector#machinereadabledatarequest)
+* [Minimise data collection](/potential-design-patterns-for-open-apis-in-the-utilities-sector#minimisedatacollection)
+* [Plenty of time to opt-out](/potential-design-patterns-for-open-apis-in-the-utilities-sector#plentyoftimetooptout)
+* [Opt out by text](/potential-design-patterns-for-open-apis-in-the-utilities-sector#optoutbytext)
+* [Opt out by WiFi proximity](/potential-design-patterns-for-open-apis-in-the-utilities-sector#optoutbywifiproximity)
 
 ## Potential APIs from this prototype
 
-* [Machine-readable policies](/appendix-potential-open-apis-for-the-telecoms-sector#machinereadablepolicies)
-* [Access to anonymised bulk data](/appendix-potential-open-apis-for-the-telecoms-sector#accesstoanonymisedbulkdata)
-* [Opt-out for bulk data collection](/appendix-potential-open-apis-for-the-telecoms-sector#optoutforbulkdatacollection)
+* [Machine-readable policies](/potential-open-apis-for-the-telecoms-sector#machinereadablepolicies)
+* [Access to anonymised bulk data](/potential-open-apis-for-the-telecoms-sector#accesstoanonymisedbulkdata)
+* [Opt out of bulk data collection](/potential-open-apis-for-the-telecoms-sector#optoutofbulkdatacollection)
