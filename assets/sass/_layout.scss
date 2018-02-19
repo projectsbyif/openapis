@@ -26,14 +26,15 @@ header {
 
   #site_title {
     font-family: "Calibre-Semibold", "Helvetica Neue", "Helvetica", sans-serif;
-    font-size: 19px;
+    font-size: 17px;
     text-align: center;
     width: calc(100% - 120px);
     margin-left: 60px;
     margin-right: 60px;
     display: block;
-    line-height: calc(#{$height-header} + 10px);
     height: $height-header;
+    padding-top: 28px;
+    line-height: 18px;
   }
 
   #link_contents {
