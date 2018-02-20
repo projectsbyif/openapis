@@ -137,11 +137,10 @@ Before data collection happens, people are given ample time to find out more and
 
 Text messages inform people of data collection and let them reply to opt out. Text messages can be sent to people in specific locations using a system such as [Cell Broadcast.](https://en.wikipedia.org/wiki/Cell_Broadcast)
 
-
-![A wifi hotspot with a screen announcing that locations are being tracked. It says 'hold your phone here to remove tracking'. The screen switched to saying 'hold 2 more seconds to remove location tracking'](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bus-stop-ad_v1.gif)
+![A notification on a mobile phone to inform people of data collection and let them reply to the text so to opt out](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Pattern_opting_out_by_text.jpg)
 
 ## Opt out by WiFi proximity
 
 Hold a phone close to a WiFi hotspot to stop it collecting data about you. The hotspot detects the device is close by the latency and radio strength.
 
-![Left: a wifi hotspot with a screen announcing that locations are being tracked. It says 'hold your phone here to remove tracking' Right: The screen switched to saying 'hold 2 more seconds to remove location tracking'](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/data-for-research-campaigns-4.png)
+![A wifi hotspot with a screen announcing that locations are being tracked. It says 'hold your phone here to remove tracking'. The screen switched to saying 'hold 2 more seconds to remove location tracking'](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/bus-stop-ad_v1.gif)
