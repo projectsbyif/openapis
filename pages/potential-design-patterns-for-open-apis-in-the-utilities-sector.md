@@ -137,7 +137,7 @@ Before data collection happens, people are given ample time to find out more and
 
 Text messages inform people of data collection and let them reply to opt out. Text messages can be sent to people in specific locations using a system such as [Cell Broadcast.](https://en.wikipedia.org/wiki/Cell_Broadcast)
 
-![A notification on a mobile phone to inform people of data collection and let them reply to the text so to opt out](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Pattern_opting_out_by_text.jpg)
+![A notification on a mobile phone to inform people of data collection and let them reply to the text so to opt out](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/Pattern_opting_out_by_text.jpg)
 
 ## Opt out by WiFi proximity
 
