@@ -4,6 +4,7 @@
     padding-top:80px;
     margin-bottom: $default-spacing-small;
     height: auto;
+
     h1, h2, h3 {
       width:80%;
       padding-left:20px;
@@ -54,9 +55,17 @@
   }
 }
 
+.design-patterns {
+  img {
+    margin-top: 0;
+  }
+}
+
 @media screen and (min-width: 800px) {
   .cover-page {
     header {
+      margin-bottom: $default-spacing-big;
+
       h1, h2, h3 {
         padding:0;
         width:70%;

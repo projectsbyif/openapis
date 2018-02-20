@@ -19,6 +19,7 @@ strong {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-header;
+  color: $color-text-main;
 }
 
 h1 {
@@ -32,12 +33,12 @@ h2 {
   font-size: 1.2em;
   line-height: 1.1;
   text-transform: uppercase;
-  color: #545454;
   margin-bottom: $default-spacing-small;
   margin-top: $default-spacing-big;
 }
 
 h3 {
+  font-family: "Calibre-Semibold", "Helvetica Neue", "Arial", sans-serif;
   font-size: 1em;
   margin-bottom: $default-spacing-small;
   margin-top: $default-spacing-big;
@@ -52,7 +53,6 @@ h6 {
   font-size: 0.9em;
   margin-bottom: 3px;
   font-family: "Calibre-Bold", "Helvetica Neue", "Arial", sans-serif;
-  color: #212121;
 }
 
 p {
@@ -123,7 +123,7 @@ blockquote {
 
 .bold {
   font-family: $font-family-bold;
-  color: $color-orange;
+  color: $color-orange !important;
 
   .content_sublabel {
     color: $color-orange !important;

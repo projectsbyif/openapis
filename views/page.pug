@@ -75,26 +75,26 @@ html(lang="en")
     //- Cover page
     main(id="content")
       if pageCurrent == 0
-        section(class="content")
+        section(class="content no-margin-bottom")
           != content
-          if settings.show_table_of_contents
-            //- TOC
-            div(class="contents-list")
-              h3 Contents
-              ul(class="contents-list")
-                for page in settings.contents
-                  li
-                    if page.custom_contents
-                      a(href=page.slug) !{page.custom_contents}
-                    else
-                      a(href=page.slug) #{page.title}
-              ul(class="contents-appendices")
-                for page in settings.contents_appendices
-                  li
-                    if page.custom_contents
-                      a(href=page.slug) !{page.custom_contents}
-                    else
-                      a(href=page.slug) #{page.title}
+        if settings.show_table_of_contents
+          //- TOC
+          div(class="contents-wrapper")
+            h1 Contents
+            ul(class="contents-list")
+              for page in settings.contents
+                li
+                  if page.custom_contents
+                    a(href=page.slug) !{page.custom_contents}
+                  else
+                    a(href=page.slug) #{page.title}
+            ul(class="contents-appendices")
+              for page in settings.contents_appendices
+                li
+                  if page.custom_contents
+                    a(href=page.slug) !{page.custom_contents}
+                  else
+                    a(href=page.slug) #{page.title}
       //- Content pages
       else
         div(class="content")

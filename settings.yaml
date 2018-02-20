@@ -24,6 +24,7 @@ pages:
   - title: "About this research"
     appendix: true
   - title: "Potential design patterns for open APIs in the utilities sector"
+    class: "design-patterns"
     appendix: true
   - title: "Potential open APIs for the telecoms sector"
     appendix: true

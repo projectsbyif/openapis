@@ -20,7 +20,6 @@ Bills Box helps you split the bills with members of your household, while allowi
 
 ![Bills box app launch screen showing &rsquo;add an account&rsquo; and &rsquo;join house&rsquo; buttons](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox_screen-1_v1.jpg)
 
-
 #### Connect your utilities in one step
 
 To get started, just point Bills Box at the barcode on the bottom of your utility bill.
