@@ -17,7 +17,7 @@ Before companies take on new customers they typically check their identity and c
 
 ### Account closure
 
-Creating a world in which people can easily move between providers also requires API access to closing an account.
+Creating a world in which people can easily move between providers also requires API access to close an account.
 
 As well as being convenient, this is an opportunity to improve people&rsquo;s data protection. Companies are already obliged to delete data when it&rsquo;s no longer needed, and storing personal information is becoming increasingly risky for companies.
 
