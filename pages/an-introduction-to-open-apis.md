@@ -23,6 +23,6 @@ Another example is that airlines allow people to search for flights on their web
 
 By embracing open APIs, powerful new services can exist that empower people in ways we can&rsquo;t yet imagine.
 
-For example, banking services in the UK are currently changing as part of [the Open Banking Standard](https://www.openbanking.org.uk). This will allow new financial services, such as real-time budgeting apps, to be developed using open APIs
+For example, banking services in the UK are currently changing as part of [the Open Banking Standard](https://www.openbanking.org.uk). This will allow new financial services, such as real-time budgeting apps, to be developed using open APIs.
 
 Alongside banking, open APIs for telecoms could form a critical part of the UK&rsquo;s [data infrastructure](https://theodi.org/what-is-data-infrastructure) with the potential to enable new products and services that respect people's digital rights.
