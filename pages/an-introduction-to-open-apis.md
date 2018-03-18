@@ -5,7 +5,7 @@ They allow computers to communicate with each other and govern how those communi
 
 As an example, when you search for a flight on a flight-comparison app, the app will use an API to deliver your search criteria to various flight operators, who will then send back the relevant information using the API. The result is that you see a list of flights from various companies – the API has served as the essential &lsquo;messenger&rsquo; between an app and a variety of websites.
 
-APIs also offer security. Using the same example, when you search for a flight you provide a small amount of data – dates, destinations – relevant to your search. The API transmits that data to a flight operator who, in return, only sends back the relevant data: both the phone and the flight operator website are never exposed to one another.
+Using the same example, when you search for a flight you provide a small amount of data – dates, destinations – relevant to your search. The API transmits that data to a flight operator who, in return, only sends back the relevant data: both the phone and the flight operator website are never exposed to one another.
 They&rsquo;re designed to be accessed by software rather than directly by humans. This allows developers to build on top of those APIs, interacting with an organisation on a person&rsquo;s behalf.
 
 
