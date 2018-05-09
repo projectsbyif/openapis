@@ -21,7 +21,7 @@ Further, if complementary APIs can be developed and adopted by other actors in o
 
 ## Supporting data infrastructure
 
-To enable new types of products and services, it will not be enough to provide APIs onto core [closed data](https://theodi.org/data-spectrum) like billing or usage. There are a number of [supporting datasets](appendix-supporting-datasets-to-be-made-open) that will need to be made open under appropriate licences. These fall broadly into two categories.
+To enable new types of products and services, it will not be enough to provide APIs onto core [closed data](https://theodi.org/data-spectrum) like billing or usage. There are a number of [supporting datasets](/supporting-datasets-to-be-made-open) that will need to be made open under appropriate licences. These fall broadly into two categories.
 
 The first is data about the infrastructure, including things like locations of cell towers, network speeds, lists of operators, hotspot locations and capabilities and payment plans. (It&rsquo;s not just about the core closed data, but also about supporting datasets like locations of cell towers, tariffs and signal strength.)
 
