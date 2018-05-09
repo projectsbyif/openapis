@@ -4,7 +4,7 @@ var path = require('path');
 var app = express();
 var http = require('http').Server(app)
 var yaml = require('yamljs');
-var slugify = require('slug');
+var slugify = require('slugify');
 var showdown = require('showdown');
 var fs = require('fs');
 var helmet = require('helmet');
@@ -35,7 +35,7 @@ function generatePages() {
 
   // Generate pages from settings.yaml
   settings.pages.forEach(function(page, id) {
-    var file = slugify(page.title).toLowerCase();
+    var file = slugify(page.title, { remove: /[$*_+~.()'"!\-:@?,]/g }).toLowerCase();
     var slug = '/' + file;
     var pageClass = page.class;
 
@@ -81,12 +81,12 @@ function generatePage(id, title, slug, file, pageClass) {
 
     // Find the next page
     if (settings.contents_combined[id + 1]) {
-      pageNext = slugify(settings.contents_combined[id + 1].slug).toLowerCase();
+      pageNext = settings.contents_combined[id + 1].slug;
     }
 
     // Find the previous page
     if (settings.contents_combined[id - 2]) {
-      pagePrevious = slugify(settings.contents_combined[id - 1].slug).toLowerCase();
+      pagePrevious = settings.contents_combined[id - 1].slug;
     }
 
     // Create captions by stripping out CAPTION_TAG
@@ -115,8 +115,8 @@ function generatePage(id, title, slug, file, pageClass) {
         settings: settings,
         pageCount: settings.contents_combined.length - 1,
         pageCurrent: id,
-        pageNext: '/' + pageNext,
-        pagePrevious: '/' + pagePrevious,
+        pageNext: pageNext,
+        pagePrevious: pagePrevious,
         pageClass: pageClass
       });
     });
@@ -145,7 +145,7 @@ function checkPages() {
       var found = false;
 
       settings.pages.forEach(function(page, index) {
-        page = slugify(page.title).toLowerCase();
+        page = slugify(page.title, { remove: /[$*_+~.()'"!\-:@?,]/g }).toLowerCase();
 
         if (file === page) {
           found = true;
