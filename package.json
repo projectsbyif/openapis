@@ -11,11 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2",
     "gulp": "^4.0.0",
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.1",
-    "helmet": "^3.13.0",
     "lodash": "^4.17.11",
     "nodemon": "^1.18.4",
     "pug": "^2.0.0-beta11",
