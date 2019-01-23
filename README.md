@@ -54,7 +54,7 @@ Images used in longforms should have a maximum width or height of *1280px* and a
 
 Including images in GitHub repositories makes them slugish. Instead:
 
-1. Log into the [IF CMS](https://projectsbyif.com/admin/login).
+1. Log into the IF CMS.
 
 2. On the sidebar, click "Assets".
 
