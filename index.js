@@ -1,26 +1,16 @@
 // REQUIRES
-var express = require('express');
-var path = require('path');
-var app = express();
-var http = require('http').Server(app)
 var yaml = require('yamljs');
 var slugify = require('slugify');
 var showdown = require('showdown');
 var fs = require('fs');
-var helmet = require('helmet');
+var pug = require('pug');
 var _ = require('lodash');
-
-app.use(helmet());
 
 // CONFIG
 var settings = yaml.load('settings.yaml');
 var mdConverter = new showdown.Converter({
   noHeaderId: false
 });
-
-app.set('port', process.env.PORT || 3000);
-app.set('view engine', 'pug');
-app.use('/public', express.static(path.join(__dirname, 'public')));
 
 // STRINGS
 const CAPTION_TAG = "Caption: ";
@@ -107,8 +97,11 @@ function generatePage(id, title, slug, file, pageClass) {
       }
     }
 
-    app.get(slug, function(req, res) {
-      res.render('page', {
+    if (!fs.existsSync('public' + slug)){
+      fs.mkdirSync('public' + slug);
+    }
+
+    fs.writeFileSync('public' + slug + '/index.html', pug.renderFile('views/page.pug', {
         title: title,
         slug: slug,
         content: content,
@@ -118,8 +111,7 @@ function generatePage(id, title, slug, file, pageClass) {
         pageNext: pageNext,
         pagePrevious: pagePrevious,
         pageClass: pageClass
-      });
-    });
+      }));
   });
 }
 
@@ -166,9 +158,3 @@ function checkPages() {
 }
 
 generatePages();
-
-http.listen(app.get('port'), function() {
-  console.log(settings.title)
-  console.log("Available at http://localhost:" + app.get('port'));
-  console.log("-------")
-});

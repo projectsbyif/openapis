@@ -47,7 +47,7 @@ header {
     position: absolute;
     right: 20px;
     top: 10px;
-    background-image: url('/public/images/menu.svg');
+    background-image: url('/images/menu.svg');
     background-position: center right;
     background-repeat: no-repeat;
     background-size: 22px;
@@ -389,10 +389,12 @@ footer {
 
     .previous img {
       margin-right: 3px;
+      margin-top: 22px;
     }
 
     .next img {
       margin-left: 3px;
+      margin-top: 22px;
     }
   }
 

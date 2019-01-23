@@ -11,7 +11,7 @@ html(lang="en")
       meta(property="og:title" content=title + " – " + settings.title)
       meta(name="twitter:title" content=title + " – " + settings.title)
     meta(name="viewport" content="width=device-width, initial-scale=1")
-    link(type="text/css" rel="stylesheet" href="/public/css/app.css")
+    link(type="text/css" rel="stylesheet" href="/css/app.css")
     link(rel="icon" id="favicon" href=settings.favicon)
     link(rel="apple-touch-icon-precomposed" href=settings.apple_touch_icon)
     meta(name="description" content=settings.description)
@@ -24,7 +24,7 @@ html(lang="en")
     meta(name="twitter:description" content=settings.description)
     meta(name="twitter:image" content=settings.twitter_card_image)
     script(src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous")
-    script(src="/public/js/app.js")
+    script(src="/js/app.js")
   body(class=pageClass)
     a(id="skip_to_content" href="#content") Skip to content
     header
@@ -104,11 +104,11 @@ html(lang="en")
         div(class="previous")
           if pageCurrent == 1
             a(href="/")
-              img(src="/public/images/pointer-left.svg")
+              img(src="/images/pointer-left.svg")
               span Home
           else if pageCurrent != 0
             a(href=pagePrevious)
-              img(src="/public/images/pointer-left.svg")
+              img(src="/images/pointer-left.svg")
               span Previous page
         div(class="counter")
           if pageCurrent != 0
@@ -117,15 +117,15 @@ html(lang="en")
           if pageCurrent == 0
             a(href=pageNext)
               span Read the report
-              img(src="/public/images/pointer-right.svg")
+              img(src="/images/pointer-right.svg")
           else if pageCurrent == pageCount
             a(href="/")
               span Home
-              img(src="/public/images/pointer-right.svg")
+              img(src="/images/pointer-right.svg")
           else
             a(href=pageNext)
               span Next page
-              img(src="/public/images/pointer-right.svg")
+              img(src="/images/pointer-right.svg")
     if settings.show_collaborator_logo || settings.show_licence
       footer
         if settings.show_collaborator_logo

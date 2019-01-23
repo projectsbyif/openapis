@@ -83,12 +83,12 @@ blockquote {
 .content {
   a {
     background-repeat: repeat-x;
-    background-image: url("/public/images/line-black.svg");
+    background-image: url("/images/line-black.svg");
     background-size: 4px 7px;
     background-position: 0 0.7em;
 
     &:hover {
-      background-image: url("/public/images/line-orange.svg");
+      background-image: url("/images/line-orange.svg");
     }
   }
 
