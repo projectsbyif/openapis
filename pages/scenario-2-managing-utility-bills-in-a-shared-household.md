@@ -18,24 +18,24 @@ To explore this, we prototyped a service called Bills Box aimed at helping membe
 
 Bills Box helps you split the bills with members of your household, while allowing everyone to see all the accounts in one place.
 
-![Bills box app launch screen showing &rsquo;add an account&rsquo; and &rsquo;join house&rsquo; buttons](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox_screen-1_v1.jpg)
+![Bills box app launch screen showing &rsquo;add an account&rsquo; and &rsquo;join house&rsquo; buttons](/images/BillsBox_screen-1_v1.jpg)
 
 #### Connect your utilities in one step
 
 To get started, just point Bills Box at the barcode on the bottom of your utility bill.
 
-![A mobile phone scanning a QR code on a physical utility bill](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox-scan-letter_v1.jpg)
+![A mobile phone scanning a QR code on a physical utility bill](/images/BillsBox-scan-letter_v1.jpg)
 
 Then give permission to your utility company to share information with Bills Box.
 
-![An email preview saying 'Bills Box Ltd is asking to access your account information to show and pay your monthly broadband bills...](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox_screen-8_v1.jpg)
+![An email preview saying 'Bills Box Ltd is asking to access your account information to show and pay your monthly broadband bills...](/images/BillsBox_screen-8_v1.jpg)
 
 As soon as you&rsquo;ve connected an account, Bills Box uses the Open Utility APIs to download your billing and usage information, so you&rsquo;ll always know how much you're using and what you're paying.
 
 You can add any utility account that adheres to the Open Utility Standards, letting you see all your household spending in one place.
 
 
-![Two phone screens, one showing a single broadband bill and the other showing broadband, electricity, water and council tax on one screen](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox_screen-23_v1.jpg)
+![Two phone screens, one showing a single broadband bill and the other showing broadband, electricity, water and council tax on one screen](/images/BillsBox_screen-23_v1.jpg)
 
 
 #### Adding a housemate is simple
@@ -43,22 +43,22 @@ You can add any utility account that adheres to the Open Utility Standards, lett
 Bills Box helps you put new housemates on the bills – something that used to be time consuming and difficult. This way, there are no awkward surprises when the person who pays the gas moves out, forgetting to tell the others.
 
 
-![The left phone generates a QR code to add a housemate, and the right phone scans it to join the house](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox_screen-45_v1.jpg)
+![The left phone generates a QR code to add a housemate, and the right phone scans it to join the house](/images/BillsBox_screen-45_v1.jpg)
 
 Before joining, the new housemate can see what they&rsquo;re signing up for; once they go ahead, they&rsquo;re automatically added to the accounts.
 
-![The left screen shows a confirmation to join a house and the right screen shows a number of emails from different providers saying 'you've been added to this account'](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox_screen-67_v1.jpg)
+![The left screen shows a confirmation to join a house and the right screen shows a number of emails from different providers saying 'you've been added to this account'](/images/BillsBox_screen-67_v1.jpg)
 
 
 #### Moving house together
 
 Some decisions involve the whole house, and Bills Box makes it easy for you to make decisions as a group. Take moving out, for example.
 
-![The left screen shows three names housemates and the right screen collects information about everyone moving out on 29th January 2021, and requesting to move the bills to the new address](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox_screen-910_v1.jpg)
+![The left screen shows three names housemates and the right screen collects information about everyone moving out on 29th January 2021, and requesting to move the bills to the new address](/images/BillsBox_screen-910_v1.jpg)
 
 One housemate can start off the process, then once everyone agrees, Bills Box can tell your provider that you&rsquo;ve all agreed to move out. If you&rsquo;re all moving together, Bills Box can even take your accounts with you to the new address.
 
-![The left screen shows one of three housemates having agreed to the move, with the other two 'waiting'. The right screen shows a confirmation screen each housemate would have to agree to in order to move out](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox_screen-1112_v1.jpg)
+![The left screen shows one of three housemates having agreed to the move, with the other two 'waiting'. The right screen shows a confirmation screen each housemate would have to agree to in order to move out](/images/BillsBox_screen-1112_v1.jpg)
 
 #### Helping out the next tenants
 
@@ -67,7 +67,7 @@ As well as tying up loose ends, Bills Box makes it simple for the next tenants. 
 And perhaps Bills Box will make your life simpler next time you move into a new home.
 
 
-![A letter to the new tenants in a house with costs of the bills from previous months, and offering to take over the bills using a unique code](https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/BillsBox-setup-bills-letter_v1.jpg)
+![A letter to the new tenants in a house with costs of the bills from previous months, and offering to take over the bills using a unique code](/images/BillsBox-setup-bills-letter_v1.jpg)
 
 [end_highlight]
 
