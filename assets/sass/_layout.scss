@@ -64,7 +64,7 @@ header {
 //   left: 0;
 //   width: 100vw;
 //   height: 250px;
-//   background-image: url('https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/report_header.jpg');
+//   background-image: url('/image/report_header.jpg');
 //   background-size: cover;
 //   background-repeat: no-repeat;
 //   background-position: center center;
@@ -116,7 +116,7 @@ header {
   #close_contents {
     width: 20px;
     height: 20px;
-    background-image: url('https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/icon_close_dark.svg');
+    background-image: url('/image/icon_close_dark.svg');
     background-size: contain;
     background-repeat: no-repeat;
     display: block;

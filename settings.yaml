@@ -34,7 +34,7 @@ pages:
 # Design
 show_collaborator_logo: true
 collaborator_name: Open Data Institute
-collaborator_logo_url: "https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/open-data-institute.png"
+collaborator_logo_url: "/images/open-data-institute.png"
 collaborator_url: "https://theodi.org"
 
 # Licence
@@ -43,10 +43,10 @@ licence_text: "This report is licenced under Creative Commons Attribution-ShareA
 licence_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 
 # Images
-favicon: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/favicon.png
-apple_touch_icon: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/apple_touch_icon.png
-facebook_card_image: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/fb-image.png
-twitter_card_image: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/fb-image.png
+favicon: /images/favicon.png
+apple_touch_icon: /images/favicon.png
+facebook_card_image: /images/social-image.png
+twitter_card_image: /images/social-image.png
 
 # TOC
 show_table_of_contents: true
