@@ -1,3 +1,0 @@
-[build]
-  # Temporary, use build rather than CDN for fonts
-  skip_processing = true
