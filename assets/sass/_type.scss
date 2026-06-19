@@ -1,6 +1,8 @@
+@use "config";
+
 body {
-  font-family: $font-family-body;
-  font-size: $font-size-base;
+  font-family: config.$font-family-body;
+  font-size: config.$font-size-base;
   line-height: 1.4;
 }
 
@@ -18,13 +20,13 @@ strong {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $font-family-header;
-  color: $color-text-main;
+  font-family: config.$font-family-header;
+  color: config.$color-text-main;
 }
 
 h1 {
   font-size: 2em;
-  margin-bottom: $default-spacing-big;
+  margin-bottom: config.$default-spacing-big;
   line-height: 1.1;
 }
 
@@ -33,19 +35,19 @@ h2 {
   font-size: 1.2em;
   line-height: 1.1;
   text-transform: uppercase;
-  margin-bottom: $default-spacing-small;
-  margin-top: $default-spacing-big;
+  margin-bottom: config.$default-spacing-small;
+  margin-top: config.$default-spacing-big;
 }
 
 h3 {
   font-family: "Calibre-Semibold", "Helvetica Neue", "Arial", sans-serif;
   font-size: 1em;
-  margin-bottom: $default-spacing-small;
-  margin-top: $default-spacing-big;
+  margin-bottom: config.$default-spacing-small;
+  margin-top: config.$default-spacing-big;
 }
 
 h4, h5, h6 {
-  margin-bottom: $default-spacing-small;
+  margin-bottom: config.$default-spacing-small;
 }
 
 h6 {
@@ -56,7 +58,7 @@ h6 {
 }
 
 p {
-  margin-bottom: $default-spacing-small;
+  margin-bottom: config.$default-spacing-small;
 
   &:last-of-type {
     margin-bottom: 0;
@@ -64,11 +66,11 @@ p {
 }
 
 blockquote {
-  margin-bottom: $default-spacing-small;
-  margin-left: $default-spacing-small;
-  padding-left: $default-spacing-small;
+  margin-bottom: config.$default-spacing-small;
+  margin-left: config.$default-spacing-small;
+  padding-left: config.$default-spacing-small;
   padding-top: 4px;
-  border-left: #{$color-blue-gray} 2px solid;
+  border-left: #{config.$color-blue-gray} 2px solid;
 }
 
 .toc {
@@ -76,7 +78,7 @@ blockquote {
       letter-spacing: 1px;
       font-size: 16px;
       text-transform: uppercase;
-      font-family: $font-family-header;
+      font-family: config.$font-family-header;
   }
 }
 
@@ -94,14 +96,14 @@ blockquote {
 
   ul {
     list-style-type: disc;
-    margin-bottom: $default-spacing-small;
+    margin-bottom: config.$default-spacing-small;
 
     li {
       margin-left: 20px;
     }
   }
   ol {
-    margin-bottom: $default-spacing-small;
+    margin-bottom: config.$default-spacing-small;
 
     li {
       margin-left: 20px;
@@ -111,22 +113,22 @@ blockquote {
 }
 
 .caption {
-  color: $color-caption;
+  color: config.$color-caption;
   font-size: 0.9em;
-  margin-bottom: $default-spacing-big;
+  margin-bottom: config.$default-spacing-big;
 
   a {
-    color: $color-caption;
-    border-bottom: #{$color-caption} 1px solid;
+    color: config.$color-caption;
+    border-bottom: #{config.$color-caption} 1px solid;
   }
 }
 
 .bold {
-  font-family: $font-family-bold;
-  color: $color-orange !important;
+  font-family: config.$font-family-bold;
+  color: config.$color-orange !important;
 
   .content_sublabel {
-    color: $color-orange !important;
+    color: config.$color-orange !important;
   }
 }
 
@@ -138,8 +140,8 @@ blockquote {
     font-size: 12px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-family: $font-family-header;
-    margin-bottom: $default-spacing-small;
+    font-family: config.$font-family-header;
+    margin-bottom: config.$default-spacing-small;
   }
 }
 
@@ -151,12 +153,12 @@ blockquote {
   }
   h3 {
     margin-top: 0;
-    margin-bottom: $default-spacing-small;
+    margin-bottom: config.$default-spacing-small;
     font-size: 1.4em;
   }
   ul {
     list-style-type: disc;
-    margin-bottom: $default-spacing-small;
+    margin-bottom: config.$default-spacing-small;
 
     li {
       margin-left: 20px;

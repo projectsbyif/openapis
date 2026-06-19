@@ -1,9 +1,9 @@
-@import "fontface";
-@import "config";
-@import "reset";
-@import "type";
-@import "layout";
-@import "page_styles";
+@use "fontface";
+@use "config";
+@use "reset";
+@use "type";
+@use "layout";
+@use "page_styles";
 
 ::selection {
   background: #212121;

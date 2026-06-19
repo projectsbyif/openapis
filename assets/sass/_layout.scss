@@ -1,3 +1,5 @@
+@use "config";
+
 #skip_to_content {
   height: 1px;
   width: 1px;
@@ -7,8 +9,8 @@
 }
 
 header {
-  height: $height-header;
-  margin-bottom: $default-spacing-big;
+  height: config.$height-header;
+  margin-bottom: config.$default-spacing-big;
 
   #logo {
     display: block;
@@ -32,10 +34,10 @@ header {
     margin-left: 60px;
     margin-right: 60px;
     display: block;
-    height: $height-header;
+    height: config.$height-header;
     padding-top: 28px;
     line-height: 18px;
-    color: $color-text-main;
+    color: config.$color-text-main;
   }
 
   #link_contents {
@@ -130,12 +132,12 @@ header {
 
 .contents-wrapper {
   background-color: #EDF0F2;
-  padding: $default-spacing-small;
-  margin-top: $default-spacing-small;
+  padding: config.$default-spacing-small;
+  margin-top: config.$default-spacing-small;
 
   h1 {
     margin-top: 0;
-    margin-bottom: $default-spacing-small;
+    margin-bottom: config.$default-spacing-small;
   }
 }
 
@@ -207,34 +209,34 @@ ul.contents-appendices {
 // }
 
 .content {
-  padding: $default-spacing-small;
+  padding: config.$default-spacing-small;
 
   &:last-of-type {
     margin-bottom: 0;
   }
 
   img {
-    margin-top: calc(#{$default-spacing-big} - #{$default-spacing-small});
+    margin-top: calc(#{config.$default-spacing-big} - #{config.$default-spacing-small});
     width: 100%;
   }
 }
 
 nav {
-  border-top: #{$color-accent} 1px solid;
-  padding-left: $default-spacing-small;
-  padding-right: $default-spacing-small;
-  margin-top: calc(#{$default-spacing-big} - 20px);
-  height: $height-nav;
+  border-top: #{config.$color-accent} 1px solid;
+  padding-left: config.$default-spacing-small;
+  padding-right: config.$default-spacing-small;
+  margin-top: calc(#{config.$default-spacing-big} - 20px);
+  height: config.$height-nav;
 
   div {
     width: 33.333%;
     float: left;
-    height: $height-nav;
+    height: config.$height-nav;
   }
 
   a {
-    height: $height-nav;
-    width: $height-nav;
+    height: config.$height-nav;
+    width: config.$height-nav;
     display: block;
   }
 
@@ -269,11 +271,11 @@ nav {
 }
 
 footer {
-  border-top: #{$color-accent} 1px solid;
+  border-top: #{config.$color-accent} 1px solid;
 }
 
 #in_collaboration_with {
-  padding: #{$default-spacing-small} #{$default-spacing-small} 10px #{$default-spacing-small};
+  padding: #{config.$default-spacing-small} #{config.$default-spacing-small} 10px #{config.$default-spacing-small};
 
   a {
     height: 50px;
@@ -286,8 +288,8 @@ footer {
 }
 
 .licence {
-  padding-left:$default-spacing-small;
-  padding-right:$default-spacing-small;
+  padding-left:config.$default-spacing-small;
+  padding-right:config.$default-spacing-small;
 
   a {
     color: #999;
@@ -296,8 +298,8 @@ footer {
 
 .description{
   border-bottom: solid 1px #eee;
-  padding-bottom: calc(#{$default-spacing-big} - 5px);
-  margin-bottom: #{$default-spacing-big};
+  padding-bottom: calc(#{config.$default-spacing-big} - 5px);
+  margin-bottom: #{config.$default-spacing-big};
 }
 
 .highlight-section {
@@ -318,7 +320,7 @@ footer {
 
   header {
     height: 96px;
-    margin-bottom: calc(3 * #{$default-spacing-big});
+    margin-bottom: calc(3 * #{config.$default-spacing-big});
 
     #site_title {
       display: inline;
@@ -343,17 +345,17 @@ footer {
 
   .content {
     padding: 0;
-    width: $desktop-column-width;
+    width: config.$desktop-column-width;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: calc(#{$default-spacing-big});
+    margin-bottom: calc(#{config.$default-spacing-big});
   }
 
   .highlight-section {
     margin-bottom: calc(2 * 28px);
 
     div {
-      width: $desktop-column-width;
+      width: config.$desktop-column-width;
       margin: 0 auto;
     }
   }
@@ -400,11 +402,11 @@ footer {
 
   .contents-wrapper {
     width: 760px;
-    margin-top: $default-spacing-big;
-    margin-bottom: $default-spacing-big;
+    margin-top: config.$default-spacing-big;
+    margin-bottom: config.$default-spacing-big;
     margin-left: auto;
     margin-right: auto;
-    padding: $default-spacing-big;
+    padding: config.$default-spacing-big;
   }
 }
 
@@ -423,18 +425,18 @@ footer {
 
   header {
     height: auto;
-    padding: $default-spacing-small;
+    padding: config.$default-spacing-small;
     margin-bottom: 0;
 
     #site_title {
       display: inline;
-      font-family: $font-family-bold;
+      font-family: config.$font-family-bold;
       margin-left: 0;
     }
 
     #logo {
       position: initial;
-      margin-bottom: $default-spacing-big;
+      margin-bottom: config.$default-spacing-big;
     }
 
     #link_contents {
