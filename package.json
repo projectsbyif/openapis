@@ -5,25 +5,28 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "build": "gulp deploy && node index.js",
+    "serve": "node serve.js",
+    "preview": "npm run build && node serve.js",
     "postinstall": "gulp deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.1",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.2",
     "gulp-uglify": "^3.0.1",
     "lodash": "^4.17.13",
     "nodemon": "^1.18.4",
     "pug": "^2.0.0-beta11",
     "pump": "^3.0.0",
+    "sass": "^1.69.0",
     "showdown": "^1.8.6",
     "slugify": "^1.3.1",
     "yamljs": "^0.3.0"
   },
   "engines": {
-    "node": "8.9.4",
-    "npm": "6.0.0"
+    "node": ">=18"
   }
 }
